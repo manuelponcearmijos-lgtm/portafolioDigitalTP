@@ -17,21 +17,21 @@ de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, gara
  <table align="center">
   <tr>
     <td align="center">
-      <img src="URL-de-la-imagen" width="400" alt="Descripción">
+      <img src=" https://i.pinimg.com/736x/28/f1/d1/28f1d135b6f2bd9ff2b3ca1a117af5bd.jpg" width="400" alt="Descripción">
       <br>
       <strong>Título o Evidencia</strong>
     </td>
     <td align="center">
-      <img src="URL-de-la-imagen" width="400" alt="Descripción">
+      <img src="https://github.com/user-attachments/assets/22d51632-605b-4769-a727-09b91332f927" width="400" alt="Descripción">
       <br>
       <strong>Título o Evidencia</strong>
     </td>
   </tr>
 </table>
-## Evidencia A: Lógica de Programación (Diagrama de Flujo)
-![Diagrama de Flujo](https://www.damcogroup.com/wp-content/themes/DamcoNew/images/technology/hire-ai-developers-left.png)
 
-## Evidencia B: Implementación de Algoritmo
-![Algoritmo](https://i.pinimg.com/736x/28/f1/d1/28f1d135b6f2bd9ff2b3ca1a117af5bd.jpg)
+ 
+
+
+ 
 
   
