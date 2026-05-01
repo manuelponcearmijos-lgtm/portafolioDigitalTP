@@ -19,7 +19,7 @@ a distintos contextos computacionales.
  <table align="center">
   <tr>
     <td align="center">
-      <img src=" https://i.pinimg.com/1200x/fd/d8/30/fdd83042bd30b9431f048d0531be3339.jpg" width="400" alt="Dualidad del pensamiento homano">
+      <img src=" https://thumbs.dreamstime.com/b/bloque-diagrama-y-c%C3%B3digo-programado-47169137.jpg " width="400" alt="Código de programación">
       <br>
       <strong>Evidencia A: Lógica de Programación (Diagrama de Flujo)</strong>
     </td>
