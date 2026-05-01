@@ -19,7 +19,7 @@ a distintos contextos computacionales.
  <table align="center">
   <tr>
     <td align="center">
-      <img src="https://files.catbox.moe/0vpx7x.png" width="400" alt="Diagrama de flujo de ventas">
+      <img src=" https://i.pinimg.com/736x/62/11/2a/62112af3a9a1e3c7fee5fa4d1d21d98c.jpg" width="400" alt="Diagrama de flujo de ventas">
       <br>
       <strong>Evidencia A: Lógica de Programación (Diagrama de Flujo)</strong>
     </td>
