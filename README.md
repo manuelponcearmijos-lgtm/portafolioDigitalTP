@@ -1,6 +1,36 @@
-<img width="473" height="685" alt="Captura de pantalla 2026-04-30 152103" src="https://github.com/user-attachments/assets/62e3fd85-18bb-495c-b5b8-f32cdadb5203" />
+ # Universidad Nacional de Loja
 
-## Documentación
+## FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES  
+### Carrera de Ingeniería en Computación  
+
+---
+
+**AUTOR:**  
+Manuel Alejandro Ponce Armijos  
+
+**DOCENTE:**  
+Ing. Lisette Geoconda López Faicán  
+
+**ASIGNATURA:**  
+Teoría de la Programación  
+
+**TEMA:**  
+Portafolio digital de aprendizaje  
+
+**CICLO:**  
+1  
+
+**UNIDAD:**  
+1  
+
+---
+
+**Loja – Ecuador**  
+**2026**  
+**Educamos para Transformar**
+
+
+### Documentación
 
 ## 1. Introducción
 En esta unidad, hemos tenido un gran avance en los **fundamentos de la programación**, enfocándonos en la evolución de los primeros lenguajes, como el lenguaje máquina, 
@@ -28,6 +58,30 @@ de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, gara
     </td>
   </tr>
 </table>
+
+ Existe una diferencia fundamental entre los algoritmos y los programas de software. Los algoritmos son procedimientos compuestos por pasos lógicos y secuenciales que permiten resolver un problema y alcanzar un resultado. En cambio, un programa es la implementación de ese algoritmo en un lenguaje de programación **como C++, Java u otros**, lo que permite que dichos pasos sean interpretados y ejecutados por una computadora.
+
+ ## Pseudocódigo
+ El pseudocódigo es una herramienta que permite representar las instrucciones de un algoritmo sin necesidad de utilizar un lenguaje de programación formal. Se ubica como un punto intermedio entre el lenguaje coloquial y el lenguaje de programación, ya que describe los pasos de manera lógica y ordenada utilizando estructuras similares a las de los lenguajes de alto nivel. Su propósito principal es facilitar la comprensión de la lógica antes de traducirla a código ejecutable. 
+
+ <table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/usuario/repositorio/main/imagenes/pseudocodigo1.png" width="400" alt="Ejemplo de Pseudocódigo">
+      <br>
+      <strong>Evidencia A: Pseudocódigo</strong>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/usuario/repositorio/main/imagenes/pseudocodigo2.png" width="400" alt="Ejemplo de Pseudocódigo">
+      <br>
+      <strong>Evidencia B: Pseudocódigo</strong>
+    </td>
+  </tr>
+</table>
+
+
+ 
+ 
 
   
 
