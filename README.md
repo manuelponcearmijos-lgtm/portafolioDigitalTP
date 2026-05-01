@@ -15,11 +15,11 @@ finito de instrucciones precisas que permiten resolver un problema o realizar un
 de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, garantizando que el proceso tenga un inicio y un fin. En esencia, los algoritmos son la base
 de todo software, ya que representan la lógica que luego se traduce a un lenguaje de programación, asegurando que las soluciones sean eficientes, repetibles y aplicables
 a distintos contextos computacionales.
-
+ 
  <table align="center">
   <tr>
     <td align="center">
-      <img src="  https://i.pinimg.com/736x/25/f0/34/25f034346ed1850b60c58fc91f9790e7.jpg" width="400" alt="Dualidad del pensamiento humano">
+      <img src=" https://i.pinimg.com/1200x/fd/d8/30/fdd83042bd30b9431f048d0531be3339.jpg" width="400" alt="Dualidad del pensamiento homano">
       <br>
       <strong>Evidencia A: Lógica de Programación (Diagrama de Flujo)</strong>
     </td>
@@ -30,6 +30,5 @@ a distintos contextos computacionales.
     </td>
   </tr>
 </table>
- 
 
 
