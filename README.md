@@ -19,7 +19,8 @@ a distintos contextos computacionales.
  <table align="center">
   <tr>
     <td align="center">
-      <img src=" https://thumbs.dreamstime.com/b/bloque-diagrama-y-c%C3%B3digo-programado-47169137.jpg " width="400" alt="Código de programación">
+      <img src=" <img width="736" height="1104" alt="descargar (4)" src="https://github.com/user-attachments/assets/30420875-25a1-4c2d-b2d1-5605470510ab" />
+  " width="400" alt="Código de programación">
       <br>
       <strong>Evidencia A: Lógica de Programación (Diagrama de Flujo)</strong>
     </td>
