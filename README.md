@@ -98,11 +98,8 @@ El diagram de flujo uno de los principales pilares para mi, para aprender a desa
 ###Importancia y Aplicación
 Su correcta construcción es vital porque sirve como base para escribir programas en lenguajes de programación de manera simple y directa además de la informática, se utiliza frecuentemente en la economía y los procesos industriales. Su importancia radica en que facilita la visualización del flujo de información y permite identificar actividades innecesarias o desequilibrios en la distribución del trabajo; aunque pensaba que no era de gran importacia había sido todo lo contrario conforme investigaba aprendí mucho sobre su importancia en el mundo, de ser algo tan simple a considerarse útil por su facilidad de aprender y utilizar. 
 ### Simbología
- <p align="center">
-  <img src=" https://github.com/user-attachments/assets/a776965f-aa8c-4d9c-91cd-3a6a213fa85b" width="700" alt="Símbolos de diagramas de flujo">
-  <br>
-  <em>Tabla de símbolos y funciones en diagramas de flujo</em>
-</p>
+
+ <img width="860" height="419" alt="Simbolos" src="https://github.com/user-attachments/assets/21254dbe-8ef9-4616-91e5-ebfedd13a71a" />
 
  ### Clasificación de los diagramas de flujo
 
