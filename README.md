@@ -113,24 +113,83 @@ Su correcta construcción es vital porque sirve como base para escribir programa
 | Sistema o programa       | Explica la lógica interna de un software o sistema informático.                       |
 | Documento o flujo de datos| Representa cómo circula la información o documentos dentro de una organización.       |
 
-<table align="center">
+ ## Prueba de escritorio
+ Uno de los principales protagonistas y enemigos de un desarrollador de codigo desde mi perspectiva, puede ser algo bueno para aquellos que si logran dar con el resultado esperado, pero también puede dar que este incorrecto y eso es un dolor de cabeza si es un código extenso porque toca hallar el error y a veces es mínimo. Pero su principal definicion es: La prueba de escritorio es una técnica manual utilizada en programación para verificar la lógica de un algoritmo antes de ejecutarlo en la computadora. Consiste en simular paso a paso las instrucciones del programa con datos de prueba, anotando cómo cambian las variables y qué resultados se generan en cada operación. De esta manera, se pueden detectar errores lógicos, validar que los resultados coincidan con lo esperado y comprender mejor el flujo de control del algoritmo, todo sin necesidad de compilar ni interpretar el código.
+
+ <h2 align="center"> Prueba de escritorio: Promedio de tres números</h2>
+
+<p><b>Pseudocódigo:</b></p>
+
+<pre>
+Algoritmo PromedioTresNumeros
+    Definir num1, num2, num3, promedio Como Real
+    Leer num1
+    Leer num2
+    Leer num3
+    promedio <- (num1 + num2 + num3) / 3
+    Escribir "El promedio es: ", promedio
+FinAlgoritmo
+</pre>
+
+<p><b>Tabla de prueba de escritorio con num1=4, num2=6, num3=8:</b></p>
+
+<table align="center" border="1" cellspacing="0" cellpadding="6">
+  <tr style="background-color:#f2f2f2; text-align:center;">
+    <th>Paso</th>
+    <th>Instrucción</th>
+    <th>num1</th>
+    <th>num2</th>
+    <th>num3</th>
+    <th>promedio</th>
+    <th>Salida</th>
+  </tr>
   <tr>
-    <td align="center">
-      <img src=" https://github.com/user-attachments/assets/a96be687-bca1-40b6-8cf1-e32c39fc5e08" width="350" alt="Imagen 1">
-      <br>
-      <em>Descripción de la primera imagen</em>
-    </td>
-    <td align="center">
-      <img src=" https://github.com/user-attachments/assets/cbbf3d68-d3a5-4a5a-a318-29a0fb7e08cf" width="350" alt="Imagen 2">
-      <br>
-      <em>Descripción de la segunda imagen</em>
-    </td>
+    <td>1</td>
+    <td>Leer num1</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Leer num2</td>
+    <td>4</td>
+    <td>6</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Leer num3</td>
+    <td>4</td>
+    <td>6</td>
+    <td>8</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Calcular promedio</td>
+    <td>4</td>
+    <td>6</td>
+    <td>8</td>
+    <td>6</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Escribir "El promedio es:", promedio</td>
+    <td>4</td>
+    <td>6</td>
+    <td>8</td>
+    <td>6</td>
+    <td>El promedio es: 6</td>
   </tr>
 </table>
 
-  
-
- 
 
   
 
