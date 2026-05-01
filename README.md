@@ -113,6 +113,23 @@ Su correcta construcción es vital porque sirve como base para escribir programa
 | Sistema o programa       | Explica la lógica interna de un software o sistema informático.                       |
 | Documento o flujo de datos| Representa cómo circula la información o documentos dentro de una organización.       |
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src=" https://github.com/user-attachments/assets/a96be687-bca1-40b6-8cf1-e32c39fc5e08" width="350" alt="Imagen 1">
+      <br>
+      <em>Descripción de la primera imagen</em>
+    </td>
+    <td align="center">
+      <img src=" https://github.com/user-attachments/assets/cbbf3d68-d3a5-4a5a-a318-29a0fb7e08cf" width="350" alt="Imagen 2">
+      <br>
+      <em>Descripción de la segunda imagen</em>
+    </td>
+  </tr>
+</table>
+
+  
+
  
 
   
