@@ -19,7 +19,7 @@ a distintos contextos computacionales.
  <table align="center">
   <tr>
     <td align="center">
-      <img src=" https://imgs.search.brave.com/W9aJ64K4VyHuFQv35bxTtVxDSJeXm563LiSkeaf1qQI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9ibG9x/dWUtZGlhZ3JhbWEt/eS1jJUMzJUIzZGln/by1wcm9ncmFtYWRv/LTQ3MTY5MTM3Lmpw/Zw" width="400" alt="Diagrama de flujo de ventas">
+      <img src="  https://i.pinimg.com/736x/25/f0/34/25f034346ed1850b60c58fc91f9790e7.jpg" width="400" alt="Dualidad del pensamiento humano">
       <br>
       <strong>Evidencia A: Lógica de Programación (Diagrama de Flujo)</strong>
     </td>
