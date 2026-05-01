@@ -70,19 +70,8 @@ La estructura del pseudocódigo no sigue un estándar rígido. Aunque se utiliza
 No obstante, existen elementos comunes que suelen respetarse. En términos generales, todo algoritmo escrito en pseudocódigo mantiene una estructura básica que organiza el inicio, las entradas, los procesos, las decisiones, las salidas y el fin.
 
 ### Ejemplo
-Proceso Suma
-    Escribir "Ingrese el primer numero:"
-    Leer A
-	//Pide al usuario que ingrese un número, lee el número ingresado y lo almacena en la variable A
-    Escribir "Ingrese el segundo numero:"
-    Leer B
-  	//Pide al usuario que ingrese un número, lee el número ingresado y lo almacena en la variable B
 
-    C <- A+B    
-    Escribir "El resultado es: ",C
-	//Suma las variables A y B y muestra el resultado al usuario
-
-FinProceso
+ <img width="670" height="460" alt="Captura de pantalla 2026-05-02 042414" src="https://github.com/user-attachments/assets/a26d5b09-2bd3-459d-a6d2-45a04d8191f5" />
  
 **Como dato importante este término, utiliza el prefijo griego «pseudo» que significa «falso», para hacer entender que este no es un código «real». Por «real» se refiere a que no es un lenguaje que se pueda compilar o interpretar, lo cual me acusa gracia ya que es como si no sirviera o es una imitación de un lenguaje de programación, pero en verdad les digo que va a ser muy importante para adentrarse en nuevos temas más difíciles y términos antes no escuchados o vistos; desde luego si no saben lo que es programar o desarrollar un software.** 
 
