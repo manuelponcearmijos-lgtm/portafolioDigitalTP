@@ -14,18 +14,24 @@ Fue uno de los primeros temas que hemos aprendido y que nos a ayudado a entrar e
 finito de instrucciones precisas que permiten resolver un problema o realizar una tarea específica dentro de un programa, transformando datos de entrada en resultados
 de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, garantizando que el proceso tenga un inicio y un fin. En esencia, los algoritmos son la basede todo software, ya que representan la lógica que luego se traduce a un lenguaje de programación, asegurando que las soluciones sean eficientes, repetibles y aplicablesa distintos contextos computacionales.
 
-<table align="center">
+ <table align="center">
   <tr>
     <td align="center">
-      <img src=" https://www.damcogroup.com/wp-content/themes/DamcoNew/images/technology/hire-ai-developers-left.png" width="400" alt="Tecnología">
+      <img src="URL-de-la-imagen" width="400" alt="Descripción">
       <br>
-      <strong>Evidencia A: Lógica de Programación (Diagrama de Flujo)</strong>
+      <strong>Título o Evidencia</strong>
     </td>
     <td align="center">
-      <img src="https://i.pinimg.com/736x/28/f1/d1/28f1d135b6f2bd9ff2b3ca1a117af5bd.jpg" width="400" alt="Evidencia B">
+      <img src="URL-de-la-imagen" width="400" alt="Descripción">
       <br>
-      <strong>Evidencia B: Implementación de Algoritmo</strong>
+      <strong>Título o Evidencia</strong>
     </td>
   </tr>
 </table>
+## Evidencia A: Lógica de Programación (Diagrama de Flujo)
+![Diagrama de Flujo](https://www.damcogroup.com/wp-content/themes/DamcoNew/images/technology/hire-ai-developers-left.png)
+
+## Evidencia B: Implementación de Algoritmo
+![Algoritmo](https://i.pinimg.com/736x/28/f1/d1/28f1d135b6f2bd9ff2b3ca1a117af5bd.jpg)
+
   
