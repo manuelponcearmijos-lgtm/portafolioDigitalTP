@@ -202,10 +202,40 @@ Los lenguajes de programación, las herramientas mas importantes en la vida de u
     </td>
   </tr>
 </table>
- 
- 
 
+ ### Lenguajes de programación de bajo nivel
+ Los lenguajes de programación de bajo nivel se caracterizan por ofrecer poca o ninguna abstracción de la arquitectura del ordenador, lo que permite que el código sea estructuralmente muy similar a las instrucciones directas del procesador, como ocurre con el código máquina y el lenguaje ensamblador. Debido a su cercanía al hardware, estos lenguajes suelen generar programas no portables y presentan una altísima dificultad de desarrollo, ya que requieren recordar numerosos detalles técnicos y son complicados de leer o escribir. Sin embargo, su principal fortaleza radica en la eficiencia, ya que permiten crear aplicaciones que se ejecutan a gran velocidad y consumen una cantidad mínima de memoria al interactuar casi directamente con los componentes físicos del sistema,  además es de vital importancia para aquellas personas que están aprendiendo este tipo de temas, lo cual desde mi pensamiento es muy significativo que se use este tipo de lenguajes para aprender cosas nuevas. 
+ ### Lenguajes de programación de alto nivel
+ En cambio este tipo de lenguajes son mas completos debido a su programación de alto nivel ya están diseñados para facilitar la creación de software avanzado como aplicaciones móviles, sitios web y videojuegos al proporcionar una gran abstracción respecto al hardware. A diferencia de los de bajo nivel, estos lenguajes ocultan detalles técnicos complejos, como la gestión de la memoria, lo que permite que sean mucho más fáciles de leer, escribir y automatizar para los seres humanos. Para funcionar, requieren de un compilador, un programa que traduce el código a lenguaje binario mediante diversas etapas de análisis (léxico, sintáctico y semántico) hasta generar el código ejecutable por la máquina. Aunque suelen ser más lentos que los lenguajes de bajo nivel debido a estas capas de procesamiento, su principal beneficio radica en una mayor portabilidad y facilidad de uso.
 
+ # Comparación de Lenguajes de Programación
+
+| Aspecto                  | Lenguajes de Alto Nivel | Lenguajes de Bajo Nivel |
+|---------------------------|-------------------------|--------------------------|
+| **Abstracción**           | Alta (ocultan detalles del hardware) | Baja (cercanos al hardware) |
+| **Facilidad de uso**      | Más fáciles de leer y escribir | Más complejos y técnicos |
+| **Gestión de memoria**    | Automática (oculta al programador) | Manual (el programador controla) |
+| **Portabilidad**          | Alta (ejecutables en distintos sistemas) | Baja (dependen del hardware específico) |
+| **Velocidad de ejecución**| Menor (por capas de traducción) | Mayor (ejecución directa) |
+| **Ejemplos**              | Java, Python, C#       | Ensamblador, C (más cercano al hardware) |
+
+### Lenguaje compilado e Interpretado.
+En los lenguajes compilados, como C++ o Rust, usas un programa llamado compilador que traduce todo tu código de un solo golpe antes de que puedas usarlo, generando un archivo ejecutable que va directo al grano. Esto hace que sean increíblemente rápidos y eficientes, ya que el procesador no pierde tiempo interpretando nada en el momento de la ejecución; sin embargo, si haces un cambio mínimo, te toca volver a compilarlo todo, lo que puede ser un poco pesado durante el desarrollo.
+
+Por otro lado, los lenguajes interpretados como Python o JavaScript funcionan de forma más inmediata y flexible, ya que hay un "intérprete" que va leyendo y ejecutando el código línea por línea al vuelo. Esto es genial para probar ideas rápido o corregir errores sobre la marcha, porque no tienes que esperar a que se genere un archivo ejecutable. La contraparte es que suelen ser un poco más lentos que los compilados y necesitas tener el intérprete instalado en cualquier máquina donde quieras que tu código funcione. Al final, todo depende de si priorizas la velocidad pura del programa o la agilidad al momento de programar.
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/4b02a090-59e2-481a-99fe-88812f250339" width="400px" alt="Programación 1" style="border-radius:10px;">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/648d652e-f258-4483-afe1-2a9fea1c8191" width="400px" alt="Programación 2" style="border-radius:10px;">
+    </td>
+  </tr>
+</table>
+
+ 
 
 
   
