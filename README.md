@@ -191,6 +191,21 @@ FinAlgoritmo
 </table>
 
 ## Lenguajes de programación
+Los lenguajes de programación, las herramientas mas importantes en la vida de un ingeniero en computación, sistemas o software, como lo es el Mjolnir para Thor, fuera de estas comparaciones un **lenguaje de programación** es un conjunto de reglas, símbolos y normas sintácticas que permiten a una persona comunicarse con una computadora. A través de este sistema, se escriben instrucciones precisas que el hardware puede procesar para realizar tareas específicas, resolver problemas o crear programas.  
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/aff8c65f-41a4-4276-b1d8-b35064025610" width="400px" alt="Programación 1" style="border-radius:10px;">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/e8ad3edd-4be4-4e18-ad57-08ed2e4671e2" width="400px" alt="Programación 2" style="border-radius:10px;">
+    </td>
+  </tr>
+</table>
+ 
+ 
+
+
 
 
   
