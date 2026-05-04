@@ -1,43 +1,52 @@
  <div align="center">
 
-# UNIVERSIDAD NACIONAL DE LOJA
-<img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png" width="150">
+<!-- LOGO DE LA UNIVERSIDAD -->
+<img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png" width="160" alt="Logo UNL">
 
-### **FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES**
+# <span style="color:#003366">UNIVERSIDAD NACIONAL DE LOJA</span>
+
+### **<span style="color:#8B6D1B">FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES</span>**
 **Carrera de Ingeniería en Computación**
 
 ---
 
-## **TEMA:** 
-# 📓 Portafolio Digital de Aprendizaje
+<br>
+
+## 📓 **TEMA:** 
+# <span style="color:#003366">Portafolio Digital de Aprendizaje</span>
 
 **ASIGNATURA:** Teoría de la Programación  
 **UNIDAD:** 1 | **CICLO:** 1
+
+<br>
 
 ---
 
 <div align="left">
 
-### ✍️ **Información General**
-*   **Autor:** Manuel Alejandro Ponce Armijos
+### 👤 **DATOS INFORMATIVOS**
+*   **Autor:** <span style="color:#003366">**Manuel Alejandro Ponce Armijos**</span>
 *   **Docente:** Ing. Lisette Geoconda López Faicán
 *   **Período:** 2025 - 2026
 *   **Ubicación:** Loja – Ecuador
 
 </div>
 
+<br>
+
 ---
 
-### *“Educamos para Transformar”*
+### *“<span style="color:#8B6D1B">Educamos para Transformar</span>”*
 
-[![Ir al Portafolio](https://img.shields.io/badge/ACCEDER-PORTAFOLIO-003366?style=for-the-badge&logo=github&logoColor=white)](#)
+<br>
+
+[![GitHub](https://img.shields.io/badge/ACCEDER-PORTAFOLIO-003366?style=for-the-badge&logo=github&logoColor=white)](#)
 
 </div>
 
+## Documentación
 
-### Documentación
-
-## 1. Introducción
+### 1. Introducción
 En esta unidad, hemos tenido un gran avance en los **fundamentos de la programación**, enfocándonos en la evolución de los primeros lenguajes, como el lenguaje máquina, 
 bajo nivel, algorítmico, y lenguaje de alto nivel, los cuales son muy importantes para entender el funcionamiento de los lenguajes informáticos  mediante los 
 siguientes dos términos lenguajes compilados y lenguajes interpretados, por lo tanto al saber todo esto podemos crear nuestro primer código siguiendo diversas reglas
