@@ -1,7 +1,8 @@
   <div align="center">
 
 <!-- ENLACE INTERNO AL LOGO SUBIDO -->
-<img src=" https://github.com/user-attachments/assets/282df5a8-82f2-48b7-bdca-43a39f33147b" width="160" alt="Logo de la Universidad Nacional de Loja">
+ <img width="626" height="200" alt="image" src="https://github.com/user-attachments/assets/7931a502-fedd-4537-b79f-51f12dcf21e8" />
+
 
 # <span style="color:#003366">UNIVERSIDAD NACIONAL DE LOJA</span>
 
