@@ -282,12 +282,32 @@ Salida:
 <img width="864" height="872" alt="Captura de pantalla 2026-05-03 214851" src="https://github.com/user-attachments/assets/7b61709a-83b2-4ba9-98a5-4bc1f914e5d2" />
 
  ### Principales dificultades 
+-La Brecha entre la Teoría y la Práctica:
+A diferencia de un curso rápido de programación, la ingeniería profundiza en la Teoría de la Programación y los fundamentos matemáticos, lo cual se me hizo muy difícil cuando estaba empezando debido a que no sabia nada, lo cual se me dificulto demasiado, ya que entendía la teoría, pero la practica era otra historia, no tenía una excelente lógica para resolver los problemas que se me presentaban, por lo tanto estuve muy desorientado en este ámbito.  
 
+-La complejidad de la Configuración en **Visual Studio Code**: No es solo escribir el código, es preparar el entorno para que el código "viva". Configurar compiladores como GCC implica entender rutas de archivos, variables de entorno y bibliotecas. A veces pasas más tiempo configurando el compilador que resolviendo el problema lógico de la Teoría de la Programación, y eso como estudiante te hace sentir que pierdes el foco de lo que realmente quieres aprender. 
 
-  
+ -Manejo de GitHub: La verdad es algo nuevo esta aplicación, no tenía mucha información de como elaborar un portafolio, pero conforme realizaba este mismo, pude entender un poco más, pero se me hizo muy tedioso debido a la complejidad de esta aplicación para realizar este tipo de trabajos como: pegar imágenes, realizar el código y revisar si está bien escrito, lo cual todo eso me llevo a estresarme. 
 
+ ###   Reflexión critica  
+Como reflexión dejo en claro que es una carrear muy fabulosa, dejando fuera su complejidad, me llama la atención de que esta unidad aprendí nuevos términos, como los diagramas de flujo, algoritmos, seudocódigo, prueba de escritorio y los lenguajes de programación, un mundo nuevo que desde mi punto de vista es algo tedioso pero maravilloso para aquellos que hacen lo posible para seguir adelante y aprender, debido a que hay que poner en práctica que el desarrollo de software hoy es muy importante y nosotros como estudiantes estamos aprendiendo y eso además de la elaboración de hardware, nos deja con una gran satisfacción por lo que algún día podamos llegar hacer en el futuro.   
 
+El dominio de algoritmos, pseudocódigos, diagramas de flujo y pruebas de escritorio constituye el pilar fundamental para diseñar soluciones robustas antes de la implementación en cualquier lenguaje de programación. La aplicación de estas herramientas permite estructurar ideas con claridad, mitigar errores de lógica y profundizar en la comprensión del flujo de un programa. Por ejemplo, la prueba de escritorio actúa como un mecanismo de validación crítica que permite verificar paso a paso la integridad de los datos durante la ejecución. Al trasladar este diseño al lenguaje C, se evidencia cómo la lógica previa se convierte en instrucciones de alta precisión que interactúan directamente con el sistema. En última instancia, este aprendizaje no reside en la memorización de conceptos, sino en la práctica constante como motor para desarrollar la agilidad mental y las habilidades técnicas necesarias para resolver problemas complejos de manera eficiente.
+ Para tu Portafolio Digital de Aprendizaje y los trabajos de la asignatura Teoría de la Programación, aquí tienes las referencias bibliográficas de los temas que hemos tratado, organizadas bajo el estándar IEEE.
 
- 
+### Bibliografía en Formato IEEE
+
+[1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
+
+[2] B. W. Kernighan y D. M. Ritchie, El Lenguaje de Programación C, 2.ª ed. Ciudad de México, México: Prentice Hall, 1991.
+
+[3] R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship, 1.ª ed. Upper Saddle River, NJ, EE. UU.: Prentice Hall, 2008.
+
+[4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
+
+[5] A. C. Ramirez Villavicencio, "Portafolio Digital de Aprendizaje: Teoría de la Programación," repositorio en GitHub, mayo 2026. [En línea]. Disponible: [https://github.com/tu-usuario/tu-repositorio](https://github.com/tu-usuario/tu-repositorio). [Accedido: 03-may-2026].
+
+### Declaración de Uso de Inteligencia Artificial
+Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta.
 
   
