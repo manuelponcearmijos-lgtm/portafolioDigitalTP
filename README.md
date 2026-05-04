@@ -1,4 +1,4 @@
- <div align="center">
+ <div align="center"> 
 
 <!-- LOGO DE LA UNIVERSIDAD -->
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_de_la_Universidad_Nacional_de_Loja.png" width="160" alt="Logo UNL">
