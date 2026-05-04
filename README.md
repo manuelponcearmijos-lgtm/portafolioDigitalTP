@@ -249,9 +249,39 @@ La programación por bloques es una manera intuitiva y accesible de aprender a p
 **Condicionales**: También con forma de "C", permiten que una acción se ejecute solo si se cumple una condición específica (la cual se encastra usando piezas en forma de rombo).
 
 **Plataformas populares**: Existen diversas herramientas según el objetivo, como Scratch para videojuegos 2D, Alice para animaciones 3D, App Inventor para aplicaciones de Android, y Ardublock para robótica.
+
 <img width="753" height="242" alt="recursero-programacion_en_bloques-programa_de_scratch_desglosado" src="https://github.com/user-attachments/assets/c4b3405a-1a42-42a7-810e-ac0699243a12" />
 
- 
+## Ejercicio con estructura secuencial.
+
+### Planteamiento del problema:
+Escribir un programa para convertir una medida dada en pies a sus equivalentes en: a) yardas; b) pulgadas; c) centímetros; y d) metro. (1 pie: 12 pulgadas, 1 yarda= 3 pies, 1 pulgada= 2.54 cm, 1 metro= 100 cm). Leer el número de pies e imprimir el número de yardas, pies, pulgadas, centímetros y metros.
+
+### Análisis de Entradas, Procesos y Salidas
+Todo algoritmo se divide en tres componentes básicos que podemos identificar aquí:
+Entrada:
+-Una variable de tipo numérico real denominada pies, que representa la longitud inicial.
+Proceso (Cálculos):
+-Yardas: Se obtiene dividiendo los pies para 3.
+-Pulgadas: Se obtiene multiplicando los pies por 12.
+-Centímetros: Se obtiene multiplicando las pulgadas resultantes por la constante 2.54.
+-Metros: Se obtiene dividiendo los centímetros para 100.
+Salida:
+-Visualización en pantalla de los valores calculados de yardas, pies, pulgadas, centímetros y metros.
+ ###  Diseño de algoritmo 
+   - Diagrama de flujo:
+<img width="530" height="935" alt="Captura de pantalla 2026-05-03 213619" src="https://github.com/user-attachments/assets/4d164fc1-db21-43cd-9e20-6a8c307f9405" />
+
+   - Seudocódigo:
+<img width="864" height="672" alt="Captura de pantalla 2026-05-03 213558" src="https://github.com/user-attachments/assets/dfe1520a-fb0c-4419-a7ba-75dd6ec14672" />
+
+   - Prueba de escritorio:
+ <img width="1853" height="740" alt="Captura de pantalla 2026-05-03 215329" src="https://github.com/user-attachments/assets/3b715dc6-efa3-4b4e-89ec-1256740e5064" />
+
+### Codificación Código Fuente  ( C )
+<img width="864" height="872" alt="Captura de pantalla 2026-05-03 214851" src="https://github.com/user-attachments/assets/7b61709a-83b2-4ba9-98a5-4bc1f914e5d2" />
+
+ ### Principales dificultades 
 
 
   
