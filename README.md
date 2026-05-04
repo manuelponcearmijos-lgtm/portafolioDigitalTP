@@ -1,33 +1,38 @@
- # Universidad Nacional de Loja
+ <div align="center">
 
-## FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES  
-### Carrera de Ingeniería en Computación  
+# UNIVERSIDAD NACIONAL DE LOJA
+<img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png" width="150">
 
----
-
-**AUTOR:**  
-Manuel Alejandro Ponce Armijos  
-
-**DOCENTE:**  
-Ing. Lisette Geoconda López Faicán  
-
-**ASIGNATURA:**  
-Teoría de la Programación  
-
-**TEMA:**  
-Portafolio digital de aprendizaje  
-
-**CICLO:**  
-1  
-
-**UNIDAD:**  
-1  
+### **FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES**
+**Carrera de Ingeniería en Computación**
 
 ---
 
-**Loja – Ecuador**  
-**2026**  
-**Educamos para Transformar**
+## **TEMA:** 
+# 📓 Portafolio Digital de Aprendizaje
+
+**ASIGNATURA:** Teoría de la Programación  
+**UNIDAD:** 1 | **CICLO:** 1
+
+---
+
+<div align="left">
+
+### ✍️ **Información General**
+*   **Autor:** Manuel Alejandro Ponce Armijos
+*   **Docente:** Ing. Lisette Geoconda López Faicán
+*   **Período:** 2025 - 2026
+*   **Ubicación:** Loja – Ecuador
+
+</div>
+
+---
+
+### *“Educamos para Transformar”*
+
+[![Ir al Portafolio](https://img.shields.io/badge/ACCEDER-PORTAFOLIO-003366?style=for-the-badge&logo=github&logoColor=white)](#)
+
+</div>
 
 
 ### Documentación
