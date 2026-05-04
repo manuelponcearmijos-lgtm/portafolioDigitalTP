@@ -1,4 +1,4 @@
-  <div align="center">
+ <div align="center">
 
 <!-- NUEVO ENLACE DE LOGO VERIFICADO -->
 <img src="https://raw.githubusercontent.com/manuelponcearmijos-lgtm/portafolioDigitalTP/main/unl_logo.png" width="160" onerror="this.src='https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png'">
