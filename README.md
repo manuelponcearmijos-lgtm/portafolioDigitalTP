@@ -1,7 +1,7 @@
- <div align="center">
+  <div align="center">
 
-<!-- NUEVO ENLACE DE LOGO VERIFICADO -->
-<img src="https://raw.githubusercontent.com/manuelponcearmijos-lgtm/portafolioDigitalTP/main/unl_logo.png" width="160" onerror="this.src='https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png'">
+<!-- ENLACE INTERNO AL LOGO SUBIDO -->
+<img src=" https://github.com/user-attachments/assets/282df5a8-82f2-48b7-bdca-43a39f33147b" width="160" alt="Logo de la Universidad Nacional de Loja">
 
 # <span style="color:#003366">UNIVERSIDAD NACIONAL DE LOJA</span>
 
@@ -41,6 +41,8 @@
 <br>
 
 </div>
+
+
 ## Documentación
 
 ### 1. Introducción
