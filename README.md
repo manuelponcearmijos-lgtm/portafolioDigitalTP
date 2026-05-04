@@ -95,7 +95,7 @@ No obstante, existen elementos comunes que suelen respetarse. En términos gener
  ## Diagrama de flujo
 El diagram de flujo uno de los principales pilares para mi, para aprender a desarrollar codigos de manera eficiente ya que undiagrama de flujo es la representación gráfica de un algoritmo, que muestra de manera esquematizada los pasos o procesos a seguir para alcanzar la solución de un problema. Esta herramienta describe el sistema como una red de procesos conectados, detallando el origen, destino, transformación y almacenamiento de los datos.
  
-###Importancia y Aplicación
+### Importancia y Aplicación
 Su correcta construcción es vital porque sirve como base para escribir programas en lenguajes de programación de manera simple y directa además de la informática, se utiliza frecuentemente en la economía y los procesos industriales. Su importancia radica en que facilita la visualización del flujo de información y permite identificar actividades innecesarias o desequilibrios en la distribución del trabajo; aunque pensaba que no era de gran importacia había sido todo lo contrario conforme investigaba aprendí mucho sobre su importancia en el mundo, de ser algo tan simple a considerarse útil por su facilidad de aprender y utilizar. 
 ### Simbología
 
