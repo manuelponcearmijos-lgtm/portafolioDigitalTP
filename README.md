@@ -235,6 +235,22 @@ Por otro lado, los lenguajes interpretados como Python o JavaScript funcionan de
   </tr>
 </table>
 
+## Programación por bloques
+La programación por bloques es una manera intuitiva y accesible de aprender a programar, diseñada para facilitar el contacto con la lógica y los conceptos del pensamiento computacional sin las complicaciones de los lenguajes formales.
+
+**Finalidad**: Surgió para que las personas puedan entender la esencia de la programación sin los inconvenientes de la escritura técnica. Es ideal tanto para principiantes como para creadores que desean realizar proyectos sin aprender programación formal.
+
+**Elementos visuales**: Utiliza los mismos conceptos que la programación formal, pero representados gráficamente:
+
+**Bloques de Control y Eventos**: Suelen tener la parte superior redondeada para indicar que no se puede encastrar nada arriba, ya que son los encargados de inicializar el programa.
+
+**Bucles**: Tienen forma de "C" y sirven para repetir una secuencia de comandos una cantidad determinada de veces o de forma infinita.
+
+**Condicionales**: También con forma de "C", permiten que una acción se ejecute solo si se cumple una condición específica (la cual se encastra usando piezas en forma de rombo).
+
+**Plataformas populares**: Existen diversas herramientas según el objetivo, como Scratch para videojuegos 2D, Alice para animaciones 3D, App Inventor para aplicaciones de Android, y Ardublock para robótica.
+<img width="753" height="242" alt="recursero-programacion_en_bloques-programa_de_scratch_desglosado" src="https://github.com/user-attachments/assets/c4b3405a-1a42-42a7-810e-ac0699243a12" />
+
  
 
 
