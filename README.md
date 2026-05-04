@@ -297,6 +297,23 @@ Escribir un programa para convertir una medida dada en pies a sus equivalentes e
 ### Codificación Código Fuente  ( C )
 <img width="864" height="872" alt="Captura de pantalla 2026-05-03 214851" src="https://github.com/user-attachments/assets/7b61709a-83b2-4ba9-98a5-4bc1f914e5d2" />
 
+### 🧮 Tabla de comprobación del algoritmo *MedidasDePies*
+
+| Pies (input) | Yardas | Pulgadas | Centímetros | Metros |
+|---------------|--------|-----------|--------------|---------|
+| 1             | 0.33   | 12        | 30.48        | 0.3048  |
+| 3             | 1      | 36        | 91.44        | 0.9144  |
+| 6             | 2      | 72        | 182.88       | 1.8288  |
+| 9             | 3      | 108       | 274.32       | 2.7432  |
+| 12            | 4      | 144       | 365.76       | 3.6576  |
+
+> **Nota:** Los resultados se obtienen aplicando las fórmulas del algoritmo:
+> - `yardas = pies / 3`  
+> - `pulgadas = pies * 12`  
+> - `centímetros = pulgadas * 2.54`  
+> - `metros = centímetros / 100`
+
+
  ### Principales dificultades 
 -La Brecha entre la Teoría y la Práctica:
 A diferencia de un curso rápido de programación, la ingeniería profundiza en la Teoría de la Programación y los fundamentos matemáticos, lo cual se me hizo muy difícil cuando estaba empezando debido a que no sabia nada, lo cual se me dificulto demasiado, ya que entendía la teoría, pero la practica era otra historia, no tenía una excelente lógica para resolver los problemas que se me presentaban, por lo tanto estuve muy desorientado en este ámbito.  
