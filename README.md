@@ -1,7 +1,7 @@
  <div align="center">
 
-<!-- LOGO DE LA UNIVERSIDAD -->
-<img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png" width="160" alt="Logo UNL">
+<!-- LOGO DE LA UNIVERSIDAD (ENLACE VERIFICADO) -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_de_la_Universidad_Nacional_de_Loja.png" width="160" alt="Logo oficial de la Universidad Nacional de Loja">
 
 # <span style="color:#003366">UNIVERSIDAD NACIONAL DE LOJA</span>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/ACCEDER-PORTAFOLIO-003366?style=for-the-badge&logo=github&logoColor=white)](#)
+[![Acceder al Portafolio](https://img.shields.io/badge/ACCEDER-PORTAFOLIO-003366?style=for-the-badge&logo=github&logoColor=white)](#)
 
 </div>
 
