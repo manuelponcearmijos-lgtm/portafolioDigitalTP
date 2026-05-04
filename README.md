@@ -257,17 +257,19 @@ La programación por bloques es una manera intuitiva y accesible de aprender a p
 ### Planteamiento del problema:
 Escribir un programa para convertir una medida dada en pies a sus equivalentes en: a) yardas; b) pulgadas; c) centímetros; y d) metro. (1 pie: 12 pulgadas, 1 yarda= 3 pies, 1 pulgada= 2.54 cm, 1 metro= 100 cm). Leer el número de pies e imprimir el número de yardas, pies, pulgadas, centímetros y metros.
 
-### Análisis de Entradas, Procesos y Salidas
-Todo algoritmo se divide en tres componentes básicos que podemos identificar aquí:
-Entrada:
--Una variable de tipo numérico real denominada pies, que representa la longitud inicial.
-Proceso (Cálculos):
--Yardas: Se obtiene dividiendo los pies para 3.
--Pulgadas: Se obtiene multiplicando los pies por 12.
--Centímetros: Se obtiene multiplicando las pulgadas resultantes por la constante 2.54.
--Metros: Se obtiene dividiendo los centímetros para 100.
-Salida:
--Visualización en pantalla de los valores calculados de yardas, pies, pulgadas, centímetros y metros.
+### 🧠 Análisis de Entradas, Procesos y Salidas
+     
+  Todo algoritmo se divide en tres componentes básicos que se identifican en este proyecto:
+
+*   **Entrada:**
+    *   Una variable de tipo numérico **real** denominada `pies`, que representa la longitud inicial.
+*   **Proceso (Cálculos):**
+    *   **Yardas:** Se obtiene dividiendo los pies para 3.
+    *   **Pulgadas:** Se obtiene multiplicando los pies por 12.
+    *   **Centímetros:** Se obtiene multiplicando las pulgadas resultantes por la constante 2.54.
+    *   **Metros:** Se obtiene dividiendo los centímetros para 100.
+*   **Salida:**
+    *   Visualización en pantalla de los valores calculados de yardas, pies, pulgadas, centímetros y metros.
  ###  Diseño de algoritmo 
    - Diagrama de flujo:
 <img width="530" height="935" alt="Captura de pantalla 2026-05-03 213619" src="https://github.com/user-attachments/assets/4d164fc1-db21-43cd-9e20-6a8c307f9405" />
