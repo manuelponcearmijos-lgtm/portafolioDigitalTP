@@ -1,7 +1,7 @@
- <div align="center"> 
+  <div align="center">
 
-<!-- LOGO DE LA UNIVERSIDAD -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_de_la_Universidad_Nacional_de_Loja.png" width="160" alt="Logo UNL">
+<!-- NUEVO ENLACE DE LOGO VERIFICADO -->
+<img src="https://raw.githubusercontent.com/manuelponcearmijos-lgtm/portafolioDigitalTP/main/unl_logo.png" width="160" onerror="this.src='https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png'">
 
 # <span style="color:#003366">UNIVERSIDAD NACIONAL DE LOJA</span>
 
