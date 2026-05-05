@@ -1,7 +1,8 @@
  # Portafolio Digital: Teoría de la Programación
 
 <p align="center">
-  <img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-redondo.png" width="200">
+ <img width="626" height="200" alt="image" src="https://github.com/user-attachments/assets/035b87ae-785b-4541-90f0-8c6d19e1c94f" />
+
 </p>
 
 **Institución:** Universidad Nacional de Loja  
