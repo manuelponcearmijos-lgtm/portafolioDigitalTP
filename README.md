@@ -6,7 +6,7 @@
 <h1 align="center">Portafolio Digital: Teoría de la Programación</h1>
 
 <p align="center">
-  <a href="./Unidad_1/README.md">
+  <a href="./Unidad_1.md">
     <img src="https://img.shields.io/badge/ACCEDER%20AL%20PORTAFOLIO-UNIDAD%201-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Acceso Unidad 1">
   </a>
 </p>
