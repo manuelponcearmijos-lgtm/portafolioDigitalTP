@@ -68,7 +68,7 @@ de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, gara
     <td align="center">
       <img src="https://github.com/user-attachments/assets/22d51632-605b-4769-a727-09b91332f927" width="400" alt="Algoritmos en el mundo real">
       <br>
-      <strong>Título o Evidencia</strong>
+      <strong>Título o Evidencia</strong> 
     </td>
   </tr>
 </table>
