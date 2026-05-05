@@ -25,5 +25,5 @@
 
 ---
 <p align="center"><i>Loja - Ecuador</i></p>
-### 🚀 [Haz clic aquí para ver el Portafolio de la Unidad 1](./Unidad_1/README.md)
+### 🚀 [Haz clic aquí para ver el Portafolio de la Unidad 1](Unidad_1.md)
   
