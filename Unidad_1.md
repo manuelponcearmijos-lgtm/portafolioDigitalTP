@@ -251,20 +251,7 @@ La programación por bloques es una manera intuitiva y accesible de aprender a p
 
 **Plataformas populares**: Existen diversas herramientas según el objetivo, como Scratch para videojuegos 2D, Alice para animaciones 3D, App Inventor para aplicaciones de Android, y Ardublock para robótica.
 
-  <table>
-  <tr>
-    <td>
-      <img src="https://i.pinimg.com/736x/5a/b2/cb/5ab2cb5c23193e878d49cf1a322a49ad.jpg" width="400" alt="Ejemplo 1">
-      <p align="center">Pie de foto 1</p>
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/202276c7-1a16-4cf1-b7bd-2b207d083624" />
-" width="400" alt="Ejemplo 2">
-      <p align="center">Pie de foto 2</p>
-    </td>
-  </tr>
-</table>
-## Ejercicio con estructura secuencial.
+ <img width="735" height="561" alt="image" src="https://github.com/user-attachments/assets/3a750e86-434e-4c13-8b9c-89fe5624cf38" />
 
 ### Planteamiento del problema:
 Escribir un programa para convertir una medida dada en pies a sus equivalentes en: a) yardas; b) pulgadas; c) centímetros; y d) metro. (1 pie: 12 pulgadas, 1 yarda= 3 pies, 1 pulgada= 2.54 cm, 1 metro= 100 cm). Leer el número de pies e imprimir el número de yardas, pies, pulgadas, centímetros y metros.
