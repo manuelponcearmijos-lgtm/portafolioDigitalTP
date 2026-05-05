@@ -1,3 +1,4 @@
+  
  <p align="center">
   <img src="https://github.com/user-attachments/assets/035b87ae-785b-4541-90f0-8c6d19e1c94f" width="150" alt="Logo UNL">
 </p>
@@ -45,12 +46,4 @@ Copia y pega este bloque de código directamente en el archivo principal (`READM
 
 ---
 <p align="center"><i>Loja - Ecuador</i></p>
-## 📂 Contenidos del Portafolio
-
-Haz clic en el enlace de abajo para revisar las actividades, algoritmos y programas desarrollados en esta unidad:
-
-### 🚀 [INGRESAR A LA UNIDAD 1: Estructuras Secuenciales](./Unidad_1/README.md)
-
----
-*Loja - Ecuador*
   
