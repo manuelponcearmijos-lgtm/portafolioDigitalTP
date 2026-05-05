@@ -64,7 +64,7 @@ de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, gara
  ## Pseudocódigo
  El pseudocódigo es una herramienta que permite representar las instrucciones de un algoritmo sin necesidad de utilizar un lenguaje de programación formal. Se ubica como un punto intermedio entre el lenguaje coloquial y el lenguaje de programación, ya que describe los pasos de manera lógica y ordenada utilizando estructuras similares a las de los lenguajes de alto nivel. Su propósito principal es facilitar la comprensión de la lógica antes de traducirla a código ejecutable.
  
-### Estrucutura del Pseudocódigo
+### Estructura del Pseudocódigo
 La estructura del pseudocódigo no sigue un estándar rígido. Aunque se utilizan expresiones intuitivas para describir lo que se desea lograr, no posee una sintaxis estricta como la de un lenguaje de programación. De hecho, distintas organizaciones pueden establecer sus propias reglas para documentar en pseudocódigo, empleando palabras o formatos diferentes. Esta flexibilidad es una ventaja, ya que lo esencial es poder expresar los algoritmos de manera clara y comprensible.
 
 No obstante, existen elementos comunes que suelen respetarse. En términos generales, todo algoritmo escrito en pseudocódigo mantiene una estructura básica que organiza el inicio, las entradas, los procesos, las decisiones, las salidas y el fin.
@@ -73,7 +73,7 @@ No obstante, existen elementos comunes que suelen respetarse. En términos gener
 
  <img width="670" height="460" alt="Captura de pantalla 2026-05-02 042414" src="https://github.com/user-attachments/assets/a26d5b09-2bd3-459d-a6d2-45a04d8191f5" />
  
-**Como dato importante este término, utiliza el prefijo griego «pseudo» que significa «falso», para hacer entender que este no es un código «real». Por «real» se refiere a que no es un lenguaje que se pueda compilar o interpretar, lo cual me acusa gracia ya que es como si no sirviera o es una imitación de un lenguaje de programación, pero en verdad les digo que va a ser muy importante para adentrarse en nuevos temas más difíciles y términos antes no escuchados o vistos; desde luego si no saben lo que es programar o desarrollar un software.** 
+**Como dato importante este término, utiliza el prefijo griego «pseudo» que significa «falso», para hacer entender que este no es un código «real». Por «real» se refiere a que no es un lenguaje que se pueda compilar o interpretar, lo cual me causa gracia ya que es como si no sirviera o es una imitación de un lenguaje de programación, pero en verdad les digo que va a ser muy importante para adentrarse en nuevos temas más difíciles y términos antes no escuchados o vistos; desde luego si no saben lo que es programar o desarrollar un software.** 
 
  <table align="center">
   <tr>
@@ -97,6 +97,7 @@ El diagram de flujo uno de los principales pilares para mi, para aprender a desa
  
 ### Importancia y Aplicación
 Su correcta construcción es vital porque sirve como base para escribir programas en lenguajes de programación de manera simple y directa además de la informática, se utiliza frecuentemente en la economía y los procesos industriales. Su importancia radica en que facilita la visualización del flujo de información y permite identificar actividades innecesarias o desequilibrios en la distribución del trabajo; aunque pensaba que no era de gran importacia había sido todo lo contrario conforme investigaba aprendí mucho sobre su importancia en el mundo, de ser algo tan simple a considerarse útil por su facilidad de aprender y utilizar. 
+
 ### Simbología
 
  <img width="860" height="419" alt="Simbolos" src="https://github.com/user-attachments/assets/21254dbe-8ef9-4616-91e5-ebfedd13a71a" />
@@ -324,11 +325,10 @@ El dominio de algoritmos, pseudocódigos, diagramas de flujo y pruebas de escrit
 
 [4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
 
-[5] A. C. Ramirez Villavicencio, "Portafolio Digital de Aprendizaje: Teoría de la Programación," repositorio en GitHub, mayo 2026. [En línea]. Disponible: [https://github.com/tu-usuario/tu-repositorio](https://github.com/tu-usuario/tu-repositorio). [Accedido: 03-may-2026].
+[5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
 
 ### Declaración de Uso de Inteligencia Artificial
-Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta.
-
+Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, me he apoyado de la inteligencia artificial.
   
  
 
