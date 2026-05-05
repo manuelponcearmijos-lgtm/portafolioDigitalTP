@@ -61,7 +61,7 @@ de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, gara
  <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/28d0a3eb-9b76-4c0d-82e7-50f982d470f7" width="400" alt="Algoritmos en programación ">
+      <img src="https://github.com/user-attachments/assets/28d0a3eb-9b76-4c0d-82e7-50f982d470f7" width="400" alt="Algoritmos en programación">
       <br>
       <strong>Título o Evidencia</strong>
     </td>
