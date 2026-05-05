@@ -23,20 +23,6 @@
 
 ---
 
-<div align="left">
-
-### 👤 **DATOS INFORMATIVOS**
-*   **Autor:** <span style="color:#003366">**Manuel Alejandro Ponce Armijos**</span>
-*   **Docente:** Ing. Lisette Geoconda López Faicán
-*   **Período:** Abril - Agosto 2026
-*   **Ubicación:** Loja – Ecuador
-
-</div>
-
-<br>
-
----
-
 ### *“<span style="color:#8B6D1B">Educamos para Transformar</span>”*
 
 <br>
