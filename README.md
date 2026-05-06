@@ -21,7 +21,7 @@
 
 ## 👤 Datos del Estudiante
 *   **Nombre:** Manuel Alejandro Ponce Armijos
-*   **Docente:** Ing. Lissette López
+*   **Docente:** Ing. Lissette Geoconda López Faicán
 *   **Ciclo:** 1er Ciclo "A"
 *   **Período:** Abril - Agosto 2026
 
