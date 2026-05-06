@@ -42,7 +42,7 @@ dependiendo del lenguaje que uses, y comprobarlo en pruebas de escritorio o comp
 ## Algoritmos
 Fue uno de los primeros temas que hemos aprendido y que nos a ayudado a entrar en el mundo de la programacion: Un algoritmo en programación es un conjunto ordenado y 
 finito de instrucciones precisas que permiten resolver un problema o realizar una tarea específica dentro de un programa, transformando datos de entrada en resultados
-de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, garantizando que el proceso tenga un inicio y un fin. En esencia, los algoritmos son la basede todo software, ya que representan la lógica que luego se traduce a un lenguaje de programación, asegurando que las soluciones sean eficientes, repetibles y aplicablesa distintos contextos computacionales.
+de salida. Se caracteriza por ser claro, definido y ejecutable paso a paso, garantizando que el proceso tenga un inicio y un fin. En esencia, los algoritmos son la base de todo software, ya que representan la lógica que luego se traduce a un lenguaje de programación, asegurando que las soluciones sean eficientes, repetibles y aplicablesa distintos contextos computacionales.
 
  <table align="center">
   <tr>
