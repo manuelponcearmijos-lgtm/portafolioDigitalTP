@@ -35,8 +35,8 @@
 ### 1. Introducción
 En esta unidad, hemos tenido un gran avance en los **fundamentos de la programación**, enfocándonos en la evolución de los primeros lenguajes, como el lenguaje máquina, 
 bajo nivel, algorítmico, y lenguaje de alto nivel, los cuales son muy importantes para entender el funcionamiento de los lenguajes informáticos  mediante los 
-siguientes dos términos lenguajes compilados y lenguajes interpretados, por lo tanto al saber todo esto podemos crear nuestro primer código siguiendo diversas reglas
-dependiendo del lenguaje que uses y comprobarlo en pruebas de escritorio o compilándolo y ejecutándolo en la terminal, además como extra hemos instalado **PSEINT**, 
+siguientes dos términos, lenguajes compilados y lenguajes interpretados; por lo tanto al saber todo esto podemos crear nuestro primer código siguiendo diversas reglas
+dependiendo del lenguaje que uses, y comprobarlo en pruebas de escritorio o compilándolo y ejecutándolo en la terminal, además como extra hemos instalado **PSEINT**, 
 **JAVA** y **PYTHON**. 
 
 ## Algoritmos
