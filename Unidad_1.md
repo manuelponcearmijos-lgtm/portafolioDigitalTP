@@ -326,7 +326,7 @@ El dominio de algoritmos, pseudocódigos, diagramas de flujo y pruebas de escrit
 [5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
 
 ### Declaración de Uso de Inteligencia Artificial
-Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, me he apoyado de la inteligencia artificial.
+Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, por lo cuál me he apoyado de la inteligencia artificial para resolver los problemas y dudas durante el procedimiento.
   
  
 
