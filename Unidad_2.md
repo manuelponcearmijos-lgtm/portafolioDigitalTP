@@ -1,5 +1,5 @@
 
-   <div align="center">
+   <div align="center"> 
 
 <!-- ENLACE INTERNO AL LOGO SUBIDO -->
  <img width="626" height="200" alt="image" src="https://github.com/user-attachments/assets/7931a502-fedd-4537-b79f-51f12dcf21e8" />
@@ -661,4 +661,4 @@ Fin
 
 ---
 
-**<strong><a href="Portada.md">🏠 INICIO</a></strong>**
+**<strong><a href="Unidad2.md">🏠 INICIO</a></strong>**
