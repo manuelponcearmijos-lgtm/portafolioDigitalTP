@@ -78,8 +78,6 @@
 
 [5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
 
-<details>
----
  <details>
 <summary><b>🤖 Declaración de Uso de IA Generativa</b></summary>
 <br>
