@@ -67,26 +67,24 @@
 <details>
 <summary><b>📚 Bibliografía (Formato IEEE)</b></summary>
 <br>
+  
+[1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
 
-[1] P. Villalobos, *Fundamentos de Matemáticas Discretas*, México: McGraw-Hill, 2020.  
+[2] B. W. Kernighan y D. M. Ritchie, El Lenguaje de Programación C, 2.ª ed. Ciudad de México, México: Prentice Hall, 1991.
 
-[2] M. L. Ortiz, *Lógica y Computación*, Bogotá: Ediciones de la U, 2019.  
+[3] R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship, 1.ª ed. Upper Saddle River, NJ, EE. UU.: Prentice Hall, 2008.
 
-[3] Free Software Foundation, *Manual de referencia de GCC*, 2024. Disponible en: https://gcc.gnu.org/onlinedocs/  
- 
+[4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
 
-[4] R. Dorf y J. Svoboda, Introduction to Electric Circuits, 9th ed., Wiley, Hoboken, 2021.
+[5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
 
-[5] F. J. Sánchez y G. Mata, “Aplicación didáctica de las leyes de Kirchhoff en la enseñanza de circuitos básicos,” Revista Educación en Ingeniería, vol. 16, no. 2, pp. 45–52, 2022.
-
-[6] IEEE, IEEE Standard for Electrical and Electronic Diagrams (Including Logic Diagrams), IEEE Std 91-2021, New York, 2021.
-</details>
 ---
  <details>
 <summary><b>🤖 Declaración de Uso de IA Generativa</b></summary>
 <br>
 
 Durante la elaboración de este portafolio digital se emplearon herramientas de **Inteligencia Artificial Generativa** (como Gemini y ChatGPT) bajo criterios de transparencia y ética académica:
+Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, por lo cuál me he apoyado de la inteligencia artificial para resolver los problemas y dudas durante el procedimiento.
 
 - **🎯 Finalidad:** La IA se utilizó como apoyo en la estructuración de documentos en formato Markdown, mejora del diseño visual, corrección de estilo y generación de ejemplos de código.  
 - **🧠 Supervisión Humana:** Todo el contenido lógico, reflexiones éticas y ejercicios prácticos fueron revisados y validados manualmente por el autor, garantizando autenticidad en el razonamiento.  
