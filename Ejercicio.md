@@ -360,3 +360,8 @@ En resumen, programar no es solo escribir código que funcione: es elegir las es
 ---
 
 > 📌 **Compilación:** `gcc -o notas notas.c` — Compatible con cualquier compilador C estándar (C89/C99).
+
+---
+ **<strong><a href="Unidad_2.md ">🏠 INICIO</a></strong>**
+
+ 
