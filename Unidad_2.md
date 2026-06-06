@@ -652,5 +652,13 @@ Fin
 </details>
 
 ---
+# 🚀 Portafolio de Programación
+
+## 📂 Ejercicios
+
+### 🔗 Ejercicio 1: Condicionales
+[![Ejercicio 1](https://img.shields.io/badge/⚡-Ejercicio%201-green?style=for-the-badge)](Ejercicio.md)
+
+---
 
 **<strong><a href="Portada.md">🏠 INICIO</a></strong>**
