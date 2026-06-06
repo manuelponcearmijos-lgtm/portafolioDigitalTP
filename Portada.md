@@ -35,7 +35,7 @@
 * **Estructuras de control:** Condicionales (if, else, switch) y bucles (for, while).
 * **Funciones y modularización:** Definir funciones para dividir el problema en partes más pequeñas y reutilizables.
 * **Arreglos y colecciones:** Representación gráfica con símbolos normalizados.
-  
+   
 [![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](Unidad_2.md)
 </details>
 
