@@ -94,7 +94,7 @@ Como estudiante de la carrera de Computación, entiendo que la transparencia es 
 - **🌐 Transparencia:** Se declara explícitamente el uso de IA para cumplir con los principios de honestidad académica y evitar plagio.  
 - **📖 Referencias:** Las fuentes bibliográficas incluidas siguen el formato IEEE, garantizando respaldo académico y confiabilidad en la información.  
 
-
+ 
 </details>
 
 
