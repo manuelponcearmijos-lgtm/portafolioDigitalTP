@@ -60,7 +60,7 @@
 ---
 
 ## 🏁 Conclusiones Generales
-> *Este portafolio refleja la integración de la lógica matemática con la programación, fortaleciendo las bases para el razonamiento formal y el diseño de algoritmos.*
+> **Este portafolio refleja la integración de la lógica matemática con la programación, fortaleciendo las bases para el razonamiento formal y el diseño de algoritmos. Documenta el aprendizaje en proposiciones, conectores lógicos, tablas de verdad y la representación de soluciones mediante pseudocódigo y diagramas de flujo, evidenciando la transición del pensamiento lógico hacia la construcción de programas estructurados**.
 
 ---
 
