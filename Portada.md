@@ -77,7 +77,8 @@
 [4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
 
 [5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
-
+</details>
+---
  <details>
 <summary><b>🤖 Declaración de Uso de IA Generativa</b></summary>
 <br>
