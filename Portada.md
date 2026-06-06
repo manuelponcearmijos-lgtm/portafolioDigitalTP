@@ -10,7 +10,7 @@
 ---
 
 ## 📝 Introducción General del Ciclo
-Este portafolio digital compila el progreso académico en la asignatura de **Matemáticas Discretas**, documentando el aprendizaje en **reglas de inferencia, tablas de verdad y compuertas lógicas**. Su propósito es reflejar la evolución en el razonamiento formal y la aplicación de principios matemáticos en problemas computacionales.
+ Este portafolio digital compila el progreso académico en la asignatura de **Teoría de la Programación**, documentando el aprendizaje en proposiciones lógicas, conectores, tablas de verdad y la construcción de algoritmos mediante pseudocódigo y diagramas de flujo. Su propósito es reflejar la evolución en el pensamiento lógico y la capacidad de diseñar soluciones computacionales estructuradas, estableciendo las bases para el desarrollo en **lenguajes de programación**.
 
 ---
 
