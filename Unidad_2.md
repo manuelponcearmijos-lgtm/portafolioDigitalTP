@@ -346,14 +346,307 @@ Fin
 
 ---
  
- ## 🧠  **Estructuras condicionales**
+ ## 🧠  **Estructuras repetitivas**
 
 <details open>
   <summary><b>✨ Resolución paso a paso</b></summary>
 
   <div style="background-color:#1e1e1e; padding:14px; border-radius:8px; color:#E0E0E0;">
 
-mmmmm
+# 🔁 Estructuras Repetitivas en Programación
+
+> **Materia:** Fundamentos de Programación  
+> **Tema:** Estructuras de control — Bucles / Ciclos  
+> **Nivel:** Primer ciclo — Ingeniería en Computación
+
+---
+
+## 📌 ¿Qué es una estructura repetitiva?
+
+Una **estructura repetitiva** (también llamada bucle o ciclo) es un bloque de código que permite **ejecutar un conjunto de instrucciones múltiples veces**, mientras se cumpla una condición o un número determinado de veces.
+
+Sin los bucles, para repetir 100 veces una acción habría que escribirla 100 veces. Con un bucle, basta con escribirla una sola vez.
+
+### ¿Por qué son importantes?
+
+| Razón | Descripción |
+|---|---|
+| ♻️ **Reutilización** | Evitan duplicar código: una sola instrucción se ejecuta N veces |
+| 📊 **Procesamiento de datos** | Permiten recorrer listas, arreglos, archivos y colecciones completas |
+| 🔢 **Automatización** | Calculan sumas, promedios, factoriales y secuencias sin intervención manual |
+| 🧩 **Base de algoritmos** | Búsquedas, ordenamientos y validaciones dependen completamente de los bucles |
+| 💡 **Eficiencia** | Un programa con bucles es más corto, legible y fácil de mantener |
+
+---
+
+## 📋 Tipos de estructuras repetitivas
+
+| Tipo | Cuándo usarlo | Ejecuta el cuerpo si… |
+|---|---|---|
+| **Mientras** (`While`) | El número de repeticiones es desconocido y depende de una condición | La condición es verdadera **antes** de entrar |
+| **Hacer … Mientras** (`Do-While`) | Se necesita ejecutar el cuerpo **al menos una vez** sin importar la condición | Siempre la primera vez; luego si la condición es verdadera |
+| **Para** (`For`) | El número de repeticiones es conocido de antemano | El contador está dentro del rango definido |
+
+---
+
+## 1️⃣ Bucle Mientras (While)
+
+### 📖 Definición
+
+El bucle **Mientras** evalúa una condición **antes** de ejecutar el bloque de instrucciones. Si la condición es verdadera, ejecuta el cuerpo y vuelve a verificarla. Si desde el principio es falsa, el cuerpo **nunca se ejecuta**.
+
+> "Mientras la condición sea verdadera, sigue repitiendo."
+
+### 💡 Importancia
+
+- Es el bucle más **general y flexible**: sirve para casi cualquier situación repetitiva.
+- Útil cuando **no sabemos de antemano cuántas veces** se repetirá (ej: leer datos hasta que el usuario ingrese "salir").
+- Garantiza que el cuerpo **no se ejecute** si la condición nunca fue verdadera, lo que protege el programa de errores.
+- Es la base del procesamiento de **entradas del usuario**, lectura de archivos y validaciones continuas.
+
+### ⚠️ Riesgo: bucle infinito
+
+Si la condición nunca se vuelve falsa (porque no se modifica dentro del cuerpo), el programa se queda ejecutando para siempre. Siempre debe existir algo dentro del cuerpo que eventualmente haga falsa la condición.
+
+### 📐 Diagrama de flujo
+
+```mermaid
+flowchart TD
+    A([🟢 Inicio]) --> B[Inicializar variables]
+    B --> C{¿Condición\nverdadera?}
+    C -- Sí --> D[Ejecutar instrucciones]
+    D --> C
+    C -- No --> E([🔴 Fin])
+```
+
+### 📝 Pseudocódigo
+
+```
+Inicio
+    Mientras (condición) hacer
+        instrucciones
+    Fin_Mientras
+Fin
+```
+
+### 💻 Ejemplo práctico
+
+**Problema:** Mostrar los números del 1 al 5.
+
+```
+Inicio
+    i ← 1
+    Mientras (i <= 5) hacer
+        Escribir i
+        i ← i + 1
+    Fin_Mientras
+Fin
+```
+
+**Traza de ejecución:**
+
+| i | ¿i ≤ 5? | Salida |
+|---|---|---|
+| 1 | Verdadero | 1 |
+| 2 | Verdadero | 2 |
+| 3 | Verdadero | 3 |
+| 4 | Verdadero | 4 |
+| 5 | Verdadero | 5 |
+| 6 | Falso | _(fin del bucle)_ |
+
+---
+
+## 2️⃣ Bucle Hacer … Mientras (Do-While)
+
+### 📖 Definición
+
+El bucle **Hacer … Mientras** ejecuta el bloque de instrucciones **primero** y evalúa la condición **después**. Esto garantiza que el cuerpo del bucle se ejecute **al menos una vez**, sin importar si la condición es verdadera o falsa desde el inicio.
+
+> "Haz las instrucciones; luego, si la condición sigue siendo verdadera, repite."
+
+### 💡 Importancia
+
+- Es el único bucle que **garantiza al menos una ejecución** del cuerpo, ideal cuando siempre se necesita hacer algo antes de verificar.
+- Muy usado en **menús interactivos**: se muestra el menú al menos una vez, y se repite si el usuario elige continuar.
+- Perfecto para **validar entradas**: pide un dato al usuario y lo valida; si es incorrecto, vuelve a pedirlo.
+- Hace el código más natural en escenarios donde "primero actúas, luego decides si continúas".
+
+### 📐 Diagrama de flujo
+
+```mermaid
+flowchart TD
+    A([🟢 Inicio]) --> B[Ejecutar instrucciones]
+    B --> C{¿Condición\nverdadera?}
+    C -- Sí --> B
+    C -- No --> D([🔴 Fin])
+```
+
+### 📝 Pseudocódigo
+
+```
+Inicio
+    Hacer
+        instrucciones
+    Mientras (condición)
+Fin
+```
+
+### 💻 Ejemplo práctico
+
+**Problema:** Pedir una contraseña al usuario hasta que ingrese la correcta.
+
+```
+Inicio
+    Hacer
+        Escribir "Ingrese la contraseña:"
+        Leer clave
+    Mientras (clave ≠ "1234")
+    Escribir "Acceso concedido"
+Fin
+```
+
+**Traza de ejecución:**
+
+| Intento | clave ingresada | ¿clave ≠ "1234"? | Acción |
+|---|---|---|---|
+| 1 | "abc" | Verdadero | Vuelve a pedir |
+| 2 | "999" | Verdadero | Vuelve a pedir |
+| 3 | "1234" | Falso | Sale del bucle → "Acceso concedido" |
+
+---
+
+## 3️⃣ Bucle Para (For)
+
+### 📖 Definición
+
+El bucle **Para** (o bucle de conteo) repite un bloque de instrucciones un **número exacto de veces**, controlado por una variable contadora que tiene un valor inicial, un valor final y un paso (incremento o decremento) definidos desde el inicio.
+
+> "Repite desde el valor inicial hasta el valor final, aumentando el contador en cada vuelta."
+
+### 💡 Importancia
+
+- Es el más adecuado cuando se conoce **exactamente cuántas veces** debe repetirse algo.
+- Muy usado para **recorrer arreglos**, listas y colecciones elemento por elemento.
+- Evita errores humanos: el contador se gestiona automáticamente (inicio, condición e incremento en una sola línea).
+- Hace el código **más legible y compacto** que un Mientras equivalente con contador manual.
+- Fundamental en **cálculos matemáticos**: sumas de series, tablas de multiplicar, factoriales.
+
+### 📐 Diagrama de flujo
+
+```mermaid
+flowchart TD
+    A([🟢 Inicio]) --> B[i ← valor_inicial]
+    B --> C{¿i ≤ valor_final?}
+    C -- Sí --> D[Ejecutar instrucciones]
+    D --> E[i ← i + paso]
+    E --> C
+    C -- No --> F([🔴 Fin])
+```
+
+### 📝 Pseudocódigo
+
+```
+Inicio
+    Para i ← valor_inicial Hasta valor_final Con paso Hacer
+        instrucciones
+    Fin_Para
+Fin
+```
+
+### 💻 Ejemplo práctico
+
+**Problema:** Calcular la suma de los primeros 5 números naturales.
+
+```
+Inicio
+    suma ← 0
+    Para i ← 1 Hasta 5 Con paso 1 Hacer
+        suma ← suma + i
+    Fin_Para
+    Escribir "La suma es: ", suma
+Fin
+```
+
+**Traza de ejecución:**
+
+| i | ¿i ≤ 5? | suma antes | suma después |
+|---|---|---|---|
+| 1 | Verdadero | 0 | 1 |
+| 2 | Verdadero | 1 | 3 |
+| 3 | Verdadero | 3 | 6 |
+| 4 | Verdadero | 6 | 10 |
+| 5 | Verdadero | 10 | 15 |
+| 6 | Falso | — | _(fin)_ |
+
+**Salida:** `La suma es: 15`
+
+---
+
+## 🔗 Bucles anidados
+
+Es posible colocar un bucle **dentro de otro**. El bucle interior se ejecuta completamente en cada iteración del exterior. Se usan para trabajar con matrices, tablas y patrones.
+
+### 📝 Pseudocódigo
+
+```
+Inicio
+    Para i ← 1 Hasta 3 Con paso 1 Hacer
+        Para j ← 1 Hasta 3 Con paso 1 Hacer
+            Escribir i, " x ", j, " = ", i * j
+        Fin_Para
+    Fin_Para
+Fin
+```
+
+### 💻 Salida (fragmento — tabla de multiplicar 1 al 3):
+
+```
+1 x 1 = 1    1 x 2 = 2    1 x 3 = 3
+2 x 1 = 2    2 x 2 = 4    2 x 3 = 6
+3 x 1 = 3    3 x 2 = 6    3 x 3 = 9
+```
+
+---
+
+## 📊 Tabla comparativa
+
+| Característica | Mientras | Hacer … Mientras | Para |
+|---|:---:|:---:|:---:|
+| Evalúa condición al inicio | ✅ | ❌ | ✅ (implícita) |
+| Evalúa condición al final | ❌ | ✅ | ❌ |
+| Garantiza al menos 1 ejecución | ❌ | ✅ | ❌ |
+| Usa contador explícito | Opcional | Opcional | ✅ |
+| Número de repeticiones conocido | No necesariamente | No necesariamente | ✅ |
+| Riesgo de bucle infinito | ✅ | ✅ | Bajo |
+
+---
+
+## ⚠️ Conceptos clave
+
+| Término | Definición |
+|---|---|
+| **Iteración** | Cada ejecución individual del cuerpo del bucle |
+| **Contador** | Variable que controla cuántas veces se repite el bucle |
+| **Condición de parada** | La expresión que, al volverse falsa, termina el bucle |
+| **Bucle infinito** | Error en el que la condición nunca se vuelve falsa y el programa no termina |
+| **Paso / Incremento** | Valor en que cambia el contador en cada iteración (puede ser negativo: decremento) |
+| **Cuerpo del bucle** | Bloque de instrucciones que se repite en cada iteración |
+
+---
+
+## 🧩 Símbolos del diagrama de flujo
+
+| Símbolo | Nombre | Uso |
+|---|---|---|
+| Óvalo / Elipse | Terminal | Inicio y Fin del algoritmo |
+| Rombo | Decisión | Condición del bucle (¿se sigue repitiendo?) |
+| Rectángulo | Proceso | Instrucciones del cuerpo o inicialización del contador |
+| Flecha de retorno | Flujo de retorno | Indica el regreso al punto de evaluación de la condición |
+
+---
+
+> 📚 **Nota:** Los diagramas de flujo de este documento usan sintaxis **Mermaid**, que GitHub renderiza automáticamente. Para verlos localmente puedes usar [Mermaid Live Editor](https://mermaid.live).
+
 
   </div>
 </details>
