@@ -5,7 +5,7 @@
 
 <h1 align="center">🌟 Universidad Nacional de Loja 🌟</h1>
 <h3 align="center">💻 Carrera de Computación</h3>
-<h4 align="center">📘 Matemáticas Discretas</h4>
+<h4 align="center">📘 Teoría de la Programación</h4>
 
 ---
 
@@ -29,15 +29,18 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 </details>
 
 <details>
-<summary><b>📂 Unidad 2: Conjuntos, Relaciones y Funciones</b></summary>
+<summary><b>📂 Unidad 2:Estructuras de control y modularización </b></summary>
 
-*Contenido en desarrollo conforme avance el periodo académico.*
-
-[![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](./Unidad_2.md)
+  ### Temas y Evidencias
+* **Estructuras de control:** Condicionales (if, else, switch) y bucles (for, while).
+* **Funciones y modularización:** Definir funciones para dividir el problema en partes más pequeñas y reutilizables.
+* **Arreglos y colecciones:** Representación gráfica con símbolos normalizados.
+  
+[![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](Unidad_2.md)
 </details>
 
 <details>
-<summary><b>📂 Unidad 3: Combinatoria y Grafos</b></summary>
+<summary><b>📂 Unidad 3:</b></summary>
 
 *Contenido en desarrollo conforme avance el periodo académico.*
 
