@@ -17,12 +17,13 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 ## 📚 Unidades de Aprendizaje (Evidencias)
 
 <details>
-<summary><b>📂 Unidad 1: Lógica Proposicional y Tablas de Verdad</b></summary>
+<summary><b>📂 Unidad 1: introducción a la Programación </b></summary>
 
 ### Temas y Evidencias
-* **Reglas de inferencia:** Aplicación en deducciones formales.
-* **Tablas de verdad:** Construcción y análisis de proposiciones.
-* **Compuertas lógicas:** Representación de operaciones booleanas.
+* **Algoritmos:** Definición y características (finitos, ordenados, claros).
+* **Pseudocódigo:** Representación textual de la lógica sin sintaxis estricta.
+* **Diagramas de flujo:** Representación gráfica con símbolos normalizados.
+* **Prueba de escritorio:** Simulación manual de la ejecución de un algoritmo.
 
 [![Acceder a Unidad 1](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_1-CLICK%20AQUÍ-0078D4?style=for-the-badge&logo=github&logoColor=white)](Unidad_1.md)
 </details>
