@@ -80,7 +80,7 @@ Una **estructura condicional** (también llamada estructura de selección o deci
 
 ---
 
-## 1️⃣ Condicional Simple
+## 1️⃣ Condicional Simple **(if)**
 
 ### 📖 Definición
 
@@ -136,7 +136,7 @@ Fin
 
 ---
 
-## 2️⃣ Condicional Doble (Si … Sino)
+## 2️⃣ Condicional Doble (Si … Sino) **(if / else)**
 
 ### 📖 Definición
 
