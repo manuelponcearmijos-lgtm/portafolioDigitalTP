@@ -678,7 +678,8 @@ Si bien comprendía la sintaxis teórica de las estructuras condicionales (if-el
 
 ### Reflexión crítica
 
- 
+La realización de este portafolio digital ha sido un ejercicio fundamental para evaluar de manera objetiva mi propio proceso de aprendizaje en la asignatura de Teoría de la Programación. Al recopilar y estructurar los contenidos sobre estructuras condicionales y repetitivas, he comprendido que la programación no se limita a la escritura mecánica de código en un editor, sino que exige el desarrollo previo de un pensamiento lógico-formal riguroso. La verdadera ingeniería comienza en el diseño del algoritmo mediante diagramas de flujo y pseudocódigo, herramientas que inicialmente subestimé pero que hoy reconozco como pilares indispensables para evitar errores estructurales antes de la implementación.
+
 ---
 
 **<strong><a href="Portada.md">🏠 INICIO</a></strong>**
