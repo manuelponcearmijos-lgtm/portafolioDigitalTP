@@ -661,4 +661,24 @@ Fin
 
 ---
 
+## 6. 🧠 Principales dificultades y reflexión crítica
+
+### Dificultades encontradas
+
+**1. Gestión de la lógica algorítmica ante múltiples soluciones**
+Desde mi perspectiva, uno de los mayores desafíos iniciales fue la abstracción lógica requerida para resolver un problema. El hecho de que en la programación existan múltiples rutas válidas para alcanzar un mismo objetivo generaba sobreanálisis y fatiga mental, incrementando la dificultad percibida al abordar enunciados extensos o complejos. No obstante, he aprendido que la clave no radica en buscar la solución perfecta de inmediato, sino en aplicar la metodología de "divide y vencerás", descomponiendo un problema grande en subtareas más simples y manejables.
+
+**2. Implementación y rigurosidad en las pruebas de escritorio**
+La ejecución de pruebas de escritorio representó un reto significativo debido a la falta de familiaridad previa con esta herramienta. Inicialmente, experimenté confusiones respecto al orden de ejecución y el seguimiento secuencial de las variables. Con la práctica continua, logré comprender que la prueba de escritorio no es un obstáculo, sino el mecanismo más efectivo para verificar la consistencia del código sin depender del compilador. Actualmente, he mejorado notablemente en la estructuración y el orden de este proceso.
+
+**3. Transición de la teoría a la práctica en estructuras de control (Condicionales y Bucles)**
+Si bien comprendía la sintaxis teórica de las estructuras condicionales (if-else) y los ciclos iterativos (for, while), la dificultad radicaba en identificar su uso pertinente en escenarios reales. Al no profundizar en la práctica constante desde el inicio, experimenté un desfase al intentar anidar condiciones o controlar los flujos de los bucles. Esta brecha se ha ido reduciendo mediante el autoestudio y el análisis de flujos lógicos, lo que me ha permitido consolidar la teoría y aplicarla con mayor fluidez en la resolución de problemas prácticos.
+
+---
+
+### Reflexión crítica
+
+ 
+---
+
 **<strong><a href="Portada.md">🏠 INICIO</a></strong>**
