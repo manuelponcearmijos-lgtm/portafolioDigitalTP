@@ -347,7 +347,7 @@ Al clasificar notas, si se pone `nota >= 5` antes de `nota >= 7`, cualquier nota
 
 En C, si `suma` fuera `int` y `n` es `int`, la división `suma / n` sería entera y perdería los decimales. Fue necesario declarar `suma` como `float` y usar `%.2f` en `printf` para mostrar el resultado con dos decimales.
 
----
+--- 
 
 ### Reflexión crítica
 
