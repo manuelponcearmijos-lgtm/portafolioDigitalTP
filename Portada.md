@@ -83,7 +83,7 @@
 <summary><b>🤖 Declaración de Uso de IA Generativa</b></summary>
 <br>
 
-Durante la elaboración de este portafolio digital se emplearon herramientas de **Inteligencia Artificial Generativa** (como Gemini y ChatGPT) bajo criterios de transparencia y ética académica:
+Durante la elaboración de este portafolio digital se emplearon herramientas de **Inteligencia Artificial Generativa** (como Gemini, ChatGPT y Claude) bajo criterios de transparencia y ética académica:
 Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, por lo cuál me he apoyado de la inteligencia artificial para resolver los problemas y dudas durante el procedimiento.
 
 - **🎯 Finalidad:** La IA se utilizó como apoyo en la estructuración de documentos en formato Markdown, mejora del diseño visual, corrección de estilo y generación de ejemplos de código.  
