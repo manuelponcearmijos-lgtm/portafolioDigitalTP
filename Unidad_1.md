@@ -313,21 +313,6 @@ Como reflexión dejo en claro que es una carrear muy fabulosa, dejando fuera su 
 El dominio de algoritmos, pseudocódigos, diagramas de flujo y pruebas de escritorio constituye el pilar fundamental para diseñar soluciones robustas antes de la implementación en cualquier lenguaje de programación. La aplicación de estas herramientas permite estructurar ideas con claridad, mitigar errores de lógica y profundizar en la comprensión del flujo de un programa. Por ejemplo, la prueba de escritorio actúa como un mecanismo de validación crítica que permite verificar paso a paso la integridad de los datos durante la ejecución. Al trasladar este diseño al lenguaje C, se evidencia cómo la lógica previa se convierte en instrucciones de alta precisión que interactúan directamente con el sistema. En última instancia, este aprendizaje no reside en la memorización de conceptos, sino en la práctica constante como motor para desarrollar la agilidad mental y las habilidades técnicas necesarias para resolver problemas complejos de manera eficiente.
  Para tu Portafolio Digital de Aprendizaje y los trabajos de la asignatura Teoría de la Programación, aquí tienes las referencias bibliográficas de los temas que hemos tratado, organizadas bajo el estándar IEEE.
 
-### Bibliografía en Formato IEEE
-
-[1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
-
-[2] B. W. Kernighan y D. M. Ritchie, El Lenguaje de Programación C, 2.ª ed. Ciudad de México, México: Prentice Hall, 1991.
-
-[3] R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship, 1.ª ed. Upper Saddle River, NJ, EE. UU.: Prentice Hall, 2008.
-
-[4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
-
-[5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
-
-### Declaración de Uso de Inteligencia Artificial
-Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, por lo cuál me he apoyado de la inteligencia artificial para resolver los problemas y dudas durante el procedimiento.
-  
 **<strong><a href="Portada.md">🏠 INICIO</a></strong>**
 
 
