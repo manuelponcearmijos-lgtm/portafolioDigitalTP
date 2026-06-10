@@ -68,7 +68,7 @@
 <summary><b>📚 Bibliografía (Formato IEEE)</b></summary>
 <br>
   
-[1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
+ [1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
 
 [2] B. W. Kernighan y D. M. Ritchie, El Lenguaje de Programación C, 2.ª ed. Ciudad de México, México: Prentice Hall, 1991.
 
@@ -76,7 +76,14 @@
 
 [4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
 
-[5] A. C. https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/edit/main/Unidad_1.md
+[5] M. Ponce Armijos, "Unidad 1," Portafolio Digital TP, GitHub, 2026. [En línea]. Disponible en: https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/blob/main/Unidad_1.md. [Accedido: 10-jun-2026].
+
+[6] H. Abbass, “IEEE Guidelines on AI-Generated Text,” IEEE Transactions on Artificial Intelligence, vol. 1, n.º 1, pp. 1–4, 2025.
+
+[7] S. Russell y P. Norvig, Artificial Intelligence: A Modern Approach, 4.ª ed. Upper Saddle River, NJ, EE. UU.: Pearson, 2021.
+
+[8] J. G. Mendoza, M. B. Quispe y S. P. Muñoz, “Una revisión sobre el rol de la inteligencia artificial en la industria de la construcción,” Ingeniería y Competitividad, vol. 24, n.º 2, pp. 305–317, jul.-dic. 2022.
+
 </details>
 ---
  <details>
