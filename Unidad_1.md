@@ -276,11 +276,11 @@ Escribir un programa para convertir una medida dada en pies a sus equivalentes e
    - Seudocódigo:
 <img width="864" height="672" alt="Captura de pantalla 2026-05-03 213558" src="https://github.com/user-attachments/assets/dfe1520a-fb0c-4419-a7ba-75dd6ec14672" />
 
-   - Prueba de escritorio:
- <img width="1853" height="740" alt="Captura de pantalla 2026-05-03 215329" src="https://github.com/user-attachments/assets/3b715dc6-efa3-4b4e-89ec-1256740e5064" />
-
 ### Codificación Código Fuente  ( C )
 <img width="864" height="872" alt="Captura de pantalla 2026-05-03 214851" src="https://github.com/user-attachments/assets/7b61709a-83b2-4ba9-98a5-4bc1f914e5d2" />
+
+   - Prueba de escritorio:
+ <img width="1853" height="740" alt="Captura de pantalla 2026-05-03 215329" src="https://github.com/user-attachments/assets/3b715dc6-efa3-4b4e-89ec-1256740e5064" />
 
 ### 🧮 Tabla de comprobación del algoritmo *MedidasDePies*
 
