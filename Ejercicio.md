@@ -176,10 +176,10 @@ int main() {
 
     /* ── Validar cantidad de alumnos ── */
     do {
-        printf("¿Cuántos alumnos tiene el grupo? ");
+        printf("Cuantos alumnos tiene el grupo? ");
         scanf("%d", &n);
         if (n <= 0)
-            printf("  Error: ingrese un número mayor que 0.\n");
+            printf("  Error: ingrese un numero mayor que 0.\n");
     } while (n <= 0);
 
     printf("\n");
@@ -189,7 +189,7 @@ int main() {
 
         /* Validar rango de la nota */
         do {
-            printf("Alumno %d — ingrese su nota (0 a 10): ", i);
+            printf("Alumno %d  ingrese su nota (0 a 10): ", i);
             scanf("%f", &nota);
             if (nota < 0 || nota > 10)
                 printf("  Error: la nota debe estar entre 0 y 10.\n");
@@ -197,18 +197,18 @@ int main() {
 
         /* Clasificar nota con condicional */
         if (nota >= 9)
-            printf("  Categoría: Excelente\n");
+            printf("  Categoria: Excelente\n");
         else if (nota >= 7)
-            printf("  Categoría: Aprobado\n");
+            printf("  Categoria: Aprobado\n");
         else if (nota >= 5)
-            printf("  Categoría: Recuperación\n");
+            printf("  Categoria: Recuperacion\n");
         else
-            printf("  Categoría: Reprobado\n");
+            printf("  Categoria: Reprobado\n");
 
         /* Acumular suma */
         suma += nota;
 
-        /* Actualizar máximo y mínimo */
+        /* Actualizar maximo y minimo */
         if (nota > max) max = nota;
         if (nota < min) min = nota;
 
@@ -224,11 +224,11 @@ int main() {
     reprobados = n - aprobados;
 
     printf("========================================\n");
-    printf("       ESTADÍSTICAS DEL GRUPO\n");
+    printf("       ESTADISTICAS DEL GRUPO\n");
     printf("========================================\n");
     printf("  Promedio del grupo : %.2f\n", promedio);
-    printf("  Nota más alta      : %.2f\n", max);
-    printf("  Nota más baja      : %.2f\n", min);
+    printf("  Nota mas alta      : %.2f\n", max);
+    printf("  Nota mas baja      : %.2f\n", min);
     printf("  Alumnos aprobados  : %d\n",   aprobados);
     printf("  Alumnos reprobados : %d\n",   reprobados);
     printf("========================================\n");
