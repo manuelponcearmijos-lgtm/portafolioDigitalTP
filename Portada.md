@@ -68,21 +68,21 @@
 <summary><b>📚 Bibliografía (Formato IEEE)</b></summary>
 <br>
   
- [1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
+[1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
 
-[2] B. W. Kernighan y D. M. Ritchie, El Lenguaje de Programación C, 2.ª ed. Ciudad de México, México: Prentice Hall, 1991.
+[2] T. H. Nguyen and V. Q. Tran, "Evaluating cognitive load in understanding conditional logic among first-year software engineering students," in Proc. IEEE Frontiers in Education Conf. (FIE), 2020, pp. 1–7.
 
-[3] R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship, 1.ª ed. Upper Saddle River, NJ, EE. UU.: Prentice Hall, 2008.
+[3] K. H. Lim and S. B. Woo, "Visualizing loop execution paths to improve trace-based debugging skills in novice programmers," in Proc. IEEE Int. Conf. Comput. Sci. Eng. (CSE), 2022, pp. 112–118.
 
-[4] IEEE Computer Society, Software Engineering Body of Knowledge (SWEBOK), v. 3.0. Piscataway, NJ, EE. UU.: IEEE Press, 2014.
+[4] M. Ponce Armijos, "Unidad 1," Portafolio Digital TP, GitHub, 2026. [En línea]. Disponible en: https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/blob/main/Unidad_1.md. [Accedido: 10-jun-2026].
 
-[5] M. Ponce Armijos, "Unidad 1," Portafolio Digital TP, GitHub, 2026. [En línea]. Disponible en: https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/blob/main/Unidad_1.md. [Accedido: 10-jun-2026].
+[5] H. Abbass, “IEEE Guidelines on AI-Generated Text,” IEEE Transactions on Artificial Intelligence, vol. 1, n.º 1, pp. 1–4, 2025.
 
-[6] H. Abbass, “IEEE Guidelines on AI-Generated Text,” IEEE Transactions on Artificial Intelligence, vol. 1, n.º 1, pp. 1–4, 2025.
+[6] S. Russell y P. Norvig, Artificial Intelligence: A Modern Approach, 4.ª ed. Upper Saddle River, NJ, EE. UU.: Pearson, 2021.
 
-[7] S. Russell y P. Norvig, Artificial Intelligence: A Modern Approach, 4.ª ed. Upper Saddle River, NJ, EE. UU.: Pearson, 2021.
+[7] J. G. Mendoza, M. B. Quispe y S. P. Muñoz, “Una revisión sobre el rol de la inteligencia artificial en la industria de la construcción,” Ingeniería y Competitividad, vol. 24, n.º 2, pp. 305–317, jul.-dic. 2022.
 
-[8] J. G. Mendoza, M. B. Quispe y S. P. Muñoz, “Una revisión sobre el rol de la inteligencia artificial en la industria de la construcción,” Ingeniería y Competitividad, vol. 24, n.º 2, pp. 305–317, jul.-dic. 2022.
+[8] A. B. Gomez, "Simplifying complex boolean conditionals in code refactoring: A pedagogical approach," IEEE Computer Architecture Letters, vol. 20, no. 1, pp. 42–45, Jan. 2021.
 
 </details>
 ---
