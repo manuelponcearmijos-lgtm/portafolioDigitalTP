@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 
 float calcularACD()
@@ -187,4 +188,4 @@ int main()
   return 0;
 }
 [notitaFinal.c](https://github.com/user-attachments/files/29686535/notitaFinal.c)
-
+```
