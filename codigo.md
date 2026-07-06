@@ -3,7 +3,7 @@
 float calcularACD()
 {
   int trabajo, k;
-  float nota, total, acumulador = 0;
+  float nota, total, acumulador = 0; 
 
   do
   {
