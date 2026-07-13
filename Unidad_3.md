@@ -56,7 +56,7 @@ No se requieren librerías externas: todos los programas funcionan únicamente c
 
 - **`modularidad/`**: contiene la teoría sobre modularidad y dos programas ejecutables que demuestran, respectivamente, el paso de parámetros por valor y por referencia, ambos aplicados a la gestión de una estación espacial.
   
- [![Acceder a Unidad 3](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Modularidad.md)
+ [![Modularidad Tema 1](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Modularidad.md)
 </details>
 
 - **`arreglos/`**: contiene la teoría sobre arreglos y tres programas ejecutables que demuestran el uso de arreglos unidimensionales, bidimensionales y tridimensionales en escenarios de inventario, exploración con drones y sensores atmosféricos.
