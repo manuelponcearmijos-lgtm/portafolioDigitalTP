@@ -87,7 +87,7 @@ Cada programa despliega un menú interactivo en consola. Basta con seguir las in
 ---
 
 ## ✅ Conclusiones generales
-
+ 
 1. La modularidad no es solo una técnica de organización de código: es una forma de pensar la solución de un problema en partes verificables de manera independiente.
 2. Comprender la diferencia entre paso por valor y paso por referencia evita errores silenciosos que son difíciles de detectar en etapas avanzadas de un proyecto.
 3. Los arreglos son la base estructural sobre la que se construyen estructuras de datos más complejas (matrices, tensores, grafos), por lo que dominarlos es indispensable antes de avanzar a temas como IA o ciencia de datos.
