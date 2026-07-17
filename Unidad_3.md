@@ -84,15 +84,13 @@ Además del desarrollo de programas, se incluye una reflexión crítica sobre la
  
 </details>
 
----  
-
-</details>
-
-<div align="center">
 
 ---
 
-[![Ejercicio 1](https://img.shields.io/badge/Módulo%201%20📦-Ejercicio%20de%20Modularidad-ff9800?style=for-the-badge)](Modularidad.md)
+[![Ejercicio 1](https://img.shields.io/badge/⚡%20Ejercicio%201%20-%20MODULARIDAD-28a745?style=for-the-badge)](Modularidad.md)
+
+[![Arreglos](https://img.shields.io/badge/Unidad%20-%20Arreglos-8A2BE2?style=for-the-badge)](Arreglos.md)
+
 
 
 **👤 Autoría**
