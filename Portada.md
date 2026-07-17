@@ -68,8 +68,19 @@
 ---
 
 ## 🏁 Conclusiones Generales
-> **Este portafolio refleja la integración de la lógica matemática con la programación, fortaleciendo las bases para el razonamiento formal y el diseño de algoritmos. Documenta el aprendizaje en proposiciones, conectores lógicos, tablas de verdad y la representación de soluciones mediante pseudocódigo y diagramas de flujo, evidenciando la transición del pensamiento lógico hacia la construcción de programas estructurados**.
+ ---
 
+# 🎓 Conclusión General del Aprendizaje
+
+El desarrollo de las tres unidades de la asignatura de **Programación** permitió fortalecer progresivamente las bases necesarias para la resolución de problemas mediante algoritmos y el desarrollo de programas en lenguaje C.
+
+En la **Unidad 1** comprendí la importancia de la lógica de programación, aprendiendo a diseñar algoritmos, elaborar pseudocódigos, construir diagramas de flujo y realizar pruebas de escritorio antes de implementar una solución. Estos conocimientos constituyen la base para desarrollar programas de manera organizada y eficiente.
+
+Durante la **Unidad 2** profundicé en el uso de las estructuras de control y la modularización, aplicando sentencias condicionales y ciclos para controlar el flujo de ejecución de los programas. Además, comprendí la importancia de dividir un problema en funciones más pequeñas, favoreciendo la reutilización del código y mejorando la claridad y el mantenimiento de las aplicaciones.
+
+Finalmente, en la **Unidad 3** consolidé estos conocimientos mediante el estudio de la modularidad y los arreglos. Aprendí a utilizar funciones con paso de parámetros por valor y mediante punteros, así como a trabajar con arreglos unidimensionales, bidimensionales, tridimensionales y de caracteres para organizar y procesar información de manera eficiente. Estos conceptos fortalecieron mi capacidad para desarrollar programas más estructurados, reutilizables y cercanos a situaciones reales.
+
+En conjunto, esta asignatura no solo me permitió aprender la sintaxis del lenguaje C, sino también desarrollar el pensamiento lógico, la capacidad de análisis y la habilidad para diseñar soluciones de forma ordenada y eficiente. Los conocimientos adquiridos representan una base sólida para continuar con asignaturas más avanzadas relacionadas con estructuras de datos, desarrollo de software y otras áreas de la Ingeniería en Computación.
 ---
 
 <details>
@@ -91,6 +102,14 @@
 [7] J. G. Mendoza, M. B. Quispe y S. P. Muñoz, “Una revisión sobre el rol de la inteligencia artificial en la industria de la construcción,” Ingeniería y Competitividad, vol. 24, n.º 2, pp. 305–317, jul.-dic. 2022.
 
 [8] A. B. Gomez, "Simplifying complex boolean conditionals in code refactoring: A pedagogical approach," IEEE Computer Architecture Letters, vol. 20, no. 1, pp. 42–45, Jan. 2021.
+
+[9] P. Deitel and H. Deitel, C How to Program, 9th ed. Hoboken, NJ, USA: Pearson, 2022.
+
+[10] GNU Project, The GNU C Library Reference Manual. Free Software Foundation, 2025. [En línea]. Disponible: https://www.gnu.org/software/libc/manual/. [Consultado: 17-jul-2026]. :contentReference[oaicite:0]{index=0}
+
+[11] GNU Project, GNU C Reference Manual. [En línea]. Disponible: https://www.gnu.org/software/gnu-c-manual/. [Consultado: 17-jul-2026]. :contentReference[oaicite:1]{index=1}
+
+[12] cppreference.com, "C Language Reference." [En línea]. Disponible: https://en.cppreference.com/w/c. [Consultado: 17-jul-2026].
 
 </details>
 ---
