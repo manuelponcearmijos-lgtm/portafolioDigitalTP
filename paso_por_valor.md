@@ -1,5 +1,5 @@
- /*
- * paso_por_valor.c
+###  Paso Por Valor
+
  * --------------------------------------------------------------------
  * Sistema Inteligente de Gestión Energética de una Estación Espacial
  * --------------------------------------------------------------------
