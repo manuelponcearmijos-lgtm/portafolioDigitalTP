@@ -17,7 +17,7 @@
 ## 📚 Unidades de Aprendizaje (Evidencias)
 
 <details>
-<summary><b>📂 Unidad 1: **Introducción a la Programación** </b></summary>
+<summary><b>📂 Unidad 1: Introducción a la Programación </b></summary>
 
 ### 🧠Temas y Evidencias
 * ⚙️**Algoritmos:** Definición y características (finitos, ordenados, claros).
@@ -29,7 +29,7 @@
 </details>
 
 <details>
-<summary><b>📂 Unidad 2: **Estructuras de control y modularización** </b></summary>
+<summary><b>📂 Unidad 2: Estructuras de control y modularización </b></summary>
 
   ### 🧠Temas y Evidencias
 * ⚙️**Estructuras de control:** Condicionales (if, else, switch) y bucles (for, while).
@@ -40,7 +40,7 @@
 </details>
 
 <details>
-<summary><b>📂 Unidad 3: **Modularidades y Arreglos** </b></summary>
+<summary><b>📂 Unidad 3: Modularidades y Arreglos </b></summary>
 
  ### 🧠Temas y Evidencias
 * 🔐**Funciones:**.
