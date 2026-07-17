@@ -76,12 +76,10 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 
 | 📂 Carpeta / Archivo | 📖 Contenido |
 |:---------------------|:-------------|
-| 🎨 `estilo.h` | Archivo de cabecera con macros para colores ANSI (`ROJO`, `VERDE`, `AZUL`, etc.) y funciones auxiliares como `linea()` y `titulo()`, utilizadas para mejorar la presentación de los programas en consola. |
 | 🧩 `modularidad/` | Contiene la teoría sobre la modularidad en C, explicaciones del paso por valor y del paso por referencia mediante punteros, junto con ejemplos prácticos ambientados en una estación espacial. |
 | 🌱 `arreglos/` | Incluye la teoría de los arreglos en C, sus características, ventajas, representación en memoria y ejemplos de arreglos unidimensionales, bidimensionales y tridimensionales, además de un ejercicio integrador aplicado a un invernadero espacial. |
 | 💭 `analisis/` | Presenta una reflexión crítica sobre el aprendizaje de la unidad, las principales dificultades encontradas durante la aplicación de la modularidad y los arreglos, y los conocimientos adquiridos. |
-| 🖼️ `imagenes/` | Contiene diagramas, esquemas e ilustraciones utilizados para complementar la explicación de los conceptos desarrollados en el portafolio. |
-
+ 
 </details>
 
 ---
