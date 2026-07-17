@@ -1,105 +1,201 @@
-# Unidad 3: Modularidad y Arreglos
+ <div align="center">
 
-Repositorio académico desarrollado en **Python**, orientado a estudiantes universitarios de programación, que aborda dos pilares fundamentales de la construcción de software: la **modularidad** (con sus dos formas de paso de parámetros) y los **arreglos** en sus tres dimensiones más comunes (unidimensional, bidimensional y tridimensional).
+# 🚀 Unidad 3: Modularidad y Arreglos
+### Edición en Lenguaje C
 
-Todos los ejemplos están ambientados en escenarios tecnológicos (estaciones espaciales, drones autónomos, bases científicas) para evitar los ejercicios clásicos de aula y fomentar un aprendizaje más significativo.
+![Lenguaje](https://img.shields.io/badge/Lenguaje-C11-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)
+![Estado](https://img.shields.io/badge/Estado-Terminado-brightgreen?style=for-the-badge)
+![Compilador](https://img.shields.io/badge/Compilador-GCC-orange?style=for-the-badge)
+![Colores](https://img.shields.io/badge/Consola-ANSI%20Colors-ff69b4?style=for-the-badge)
 
----
+Repositorio académico en **C** sobre modularidad (paso por valor vs. punteros) y arreglos (1D, 2D, 3D), con programas de consola a color y escenarios tecnológicos: estaciones espaciales, drones autónomos y bases científicas. 🛰️🤖🌡️
 
-## 📌 Introducción
-
-Cuando un programa crece en tamaño y complejidad, escribirlo como un único bloque de instrucciones se vuelve insostenible: es difícil de leer, de depurar y de mantener. La **modularidad** resuelve este problema dividiendo el software en piezas más pequeñas y manejables (funciones, procedimientos, módulos), mientras que los **arreglos** permiten organizar y manipular grandes volúmenes de datos relacionados bajo una sola estructura, en lugar de declarar decenas de variables sueltas.
-
-Este repositorio combina ambos conceptos en ejemplos ejecutables, documentados y comentados, acompañados de teoría redactada desde cero y de un análisis crítico sobre las dificultades más comunes que enfrenta un programador al trabajar con ellos.
-
----
-
-## 🎯 Objetivos
-
-- Comprender qué es la modularidad y por qué es una práctica esencial en la ingeniería de software.
-- Diferenciar de forma práctica el paso de parámetros **por valor** y **por referencia** en Python.
-- Comprender la estructura, el uso y las limitaciones de los arreglos unidimensionales, bidimensionales y tridimensionales.
-- Aplicar buenas prácticas de programación (PEP 8, Clean Code) en proyectos reales.
-- Reflexionar críticamente sobre los errores más comunes al trabajar con funciones y arreglos, y sobre su relevancia en áreas como la inteligencia artificial, los videojuegos y la ciencia de datos.
+</div>
 
 ---
 
-## 🧠 Competencias desarrolladas
+<details open>
+<summary><b>📌 Introducción</b></summary>
+<br>
 
-- Diseño modular de soluciones de software.
-- Manejo de estructuras de datos multidimensionales.
-- Pensamiento algorítmico y lógico.
-- Redacción de documentación técnica siguiendo estándares profesionales.
-- Depuración y análisis crítico de código.
-- Buenas prácticas de organización de proyectos para control de versiones (Git/GitHub).
+C es el lenguaje ideal para comprender a fondo la modularidad y los arreglos, precisamente porque **no oculta nada**: no hay recolector de basura, no hay listas dinámicas automáticas, no hay paso "por referencia" mágico. Todo se hace explícito mediante **punteros** y **arreglos de tamaño fijo**, lo que obliga a entender exactamente qué ocurre en memoria en cada operación.
 
----
+Este repositorio combina ambos conceptos en programas ejecutables, documentados y comentados, con teoría redactada desde cero, salida en consola a color mediante secuencias ANSI, y un análisis crítico sobre las dificultades más comunes al programar en C con funciones y arreglos.
 
-## 🛠️ Tecnologías utilizadas
+</details>
+
+<details>
+<summary><b>🎯 Objetivos</b></summary>
+<br>
+
+- Comprender la modularidad en C y la construcción de funciones con responsabilidades claras.
+- Diferenciar el paso de parámetros **por valor** del paso **mediante punteros** (la forma que tiene C de simular "paso por referencia").
+- Comprender la estructura, el uso y las limitaciones de los arreglos unidimensionales, bidimensionales y tridimensionales en C.
+- Aplicar buenas prácticas de programación en C (nombres descriptivos, validación de límites, funciones pequeñas, cabeceras reutilizables).
+- Reflexionar críticamente sobre los errores más comunes al trabajar con punteros y arreglos en un lenguaje de bajo nivel como C.
+
+</details>
+
+<details>
+<summary><b>🧠 Competencias desarrolladas</b></summary>
+<br>
+
+| # | Competencia |
+|:-:|---|
+| 1 | Diseño modular de soluciones de software en un lenguaje de bajo nivel |
+| 2 | Manejo de punteros y de estructuras de datos multidimensionales en memoria contigua |
+| 3 | Pensamiento algorítmico y validación defensiva de índices y entradas |
+| 4 | Redacción de documentación técnica siguiendo estándares profesionales |
+| 5 | Depuración de errores de memoria y de límites de arreglos |
+| 6 | Organización de proyectos en C para control de versiones (Git/GitHub) |
+
+</details>
+
+<details>
+<summary><b>🛠️ Tecnologías utilizadas</b></summary>
+<br>
 
 | Tecnología | Uso |
 |---|---|
-| Python 3.10+ | Lenguaje principal de desarrollo |
-| Markdown | Documentación técnica |
-| Git / GitHub | Control de versiones y publicación |
-| PEP 8 | Estándar de estilo de código |
+| 🔵 C (estándar C11) | Lenguaje principal de desarrollo |
+| ⚙️ GCC / Clang | Compilación de los programas |
+| 🎨 Códigos ANSI | Colores y estilos en la salida de consola |
+| 📝 Markdown + HTML | Documentación técnica |
+| 🔧 Git / GitHub | Control de versiones y publicación |
 
-No se requieren librerías externas: todos los programas funcionan únicamente con la biblioteca estándar de Python.
+> No se requieren librerías externas: todos los programas funcionan únicamente con la biblioteca estándar de C (`stdio.h`, `string.h`).
+
+</details>
 
 ---
 
 ## 📂 Estructura del proyecto
 
----
+```
+Unidad3-Modularidad-Arreglos-C/
+│
+├── README.md
+├── estilo.h                     # Colores ANSI y utilidades visuales compartidas
+│
+├── modularidad/
+│   ├── teoria.md
+│   ├── paso_por_valor.c
+│   └── paso_por_referencia.c
+│
+├── arreglos/
+│   ├── teoria.md
+│   ├── unidimensional.c
+│   ├── bidimensional.c
+│   └── tridimensional.c
+│
+├── analisis/
+│   └── REFLEXION.md
+│
+├── imagenes/
+│   └── SUGERENCIAS.md
+│
+├── .gitignore
+└── LICENSE
+```
 
-## 📁 Explicación de cada carpeta
+<details>
+<summary><b>📁 Ver explicación de cada carpeta</b></summary>
+<br>
 
-- **`modularidad/`**: contiene la teoría sobre modularidad y dos programas ejecutables que demuestran, respectivamente, el paso de parámetros por valor y por referencia, ambos aplicados a la gestión de una estación espacial.
-  
- [![Modularidad Tema 1](https://img.shields.io/badge/Modularidad%20%20%20Tema_1-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Modularidad.md)
+| Carpeta / Archivo | Contenido |
+|---|---|
+| 🎨 `estilo.h` | Macros de color ANSI (`ROJO`, `VERDE`, `AMARILLO`...) y utilidades (`linea()`, `titulo()`) compartidas por los 5 programas |
+| 🧩 `modularidad/` | Teoría sobre modularidad en C + 2 programas: paso por valor y paso mediante punteros, aplicados a una estación espacial |
+| 🧱 `arreglos/` | Teoría sobre arreglos en C + 3 programas: unidimensional, bidimensional y tridimensional |
+| 🧠 `analisis/` | Reflexión crítica, con énfasis en errores propios de C (punteros, desbordes de arreglo, memoria) |
+| 🖼️ `imagenes/` | Lista de diagramas sugeridos para acompañar visualmente la documentación |
+
 </details>
 
-- **`arreglos/`**: contiene la teoría sobre arreglos y tres programas ejecutables que demuestran el uso de arreglos unidimensionales, bidimensionales y tridimensionales en escenarios de inventario, exploración con drones y sensores atmosféricos.
-- **`analisis/`**: contiene la reflexión crítica del trabajo, con un análisis profundo de las dificultades más comunes al programar con funciones y arreglos, así como su relación con áreas avanzadas de la computación.
-- **`imagenes/`**: contiene una lista de diagramas sugeridos para acompañar visualmente la documentación (no se incluyen las imágenes, solo su descripción y propósito).
-
 ---
 
-## ▶️ Cómo ejecutar cada programa
+## ▶️ Cómo compilar y ejecutar cada programa
 
-Se requiere tener instalado **Python 3.10 o superior**. Para ejecutar cualquiera de los programas, ubíquese en la raíz del repositorio y utilice el intérprete de Python:
+Se requiere **GCC** (o cualquier compilador compatible con C11). Todos los programas incluyen `estilo.h` mediante ruta relativa (`../estilo.h`), así que deben compilarse **desde la raíz del repositorio**:
+
+<table>
+<tr><th>Programa</th><th>Comando</th></tr>
+<tr>
+<td>⚡ Paso por valor</td>
+<td>
 
 ```bash
-# Módulo: paso por valor
-python modularidad/paso_por_valor.py
-
-# Módulo: paso por referencia
-python modularidad/paso_por_referencia.py
-
-# Arreglo unidimensional
-python arreglos/unidimensional.py
-
-# Arreglo bidimensional
-python arreglos/bidimensional.py
-
-# Arreglo tridimensional
-python arreglos/tridimensional.py
+gcc -std=c11 modularidad/paso_por_valor.c -o paso_por_valor && ./paso_por_valor
 ```
+
+</td>
+</tr>
+<tr>
+<td>🛡️ Paso por referencia (punteros)</td>
+<td>
+
+```bash
+gcc -std=c11 modularidad/paso_por_referencia.c -o paso_por_referencia && ./paso_por_referencia
+```
+
+</td>
+</tr>
+<tr>
+<td>🎒 Arreglo unidimensional</td>
+<td>
+
+```bash
+gcc -std=c11 arreglos/unidimensional.c -o unidimensional && ./unidimensional
+```
+
+</td>
+</tr>
+<tr>
+<td>🗺️ Arreglo bidimensional</td>
+<td>
+
+```bash
+gcc -std=c11 arreglos/bidimensional.c -o bidimensional && ./bidimensional
+```
+
+</td>
+</tr>
+<tr>
+<td>🌡️ Arreglo tridimensional</td>
+<td>
+
+```bash
+gcc -std=c11 arreglos/tridimensional.c -o tridimensional && ./tridimensional
+```
+
+</td>
+</tr>
+</table>
+
+> 💡 **Nota:** los colores ANSI se ven correctamente en terminales de Linux, macOS, WSL y en el Windows Terminal moderno. Si usas el `cmd.exe` clásico de Windows, los colores podrían no renderizarse.
 
 Cada programa despliega un menú interactivo en consola. Basta con seguir las instrucciones que se muestran en pantalla e ingresar las opciones solicitadas.
 
 ---
 
-## ✅ Conclusiones generales
- 
-1. La modularidad no es solo una técnica de organización de código: es una forma de pensar la solución de un problema en partes verificables de manera independiente.
-2. Comprender la diferencia entre paso por valor y paso por referencia evita errores silenciosos que son difíciles de detectar en etapas avanzadas de un proyecto.
-3. Los arreglos son la base estructural sobre la que se construyen estructuras de datos más complejas (matrices, tensores, grafos), por lo que dominarlos es indispensable antes de avanzar a temas como IA o ciencia de datos.
-4. La combinación de buenas prácticas de documentación y de código limpio facilita enormemente el trabajo colaborativo, especialmente en repositorios públicos como los de GitHub.
-5. La reflexión crítica sobre los propios errores de programación (índices fuera de rango, referencias no deseadas, etc.) es tan formativa como la escritura del código correcto.
+<details>
+<summary><b>✅ Ver conclusiones generales</b></summary>
+<br>
+
+1. C obliga a hacer explícito lo que otros lenguajes esconden: el paso "por referencia" no existe como tal, sino que se logra pasando punteros.
+2. Los arreglos en C son bloques de memoria contigua de tamaño fijo, lo que exige planificar su capacidad máxima y validar siempre los índices.
+3. La modularidad en C se apoya en funciones pequeñas y cabeceras reutilizables (`estilo.h`).
+4. Enriquecer la salida de consola con colores ANSI mejora la experiencia y comunica información más rápido (ej. un escudo bajo en rojo).
+5. Comprender modularidad y arreglos en C sienta una base sólida para entender por qué otros lenguajes implementan estos conceptos de forma más "cómoda" pero menos transparente.
+
+</details>
+
+<div align="center">
 
 ---
 
-## 👤 Autoría
+**👤 Autoría**
+Trabajo académico elaborado para la **Unidad 3: Modularidad y Arreglos**, con fines educativos, bajo licencia MIT (ver [`LICENSE`](./LICENSE)).
 
-Trabajo académico elaborado para la **Unidad 3: Modularidad y Arreglos**, con fines educativos, bajo licencia MIT (ver archivo `LICENSE`).
+</div>
