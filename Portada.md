@@ -19,11 +19,11 @@
 <details>
 <summary><b>📂 Unidad 1: introducción a la Programación </b></summary>
 
-### Temas y Evidencias
-* **Algoritmos:** Definición y características (finitos, ordenados, claros).
-* **Pseudocódigo:** Representación textual de la lógica sin sintaxis estricta.
-* **Diagramas de flujo:** Representación gráfica con símbolos normalizados.
-* **Prueba de escritorio:** Simulación manual de la ejecución de un algoritmo.
+### 🧠Temas y Evidencias
+* ⚙️**Algoritmos:** Definición y características (finitos, ordenados, claros).
+* 💻**Pseudocódigo:** Representación textual de la lógica sin sintaxis estricta.
+* 📡**Diagramas de flujo:** Representación gráfica con símbolos normalizados.
+* 🔐**Prueba de escritorio:** Simulación manual de la ejecución de un algoritmo.
 
 [![Acceder a Unidad 1](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_1-CLICK%20AQUÍ-0078D4?style=for-the-badge&logo=github&logoColor=white)](Unidad_1.md)
 </details>
@@ -31,19 +31,26 @@
 <details>
 <summary><b>📂 Unidad 2:Estructuras de control y modularización </b></summary>
 
-  ### Temas y Evidencias
-* **Estructuras de control:** Condicionales (if, else, switch) y bucles (for, while).
-* **Funciones y modularización:** Definir funciones para dividir el problema en partes más pequeñas y reutilizables.
-* **Arreglos y colecciones:** Representación gráfica con símbolos normalizados.
+  ### 🧠Temas y Evidencias
+* ⚙️**Estructuras de control:** Condicionales (if, else, switch) y bucles (for, while).
+* 💻**Funciones y modularización:** Definir funciones para dividir el problema en partes más pequeñas y reutilizables.
+* 📡**Arreglos y colecciones:** Representación gráfica con símbolos normalizados.
    
 [![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](Unidad_2.md)
 </details>
 
 <details>
-<summary><b>📂 Unidad 3:</b></summary>
+<summary><b>📂 Unidad 3:Modularidades y Arreglos</b></summary>
 
-*Contenido en desarrollo conforme avance el periodo académico.*
-
+ ### 🧠Temas y Evidencias
+* 🔐**Funciones:**.
+* 📁**Paso de parámetros:**  
+* 🌐**Reutilización de código:** 
+* ⚛️**Buenas prácticas:**
+* 🎨**Arreglos unidimensionales:**
+* 🧮**Arreglos bidimensionales:**
+* 🧮**Arreglos tridimensionales:**
+* 🔧**Arreglos de caracteres (cadenas):** 
 [![Acceder a Unidad 3](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Unidad_3.md)
 </details>
 
