@@ -81,6 +81,7 @@ Durante la **Unidad 2** profundicé en el uso de las estructuras de control y la
 Finalmente, en la **Unidad 3** consolidé estos conocimientos mediante el estudio de la modularidad y los arreglos. Aprendí a utilizar funciones con paso de parámetros por valor y mediante punteros, así como a trabajar con arreglos unidimensionales, bidimensionales, tridimensionales y de caracteres para organizar y procesar información de manera eficiente. Estos conceptos fortalecieron mi capacidad para desarrollar programas más estructurados, reutilizables y cercanos a situaciones reales.
 
 En conjunto, esta asignatura no solo me permitió aprender la sintaxis del lenguaje C, sino también desarrollar el pensamiento lógico, la capacidad de análisis y la habilidad para diseñar soluciones de forma ordenada y eficiente. Los conocimientos adquiridos representan una base sólida para continuar con asignaturas más avanzadas relacionadas con estructuras de datos, desarrollo de software y otras áreas de la Ingeniería en Computación.
+   
 ---
 
 <details>
