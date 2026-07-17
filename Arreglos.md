@@ -1,5 +1,4 @@
  # 🌌 Arreglos en C
-> **Unidad 3 – Modularidad y Arreglos**
 >
 > **Sistema Inteligente de Gestión de una Estación Espacial**
 
