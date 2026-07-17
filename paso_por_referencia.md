@@ -14,9 +14,9 @@
 
 ## 🚀 Introducción
 
-Este programa forma parte del **Sistema de Escudos de una Estación Espacial**, y demuestra el **paso de parámetros por referencia en C**, utilizando **punteros**.
+Este programa forma parte del **Sistema de Escudos de una Estación Espacial**, y  demuestra cómo simular el paso por referencia en C mediante punteros.
 
-En C no existe un paso por referencia nativo como en otros lenguajes;  
+En C no existe un paso por referencia nativo como en otros lenguajes;  demuestra cómo simular el paso por referencia en C mediante punteros.
 se simula enviando la **dirección de memoria** de una variable.  
 La función recibe una copia del puntero, pero esa copia sigue apuntando al mismo lugar de memoria, por lo que **las modificaciones se reflejan en la variable original**.
 
