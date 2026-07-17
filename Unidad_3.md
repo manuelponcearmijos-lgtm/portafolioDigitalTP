@@ -89,9 +89,7 @@ Además del desarrollo de programas, se incluye una reflexión crítica sobre la
 
 [![Ejercicio 1](https://img.shields.io/badge/⚡%20Presentación%201%20-%20MODULARIDAD-28a745?style=for-the-badge)](Modularidad.md)
 
-[![Arreglos](https://img.shields.io/badge/🛠️ %20Presentación%20-%20Arreglos-8A2BE2?style=for-the-badge)](Arreglos.md)  
-
-
+ [![Arreglos](https://img.shields.io/badge/🛠️%20Arreglos%20-%20Presentación-6f42c1?style=for-the-badge)](Arreglos.md)
 
 **👤 Autoría**
 Trabajo académico elaborado para la **Unidad 3: Modularidad y Arreglos**, con fines educativos, bajo licencia MIT (ver [`LICENSE`](./LICENSE)).
