@@ -82,3 +82,6 @@ static void mostrarMenu(void) {
     titulo(AZUL_B, "SISTEMA DE ESCUDOS - ESTACION ORBITAL");
     printf(AZUL "  1." RESET " Simular impacto en un sector\n");
     printf(AZUL "  2." RESET " Ver
+```
+
+[![Ejercicio 1](https://img.shields.io/badge/⚡%20Presentación%201%20-%20MODULARIDAD-28a745?style=for-the-badge)](Modularidad.md)
