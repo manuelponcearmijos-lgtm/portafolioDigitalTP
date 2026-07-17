@@ -84,68 +84,31 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 
 ---
 
-## ▶️ Cómo compilar y ejecutar cada programa
+ ## ⚙️ Cómo compilar y ejecutar los programas  ▶️ 
 
-Se requiere **GCC** (o cualquier compilador compatible con C11). Todos los programas incluyen `estilo.h` mediante ruta relativa (`../estilo.h`), así que deben compilarse **desde la raíz del repositorio**:
+Para compilar los ejemplos de este portafolio se requiere un compilador compatible con el estándar **C11**, como **GCC**.
 
-<table>
-<tr><th>Programa</th><th>Comando</th></tr>
-<tr>
-<td>⚡ Paso por valor</td>
-<td>
+Todos los programas incluyen el archivo `estilo.h` mediante una ruta relativa (`../estilo.h`), por lo que deben compilarse desde la **raíz del repositorio**.
 
-```bash
-gcc -std=c11 modularidad/paso_por_valor.c -o paso_por_valor && ./paso_por_valor
-```
+| Programa | Comando |
+|:---------|:--------|
+| ⚡ **Paso por valor** | `gcc -std=c11 modularidad/paso_por_valor.c -o paso_por_valor && ./paso_por_valor` |
+| 🛡️ **Paso por referencia (punteros)** | `gcc -std=c11 modularidad/paso_por_referencia.c -o paso_por_referencia && ./paso_por_referencia` |
+| 🌱 **Arreglo unidimensional (Invernadero Inteligente)** | `gcc -std=c11 arreglos/unidimensional.c -o unidimensional && ./unidimensional` |
+| 🛰️ **Arreglo bidimensional (Centro de Control de Satélites)** | `gcc -std=c11 arreglos/bidimensional.c -o bidimensional && ./bidimensional` |
+| 🧬 **Arreglo tridimensional (Laboratorio Genético Espacial)** | `gcc -std=c11 arreglos/tridimensional.c -o tridimensional && ./tridimensional` |
+| 🚀 **Ejercicio Integrador (Invernadero Espacial)** | `gcc -std=c11 arreglos/ejercicio_integrador.c -o ejercicio_integrador && ./ejercicio_integrador` |
 
-</td>
-</tr>
-<tr>
-<td>🛡️ Paso por referencia (punteros)</td>
-<td>
+> 💡 **Nota:** Los colores ANSI se visualizan correctamente en terminales de **Linux**, **macOS**, **WSL** y **Windows Terminal**. En el símbolo del sistema clásico (`cmd.exe`) algunos colores podrían no mostrarse correctamente.
 
-```bash
-gcc -std=c11 modularidad/paso_por_referencia.c -o paso_por_referencia && ./paso_por_referencia
-```
+---
 
-</td>
-</tr>
-<tr>
-<td>🎒 Arreglo unidimensional</td>
-<td>
+## ▶️ Ejecución de los programas
 
-```bash
-gcc -std=c11 arreglos/unidimensional.c -o unidimensional && ./unidimensional
-```
+Cada programa está diseñado para ejecutarse de forma **independiente** y representa un ejemplo práctico de los contenidos estudiados durante la **Unidad 3: Modularidad y Arreglos**.
 
-</td>
-</tr>
-<tr>
-<td>🗺️ Arreglo bidimensional</td>
-<td>
-
-```bash
-gcc -std=c11 arreglos/bidimensional.c -o bidimensional && ./bidimensional
-```
-
-</td>
-</tr>
-<tr>
-<td>🌡️ Arreglo tridimensional</td>
-<td>
-
-```bash
-gcc -std=c11 arreglos/tridimensional.c -o tridimensional && ./tridimensional
-```
-
-</td>
-</tr>
-</table>
-
-> 💡 **Nota:** los colores ANSI se ven correctamente en terminales de Linux, macOS, WSL y en el Windows Terminal moderno. Si usas el `cmd.exe` clásico de Windows, los colores podrían no renderizarse.
-
-Cada programa despliega un menú interactivo en consola. Basta con seguir las instrucciones que se muestran en pantalla e ingresar las opciones solicitadas.
-
+Una vez compilado el programa correspondiente, solo es necesario ejecutarlo y seguir las instrucciones que aparecen en la consola. Los ejemplos permiten ingresar datos cuando es necesario y muestran los resultados obtenidos para facilitar la comprensión de los conceptos desarrollados.
+  
 ---
 
 <details>
