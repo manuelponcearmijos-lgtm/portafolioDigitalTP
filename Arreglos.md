@@ -592,6 +592,8 @@ int main(){
 
 Los arreglos constituyen una de las estructuras de datos más importantes del lenguaje C, ya que permiten almacenar y organizar múltiples elementos de manera eficiente. Los arreglos unidimensionales facilitan el manejo de listas, los bidimensionales permiten representar información en forma de tablas o matrices y los tridimensionales hacen posible organizar datos más complejos mediante tres índices. Su dominio es fundamental para desarrollar algoritmos más estructurados y constituye la base para comprender estructuras de datos de mayor complejidad utilizadas en la programación moderna.
 
+[![Acceder a Unidad 3](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Unidad_3.md)
+
 ---
 
 <div align="center">
