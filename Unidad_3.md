@@ -68,7 +68,6 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 
 </details>
 
-```
 
 <details>
 <summary><b>📁 Ver explicación de cada carpeta</b></summary>
