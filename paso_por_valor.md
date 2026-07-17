@@ -53,15 +53,17 @@ la función recibe **una copia del dato original**, por lo que cualquier modific
 ## 🧩 Código Fuente Completo
 
  ```c
-#include <stdio.h>
+ #include <stdio.h>
 
 // Función que simula el consumo de energía
 // Recibe una COPIA del valor original (paso por valor)
 double simularConsumo(double energia, double consumo) {
-    energia -= consumo;      // Se modifica solo la copia local
+    energia -= consumo;      // Se modifica únicamente la copia local
+
     if (energia < 0) {
         energia = 0;         // Evita valores negativos
     }
+
     return energia;          // Retorna la copia modificada
 }
 
@@ -71,18 +73,11 @@ int main() {
 
     printf("Energia REAL antes de la simulacion: %.2f kWh\n", energiaActual);
 
-    // Paso por valor: se envía una copia de energiaActual
+    // Se envía una copia de energiaActual
     double energiaSimulada = simularConsumo(energiaActual, consumo);
 
     printf("Energia simulada restante: %.2f kWh\n", energiaSimulada);
     printf("Energia REAL despues de la simulacion: %.2f kWh\n", energiaActual);
-
-    return 0;
-}
-
-            break;
-        }
-    }
 
     return 0;
 }
