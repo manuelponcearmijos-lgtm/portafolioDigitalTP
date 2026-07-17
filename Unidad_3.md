@@ -84,33 +84,6 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 
 ---
 
- ## ⚙️ Cómo compilar y ejecutar los programas  ▶️ 
-
-Para compilar los ejemplos de este portafolio se requiere un compilador compatible con el estándar **C11**, como **GCC**.
-
-Todos los programas incluyen el archivo `estilo.h` mediante una ruta relativa (`../estilo.h`), por lo que deben compilarse desde la **raíz del repositorio**.
-
-| Programa | Comando |
-|:---------|:--------|
-| ⚡ **Paso por valor** | `gcc -std=c11 modularidad/paso_por_valor.c -o paso_por_valor && ./paso_por_valor` |
-| 🛡️ **Paso por referencia (punteros)** | `gcc -std=c11 modularidad/paso_por_referencia.c -o paso_por_referencia && ./paso_por_referencia` |
-| 🌱 **Arreglo unidimensional (Invernadero Inteligente)** | `gcc -std=c11 arreglos/unidimensional.c -o unidimensional && ./unidimensional` |
-| 🛰️ **Arreglo bidimensional (Centro de Control de Satélites)** | `gcc -std=c11 arreglos/bidimensional.c -o bidimensional && ./bidimensional` |
-| 🧬 **Arreglo tridimensional (Laboratorio Genético Espacial)** | `gcc -std=c11 arreglos/tridimensional.c -o tridimensional && ./tridimensional` |
-| 🚀 **Ejercicio Integrador (Invernadero Espacial)** | `gcc -std=c11 arreglos/ejercicio_integrador.c -o ejercicio_integrador && ./ejercicio_integrador` |
-
-> 💡 **Nota:** Los colores ANSI se visualizan correctamente en terminales de **Linux**, **macOS**, **WSL** y **Windows Terminal**. En el símbolo del sistema clásico (`cmd.exe`) algunos colores podrían no mostrarse correctamente.
-
----
-
-## ▶️ Ejecución de los programas
-
-Cada programa está diseñado para ejecutarse de forma **independiente** y representa un ejemplo práctico de los contenidos estudiados durante la **Unidad 3: Modularidad y Arreglos**.
-
-Una vez compilado el programa correspondiente, solo es necesario ejecutarlo y seguir las instrucciones que aparecen en la consola. Los ejemplos permiten ingresar datos cuando es necesario y muestran los resultados obtenidos para facilitar la comprensión de los conceptos desarrollados.
-  
----
-
 <details>
 <summary><b>✅ Ver conclusiones generales</b></summary>
 <br>
