@@ -1,4 +1,4 @@
-"""
+ """
 Sistema Inteligente de Gestión Energética de una Estación Espacial
 --------------------------------------------------------------------
 Este programa demuestra el PASO DE PARÁMETROS POR VALOR en Python.
