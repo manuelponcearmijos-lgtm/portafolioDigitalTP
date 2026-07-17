@@ -1,112 +1,164 @@
- """
-Sistema Inteligente de Gestión Energética de una Estación Espacial
---------------------------------------------------------------------
-Este programa demuestra el PASO DE PARÁMETROS POR VALOR en Python.
+ /*
+ * paso_por_valor.c
+ * --------------------------------------------------------------------
+ * Sistema Inteligente de Gestión Energética de una Estación Espacial
+ * --------------------------------------------------------------------
+ * Este programa demuestra el PASO DE PARÁMETROS POR VALOR en C.
+ *
+ * En C, TODOS los parámetros se pasan por valor: la función recibe una
+ * COPIA del dato original. Cuando pasamos un "double" (como la energía
+ * disponible en la estación) directamente -sin usar un puntero-, la
+ * función solo puede modificar su copia local; el dato original que
+ * vive en main() permanece intacto sin importar qué se haga dentro
+ * de la función.
+ */
 
-La energía real de la estación (energia_actual) se pasa a la función
-simular_consumo() como argumento. Al ser un dato de tipo float
-(inmutable), cualquier cálculo realizado dentro de la función se
-efectúa sobre una copia local, por lo que el valor original NUNCA
-se modifica desde fuera de esa función.
-"""
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include "../estilo.h"
 
-MODULOS_DISPONIBLES = ("navegación", "soporte vital", "comunicaciones", "laboratorio")
+#define MAX_HISTORIAL   50
+#define TOTAL_MODULOS   4
 
+static const char *MODULOS_DISPONIBLES[TOTAL_MODULOS] = {
+    "navegacion", "soporte vital", "comunicaciones", "laboratorio"
+};
 
-def mostrar_menu() -> None:
-    """Imprime en pantalla las opciones del sistema."""
-    print("\n===== Sistema de Gestión Energética =====")
-    print("1. Simular consumo de un módulo")
-    print("2. Ver historial de simulaciones")
-    print("3. Salir")
+/* Imprime en pantalla las opciones del sistema. */
+static void mostrarMenu(void) {
+    printf("\n");
+    titulo(CIAN_B, "SISTEMA DE GESTION ENERGETICA - ESTACION ORBITAL");
+    printf(CIAN "  1." RESET " Simular consumo de un modulo\n");
+    printf(CIAN "  2." RESET " Ver historial de simulaciones\n");
+    printf(CIAN "  3." RESET " Salir\n");
+    linea(CIAN_B);
+}
 
+/* Valida que la opcion ingresada sea un entero entre 1 y 3. */
+static int leerOpcion(void) {
+    int opcion;
+    char basura[100];
 
-def leer_opcion() -> int:
-    """Valida que la opción ingresada sea un entero entre 1 y 3."""
-    while True:
-        entrada = input("Seleccione una opción: ").strip()
-        if entrada.isdigit() and int(entrada) in (1, 2, 3):
-            return int(entrada)
-        print("Opción inválida. Intente nuevamente.")
+    while (1) {
+        printf(AMARILLO_B "Seleccione una opcion: " RESET);
+        if (scanf("%d", &opcion) == 1 && opcion >= 1 && opcion <= 3) {
+            fgets(basura, sizeof(basura), stdin); /* limpia el buffer */
+            return opcion;
+        }
+        fgets(basura, sizeof(basura), stdin);
+        printf(ROJO_B "Opcion invalida. Intente nuevamente.\n" RESET);
+    }
+}
 
+/* Solicita un numero y valida que sea positivo. */
+static double validarNumero(const char *mensaje) {
+    double valor;
+    char basura[100];
 
-def validar_numero(mensaje: str) -> float:
-    """Solicita un número al usuario y valida que sea positivo."""
-    while True:
-        entrada = input(mensaje).strip()
-        try:
-            valor = float(entrada)
-            if valor < 0:
-                print("El valor no puede ser negativo.")
-                continue
-            return valor
-        except ValueError:
-            print("Debe ingresar un número válido.")
+    while (1) {
+        printf("%s", mensaje);
+        if (scanf("%lf", &valor) == 1 && valor >= 0) {
+            fgets(basura, sizeof(basura), stdin);
+            return valor;
+        }
+        fgets(basura, sizeof(basura), stdin);
+        printf(ROJO_B "Debe ingresar un numero valido y no negativo.\n" RESET);
+    }
+}
 
+/* Permite elegir un modulo valido de la estacion. */
+static int elegirModulo(void) {
+    int i;
+    char entrada[50];
 
-def simular_consumo(energia_disponible: float, consumo: float) -> float:
-    """
-    Calcula la energía restante tras un consumo, SIN alterar el valor
-    original recibido (paso por valor: energia_disponible es una copia
-    local del float que existe en main()).
-    """
-    energia_disponible -= consumo  # Esta resta solo afecta la copia local
-    if energia_disponible < 0:
-        energia_disponible = 0
-    return energia_disponible
+    printf(MAGENTA_B "Modulos disponibles: " RESET);
+    for (i = 0; i < TOTAL_MODULOS; i++) {
+        printf("%s%s", MODULOS_DISPONIBLES[i], (i < TOTAL_MODULOS - 1) ? ", " : "\n");
+    }
 
+    while (1) {
+        printf("Ingrese el modulo que consumira energia: ");
+        scanf("%49s", entrada);
+        getchar();
+        for (i = 0; i < TOTAL_MODULOS; i++) {
+            if (strcmp(entrada, MODULOS_DISPONIBLES[i]) == 0) {
+                return i;
+            }
+        }
+        printf(ROJO_B "Modulo no reconocido. Intente nuevamente.\n" RESET);
+    }
+}
 
-def registrar_simulacion(historial: list, resultado: float) -> None:
-    """Agrega el resultado de una simulación al historial del programa."""
-    historial.append(resultado)
+/*
+ * Calcula la energia restante tras un consumo SIN alterar el valor
+ * original recibido. "energiaDisponible" es una COPIA local del
+ * double que existe en main() (paso por valor puro de C).
+ */
+static double simularConsumo(double energiaDisponible, double consumo) {
+    energiaDisponible -= consumo; /* Esta resta solo afecta la copia local */
+    if (energiaDisponible < 0) {
+        energiaDisponible = 0;
+    }
+    return energiaDisponible;
+}
 
+/* Agrega el resultado de una simulacion al historial del programa. */
+static void registrarSimulacion(double historial[], int *totalRegistros, double resultado) {
+    if (*totalRegistros < MAX_HISTORIAL) {
+        historial[*totalRegistros] = resultado;
+        (*totalRegistros)++;
+    }
+}
 
-def mostrar_historial(historial: list) -> None:
-    """Imprime todas las simulaciones registradas durante la sesión."""
-    if not historial:
-        print("Aún no se ha realizado ninguna simulación.")
-        return
-    print("\n--- Historial de simulaciones (kWh restantes) ---")
-    for indice, valor in enumerate(historial, start=1):
-        print(f"Simulación {indice}: {valor:.2f} kWh")
+/* Imprime todas las simulaciones registradas durante la sesion. */
+static void mostrarHistorial(const double historial[], int totalRegistros) {
+    int i;
 
+    if (totalRegistros == 0) {
+        printf(AMARILLO "Aun no se ha realizado ninguna simulacion.\n" RESET);
+        return;
+    }
+    titulo(VERDE_B, "HISTORIAL DE SIMULACIONES (kWh RESTANTES)");
+    for (i = 0; i < totalRegistros; i++) {
+        printf(VERDE "  Simulacion %2d: %8.2f kWh\n" RESET, i + 1, historial[i]);
+    }
+}
 
-def elegir_modulo() -> str:
-    """Permite al usuario elegir un módulo de la estación."""
-    print("Módulos disponibles:", ", ".join(MODULOS_DISPONIBLES))
-    while True:
-        modulo = input("Ingrese el módulo que consumirá energía: ").strip().lower()
-        if modulo in MODULOS_DISPONIBLES:
-            return modulo
-        print("Módulo no reconocido. Intente nuevamente.")
+int main(void) {
+    double energiaActual = 1500.0;   /* Energia REAL de la estacion */
+    double historial[MAX_HISTORIAL];
+    int totalRegistros = 0;
+    int opcion;
 
+    while (1) {
+        mostrarMenu();
+        opcion = leerOpcion();
 
-def main() -> None:
-    """Función principal: orquesta el menú y el flujo del programa."""
-    energia_actual = 1500.0  # Energía real de la estación
-    historial_consumos = []
+        if (opcion == 1) {
+            int indiceModulo = elegirModulo();
+            char mensaje[100];
+            double consumo, resultadoSimulado;
 
-    while True:
-        mostrar_menu()
-        opcion = leer_opcion()
+            sprintf(mensaje, AMARILLO_B "Ingrese el consumo del modulo de %s (kWh): " RESET,
+                    MODULOS_DISPONIBLES[indiceModulo]);
+            consumo = validarNumero(mensaje);
 
-        if opcion == 1:
-            modulo = elegir_modulo()
-            consumo = validar_numero(f"Ingrese el consumo del módulo de {modulo} (kWh): ")
+            /* energiaActual se pasa POR VALOR: la funcion recibe una copia */
+            resultadoSimulado = simularConsumo(energiaActual, consumo);
+            registrarSimulacion(historial, &totalRegistros, resultadoSimulado);
 
-            resultado_simulado = simular_consumo(energia_actual, consumo)
-            registrar_simulacion(historial_consumos, resultado_simulado)
+            printf("\n" VERDE_B "Energia simulada restante tras el consumo: %.2f kWh\n" RESET, resultadoSimulado);
+            printf(CIAN_B "Energia REAL de la estacion (sin cambios):  %.2f kWh\n" RESET, energiaActual);
 
-            print(f"\nEnergía simulada restante tras el consumo: {resultado_simulado:.2f} kWh")
-            print(f"Energía REAL de la estación (sin cambios): {energia_actual:.2f} kWh")
+        } else if (opcion == 2) {
+            mostrarHistorial(historial, totalRegistros);
 
-        elif opcion == 2:
-            mostrar_historial(historial_consumos)
+        } else if (opcion == 3) {
+            printf(MAGENTA_B "\nCerrando sistema de gestion energetica...\n" RESET);
+            break;
+        }
+    }
 
-        elif opcion == 3:
-            print("Cerrando sistema de gestión energética...")
-            break
-
-
-if __name__ == "__main__":
-    main()
+    return 0;
+}
