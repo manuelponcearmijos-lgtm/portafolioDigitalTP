@@ -1,49 +1,60 @@
-###  Paso Por Valor
-
+ /*
+ * paso_por_referencia.c
  * --------------------------------------------------------------------
- * Sistema Inteligente de Gestión Energética de una Estación Espacial
+ * Sistema de Escudos de una Estacion Espacial
  * --------------------------------------------------------------------
- * Este programa demuestra el PASO DE PARÁMETROS POR VALOR en C.
+ * Este programa demuestra el PASO DE PARAMETROS POR REFERENCIA en C,
+ * simulado mediante PUNTEROS.
  *
- * En C, TODOS los parámetros se pasan por valor: la función recibe una
- * COPIA del dato original. Cuando pasamos un "double" (como la energía
- * disponible en la estación) directamente -sin usar un puntero-, la
- * función solo puede modificar su copia local; el dato original que
- * vive en main() permanece intacto sin importar qué se haga dentro
- * de la función.
+ * En C no existe un paso "por referencia" nativo como en otros lenguajes;
+ * se simula pasando la DIRECCION de memoria de una variable (un puntero).
+ * La funcion recibe una copia del puntero, pero esa copia sigue
+ * apuntando exactamente al mismo lugar de memoria que la variable
+ * original, por lo que cualquier modificacion realizada a traves de
+ * "*puntero" SI se refleja en la variable original de main().
  */
 
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 #include "../estilo.h"
 
-#define MAX_HISTORIAL   50
-#define TOTAL_MODULOS   4
+#define TOTAL_SECTORES  3
+#define ESCUDO_MAXIMO   100
+#define ESCUDO_MINIMO   0
 
-static const char *MODULOS_DISPONIBLES[TOTAL_MODULOS] = {
-    "navegacion", "soporte vital", "comunicaciones", "laboratorio"
-};
+typedef struct {
+    char nombre[20];
+    int  nivel;
+} Sector;
 
-/* Imprime en pantalla las opciones del sistema. */
-static void mostrarMenu(void) {
-    printf("\n");
-    titulo(CIAN_B, "SISTEMA DE GESTION ENERGETICA - ESTACION ORBITAL");
-    printf(CIAN "  1." RESET " Simular consumo de un modulo\n");
-    printf(CIAN "  2." RESET " Ver historial de simulaciones\n");
-    printf(CIAN "  3." RESET " Salir\n");
-    linea(CIAN_B);
+/* Crea el estado inicial de los tres sectores de escudos. */
+static void estadoInicialEscudos(Sector escudos[]) {
+    strcpy(escudos[0].nombre, "frontal");
+    strcpy(escudos[1].nombre, "trasero");
+    strcpy(escudos[2].nombre, "lateral");
+    for (int i = 0; i < TOTAL_SECTORES; i++) {
+        escudos[i].nivel = ESCUDO_MAXIMO;
+    }
 }
 
-/* Valida que la opcion ingresada sea un entero entre 1 y 3. */
+static void mostrarMenu(void) {
+    printf("\n");
+    titulo(AZUL_B, "SISTEMA DE ESCUDOS - ESTACION ORBITAL");
+    printf(AZUL "  1." RESET " Simular impacto en un sector\n");
+    printf(AZUL "  2." RESET " Ver estado actual de los escudos\n");
+    printf(AZUL "  3." RESET " Reforzar un sector\n");
+    printf(AZUL "  4." RESET " Salir\n");
+    linea(AZUL_B);
+}
+
 static int leerOpcion(void) {
     int opcion;
     char basura[100];
 
     while (1) {
         printf(AMARILLO_B "Seleccione una opcion: " RESET);
-        if (scanf("%d", &opcion) == 1 && opcion >= 1 && opcion <= 3) {
-            fgets(basura, sizeof(basura), stdin); /* limpia el buffer */
+        if (scanf("%d", &opcion) == 1 && opcion >= 1 && opcion <= 4) {
+            fgets(basura, sizeof(basura), stdin);
             return opcion;
         }
         fgets(basura, sizeof(basura), stdin);
@@ -51,114 +62,134 @@ static int leerOpcion(void) {
     }
 }
 
-/* Solicita un numero y valida que sea positivo. */
-static double validarNumero(const char *mensaje) {
-    double valor;
+/* Retorna el indice del sector cuyo nombre coincide, o -1 si no existe. */
+static int buscarSector(const Sector escudos[], const char *nombre) {
+    for (int i = 0; i < TOTAL_SECTORES; i++) {
+        if (strcmp(escudos[i].nombre, nombre) == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+/* Solicita al usuario un sector valido dentro del arreglo de escudos. */
+static int elegirSector(const Sector escudos[]) {
+    char entrada[20];
+    int indice;
+
+    printf(MAGENTA_B "Sectores disponibles: " RESET);
+    for (int i = 0; i < TOTAL_SECTORES; i++) {
+        printf("%s%s", escudos[i].nombre, (i < TOTAL_SECTORES - 1) ? ", " : "\n");
+    }
+
+    while (1) {
+        printf("Ingrese el sector: ");
+        scanf("%19s", entrada);
+        getchar();
+        indice = buscarSector(escudos, entrada);
+        if (indice != -1) {
+            return indice;
+        }
+        printf(ROJO_B "Sector no reconocido. Intente nuevamente.\n" RESET);
+    }
+}
+
+static int validarEnteroPositivo(const char *mensaje) {
+    int valor;
     char basura[100];
 
     while (1) {
         printf("%s", mensaje);
-        if (scanf("%lf", &valor) == 1 && valor >= 0) {
+        if (scanf("%d", &valor) == 1 && valor >= 0) {
             fgets(basura, sizeof(basura), stdin);
             return valor;
         }
         fgets(basura, sizeof(basura), stdin);
-        printf(ROJO_B "Debe ingresar un numero valido y no negativo.\n" RESET);
-    }
-}
-
-/* Permite elegir un modulo valido de la estacion. */
-static int elegirModulo(void) {
-    int i;
-    char entrada[50];
-
-    printf(MAGENTA_B "Modulos disponibles: " RESET);
-    for (i = 0; i < TOTAL_MODULOS; i++) {
-        printf("%s%s", MODULOS_DISPONIBLES[i], (i < TOTAL_MODULOS - 1) ? ", " : "\n");
-    }
-
-    while (1) {
-        printf("Ingrese el modulo que consumira energia: ");
-        scanf("%49s", entrada);
-        getchar();
-        for (i = 0; i < TOTAL_MODULOS; i++) {
-            if (strcmp(entrada, MODULOS_DISPONIBLES[i]) == 0) {
-                return i;
-            }
-        }
-        printf(ROJO_B "Modulo no reconocido. Intente nuevamente.\n" RESET);
+        printf(ROJO_B "Debe ingresar un entero valido y no negativo.\n" RESET);
     }
 }
 
 /*
- * Calcula la energia restante tras un consumo SIN alterar el valor
- * original recibido. "energiaDisponible" es una COPIA local del
- * double que existe en main() (paso por valor puro de C).
+ * Modifica DIRECTAMENTE el nivel del sector apuntado por "sector".
+ * Como recibe un PUNTERO (Sector *), lo que hay dentro de "*sector"
+ * es el mismo espacio de memoria que existe en el arreglo original
+ * de main(): el cambio persiste fuera de la funcion.
  */
-static double simularConsumo(double energiaDisponible, double consumo) {
-    energiaDisponible -= consumo; /* Esta resta solo afecta la copia local */
-    if (energiaDisponible < 0) {
-        energiaDisponible = 0;
-    }
-    return energiaDisponible;
-}
-
-/* Agrega el resultado de una simulacion al historial del programa. */
-static void registrarSimulacion(double historial[], int *totalRegistros, double resultado) {
-    if (*totalRegistros < MAX_HISTORIAL) {
-        historial[*totalRegistros] = resultado;
-        (*totalRegistros)++;
+static void aplicarImpacto(Sector *sector, int danio) {
+    sector->nivel -= danio;
+    if (sector->nivel < ESCUDO_MINIMO) {
+        sector->nivel = ESCUDO_MINIMO;
     }
 }
 
-/* Imprime todas las simulaciones registradas durante la sesion. */
-static void mostrarHistorial(const double historial[], int totalRegistros) {
-    int i;
-
-    if (totalRegistros == 0) {
-        printf(AMARILLO "Aun no se ha realizado ninguna simulacion.\n" RESET);
-        return;
+/* Aumenta el nivel de un sector sin superar el maximo permitido. */
+static void reforzarSector(Sector *sector, int refuerzo) {
+    sector->nivel += refuerzo;
+    if (sector->nivel > ESCUDO_MAXIMO) {
+        sector->nivel = ESCUDO_MAXIMO;
     }
-    titulo(VERDE_B, "HISTORIAL DE SIMULACIONES (kWh RESTANTES)");
-    for (i = 0; i < totalRegistros; i++) {
-        printf(VERDE "  Simulacion %2d: %8.2f kWh\n" RESET, i + 1, historial[i]);
+}
+
+/* Elige el color segun el nivel de integridad restante del sector. */
+static const char *colorSegunNivel(int nivel) {
+    if (nivel >= 70) return VERDE_B;
+    if (nivel >= 30) return AMARILLO_B;
+    return ROJO_B;
+}
+
+static void mostrarEstado(const Sector escudos[]) {
+    titulo(CIAN_B, "ESTADO ACTUAL DE LOS ESCUDOS");
+    for (int i = 0; i < TOTAL_SECTORES; i++) {
+        const char *color = colorSegunNivel(escudos[i].nivel);
+        printf("  %-10s %s[", escudos[i].nombre, color);
+        int barras = escudos[i].nivel / 5;
+        for (int b = 0; b < 20; b++) {
+            printf("%s", (b < barras) ? "#" : "-");
+        }
+        printf("]%s %3d/%d\n", RESET, escudos[i].nivel, ESCUDO_MAXIMO);
     }
 }
 
 int main(void) {
-    double energiaActual = 1500.0;   /* Energia REAL de la estacion */
-    double historial[MAX_HISTORIAL];
-    int totalRegistros = 0;
+    Sector escudos[TOTAL_SECTORES];
     int opcion;
+
+    estadoInicialEscudos(escudos);
+    printf(CIAN_B "\nEstado inicial: todos los escudos al 100%%\n" RESET);
 
     while (1) {
         mostrarMenu();
         opcion = leerOpcion();
 
         if (opcion == 1) {
-            int indiceModulo = elegirModulo();
-            char mensaje[100];
-            double consumo, resultadoSimulado;
+            int indice = elegirSector(escudos);
+            int danio = validarEnteroPositivo("Ingrese el dano recibido: ");
 
-            sprintf(mensaje, AMARILLO_B "Ingrese el consumo del modulo de %s (kWh): " RESET,
-                    MODULOS_DISPONIBLES[indiceModulo]);
-            consumo = validarNumero(mensaje);
+            /* &escudos[indice] es un PUNTERO: paso por referencia real */
+            aplicarImpacto(&escudos[indice], danio);
 
-            /* energiaActual se pasa POR VALOR: la funcion recibe una copia */
-            resultadoSimulado = simularConsumo(energiaActual, consumo);
-            registrarSimulacion(historial, &totalRegistros, resultadoSimulado);
-
-            printf("\n" VERDE_B "Energia simulada restante tras el consumo: %.2f kWh\n" RESET, resultadoSimulado);
-            printf(CIAN_B "Energia REAL de la estacion (sin cambios):  %.2f kWh\n" RESET, energiaActual);
+            printf(ROJO_B "\nImpacto aplicado. Nuevo nivel de '%s': %d\n" RESET,
+                   escudos[indice].nombre, escudos[indice].nivel);
+            mostrarEstado(escudos);
 
         } else if (opcion == 2) {
-            mostrarHistorial(historial, totalRegistros);
+            mostrarEstado(escudos);
 
         } else if (opcion == 3) {
-            printf(MAGENTA_B "\nCerrando sistema de gestion energetica...\n" RESET);
+            int indice = elegirSector(escudos);
+            int refuerzo = validarEnteroPositivo("Ingrese el nivel de refuerzo: ");
+
+            reforzarSector(&escudos[indice], refuerzo);
+
+            printf(VERDE_B "\nSector '%s' reforzado. Nuevo nivel: %d\n" RESET,
+                   escudos[indice].nombre, escudos[indice].nivel);
+
+        } else if (opcion == 4) {
+            printf(MAGENTA_B "\nCerrando sistema de escudos...\n" RESET);
             break;
         }
     }
 
     return 0;
 }
+
