@@ -92,6 +92,9 @@ Además del desarrollo de programas, se incluye una reflexión crítica sobre la
 
 ---
 
+[![Ejercicio 1](https://img.shields.io/badge/Módulo%201%20📦-Ejercicio%20de%20Modularidad-ff9800?style=for-the-badge)](Modularidad.md)
+
+
 **👤 Autoría**
 Trabajo académico elaborado para la **Unidad 3: Modularidad y Arreglos**, con fines educativos, bajo licencia MIT (ver [`LICENSE`](./LICENSE)).
 
