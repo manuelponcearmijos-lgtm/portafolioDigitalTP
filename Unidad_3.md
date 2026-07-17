@@ -15,13 +15,15 @@ Repositorio académico en **C** sobre modularidad (paso por valor vs. punteros) 
 
 ---
 
-<details open>
+ <details open>
 <summary><b>📌 Introducción</b></summary>
 <br>
 
-C es el lenguaje ideal para comprender a fondo la modularidad y los arreglos, precisamente porque **no oculta nada**: no hay recolector de basura, no hay listas dinámicas automáticas, no hay paso "por referencia" mágico. Todo se hace explícito mediante **punteros** y **arreglos de tamaño fijo**, lo que obliga a entender exactamente qué ocurre en memoria en cada operación.
+La **Unidad 3: Modularidad y Arreglos** constituye una etapa fundamental en el aprendizaje de la programación, ya que introduce conceptos que permiten desarrollar programas más organizados, reutilizables y eficientes.
 
-Este repositorio combina ambos conceptos en programas ejecutables, documentados y comentados, con teoría redactada desde cero, salida en consola a color mediante secuencias ANSI, y un análisis crítico sobre las dificultades más comunes al programar en C con funciones y arreglos.
+En este portafolio se presentan los contenidos teóricos y prácticos relacionados con la **modularidad**, el **paso de parámetros por valor y mediante punteros**, así como el uso de **arreglos unidimensionales, bidimensionales y tridimensionales**. Cada tema se acompaña de ejemplos desarrollados en un contexto creativo relacionado con una estación espacial, facilitando la comprensión de los conceptos mediante situaciones prácticas.
+
+Además del desarrollo de programas, se incluye una reflexión crítica sobre las principales dificultades encontradas durante el aprendizaje y la aplicación de estos contenidos, permitiendo evidenciar los conocimientos adquiridos a lo largo de la unidad.
 
 </details>
 
@@ -29,11 +31,12 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 <summary><b>🎯 Objetivos</b></summary>
 <br>
 
-- Comprender la modularidad en C y la construcción de funciones con responsabilidades claras.
-- Diferenciar el paso de parámetros **por valor** del paso **mediante punteros** (la forma que tiene C de simular "paso por referencia").
-- Comprender la estructura, el uso y las limitaciones de los arreglos unidimensionales, bidimensionales y tridimensionales en C.
-- Aplicar buenas prácticas de programación en C (nombres descriptivos, validación de límites, funciones pequeñas, cabeceras reutilizables).
-- Reflexionar críticamente sobre los errores más comunes al trabajar con punteros y arreglos en un lenguaje de bajo nivel como C.
+- Comprender los principios de la **modularidad** para desarrollar programas organizados y fáciles de mantener.
+- Analizar el funcionamiento del **paso de parámetros por valor** y el uso de **punteros** para modificar datos dentro de una función.
+- Identificar las características y aplicaciones de los **arreglos unidimensionales, bidimensionales y tridimensionales**.
+- Aplicar estructuras de control, funciones y arreglos para resolver problemas mediante programas en C.
+- Fortalecer el pensamiento lógico y la capacidad para diseñar soluciones utilizando buenas prácticas de programación.
+- Reflexionar sobre las dificultades encontradas durante el desarrollo de los ejercicios y los aprendizajes obtenidos en la unidad.
 
 </details>
 
@@ -42,32 +45,31 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 <br>
 
 | # | Competencia |
-|:-:|---|
-| 1 | Diseño modular de soluciones de software en un lenguaje de bajo nivel |
-| 2 | Manejo de punteros y de estructuras de datos multidimensionales en memoria contigua |
-| 3 | Pensamiento algorítmico y validación defensiva de índices y entradas |
-| 4 | Redacción de documentación técnica siguiendo estándares profesionales |
-| 5 | Depuración de errores de memoria y de límites de arreglos |
-| 6 | Organización de proyectos en C para control de versiones (Git/GitHub) |
+|:-:|-------------|
+| 1 | Diseñar programas utilizando funciones con responsabilidades específicas. |
+| 2 | Aplicar correctamente el paso de parámetros por valor y mediante punteros. |
+| 3 | Utilizar arreglos para almacenar y procesar información de forma organizada. |
+| 4 | Implementar algoritmos mediante estructuras de control y ciclos repetitivos. |
+| 5 | Analizar y resolver problemas utilizando un enfoque lógico y estructurado. |
+| 6 | Elaborar documentación técnica clara para la presentación de proyectos académicos. |
 
 </details>
 
 <details>
-<summary><b>🛠️ Tecnologías utilizadas</b></summary>
+<summary><b>🛠️ Herramientas utilizadas</b></summary>
 <br>
 
-| Tecnología | Uso |
-|---|---|
-| 🔵 C (estándar C11) | Lenguaje principal de desarrollo |
-| ⚙️ GCC / Clang | Compilación de los programas |
-| 🎨 Códigos ANSI | Colores y estilos en la salida de consola |
-| 📝 Markdown + HTML | Documentación técnica |
-| 🔧 Git / GitHub | Control de versiones y publicación |
+| Herramienta | Uso |
+|-------------|-----|
+| 💻 Lenguaje C | Desarrollo de los programas de la unidad. |
+| ⚙️ GCC | Compilación y ejecución de los programas. |
+| 🎨 Códigos ANSI | Mejora de la presentación de la salida en consola. |
+| 📝 Markdown + HTML | Elaboración de la documentación del portafolio en GitHub. |
+| 🌐 GitHub | Organización y publicación del portafolio digital. |
 
-> No se requieren librerías externas: todos los programas funcionan únicamente con la biblioteca estándar de C (`stdio.h`, `string.h`).
+> Todos los programas fueron desarrollados utilizando herramientas estándar, con el propósito de reforzar los contenidos estudiados durante la **Unidad 3: Modularidad y Arreglos**.
 
 </details>
-
 
  <details>
 <summary><b>📁 Ver explicación de cada carpeta</b></summary>
