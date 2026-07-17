@@ -68,35 +68,6 @@ Este repositorio combina ambos conceptos en programas ejecutables, documentados 
 
 </details>
 
----
-
-## 📂 Estructura del proyecto
-
-```
-Unidad3-Modularidad-Arreglos-C/
-│
-├── README.md
-├── estilo.h                     # Colores ANSI y utilidades visuales compartidas
-│
-├── modularidad/
-│   ├── teoria.md
-│   ├── paso_por_valor.c
-│   └── paso_por_referencia.c
-│
-├── arreglos/
-│   ├── teoria.md
-│   ├── unidimensional.c
-│   ├── bidimensional.c
-│   └── tridimensional.c
-│
-├── analisis/
-│   └── REFLEXION.md
-│
-├── imagenes/
-│   └── SUGERENCIAS.md
-│
-├── .gitignore
-└── LICENSE
 ```
 
 <details>
