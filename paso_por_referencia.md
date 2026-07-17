@@ -14,11 +14,13 @@
 
 ## 🚀 Introducción
 
-Este programa forma parte del **Sistema de Escudos de una Estación Espacial**, y  demuestra cómo simular el paso por referencia en C mediante punteros.
+Este programa forma parte del Sistema de Escudos de una Estación Espacial y demuestra cómo simular el paso por referencia en C mediante punteros.
 
-En C no existe un paso por referencia nativo como en otros lenguajes;  demuestra cómo simular el paso por referencia en C mediante punteros.
-se simula enviando la **dirección de memoria** de una variable.  
-La función recibe una copia del puntero, pero esa copia sigue apuntando al mismo lugar de memoria, por lo que **las modificaciones se reflejan en la variable original**.
+En C no existe un paso por referencia nativo como en otros lenguajes; en su lugar, se simula enviando la dirección de memoria de una variable mediante un puntero.
+
+La función recibe una copia del puntero, pero esa copia sigue apuntando a la misma dirección de memoria que la variable original. Por ello, cualquier modificación realizada a través del puntero se refleja directamente en la variable original.
+
+💡 **Aunque en C todos los parámetros se pasan por valor, al pasar un puntero se obtiene el mismo efecto que un paso por referencia.**
 
 ---
 
