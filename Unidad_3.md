@@ -84,17 +84,7 @@ Además del desarrollo de programas, se incluye una reflexión crítica sobre la
  
 </details>
 
----
-
-<details>
-<summary><b>✅ Ver conclusiones generales</b></summary>
-<br>
-
-1. C obliga a hacer explícito lo que otros lenguajes esconden: el paso "por referencia" no existe como tal, sino que se logra pasando punteros.
-2. Los arreglos en C son bloques de memoria contigua de tamaño fijo, lo que exige planificar su capacidad máxima y validar siempre los índices.
-3. La modularidad en C se apoya en funciones pequeñas y cabeceras reutilizables (`estilo.h`).
-4. Enriquecer la salida de consola con colores ANSI mejora la experiencia y comunica información más rápido (ej. un escudo bajo en rojo).
-5. Comprender modularidad y arreglos en C sienta una base sólida para entender por qué otros lenguajes implementan estos conceptos de forma más "cómoda" pero menos transparente.
+---  
 
 </details>
 
