@@ -67,9 +67,6 @@
 
 ---
 
-## 🏁 Conclusiones Generales
- ---
-
 # 🎓 Conclusión General del Aprendizaje
 
 El desarrollo de las tres unidades de la asignatura de **Programación** permitió fortalecer progresivamente las bases necesarias para la resolución de problemas mediante algoritmos y el desarrollo de programas en lenguaje C.
