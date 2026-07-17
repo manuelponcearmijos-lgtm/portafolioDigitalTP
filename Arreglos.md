@@ -228,16 +228,6 @@ Este tipo de arreglo resulta ideal cuando se necesita almacenar una lista de ele
 
 <div align="center">
 
-### 🌱 Fin de la Parte 1
-
-**En la Parte 2 se desarrollarán los arreglos bidimensionales y tridimensionales, junto con un ejercicio integrador y la conclusión del tema.**
-
-</div>
-
----
-
-<div align="center">
-
 # 🛰️ Arreglo Bidimensional
 
 ## Centro de Control de Satélites
