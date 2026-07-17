@@ -53,21 +53,12 @@ la función recibe **una copia del dato original**, por lo que cualquier modific
 ## 🧩 Código Fuente Completo
 
  ```c
-/*
- * paso_por_valor.c
- * --------------------------------------------------------------------
- * Sistema Inteligente de Gestión Energética de una Estación Espacial
- * --------------------------------------------------------------------
- * Este programa demuestra el PASO DE PARÁMETROS POR VALOR en C.
- *
- * En C, TODOS los parámetros se pasan por valor: la función recibe una
- * COPIA del dato original. Cuando pasamos un "double" (como la energía
- * disponible en la estación) directamente -sin usar un puntero-, la
- * función solo puede modificar su copia local; el dato original que
- * vive en main() permanece intacto sin importar qué se haga dentro
- * de la función.
- */
-
+--------------------------------------------------------------------
+Sistema Inteligente de Gestión Energética de una Estación Espacial
+--------------------------------------------------------------------
+ // Este programa demuestra el PASO DE PARÁMETROS POR VALOR en C.
+ 
+ 
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -80,7 +71,7 @@ static const char *MODULOS_DISPONIBLES[TOTAL_MODULOS] = {
     "navegacion", "soporte vital", "comunicaciones", "laboratorio"
 };
 
-/* Imprime en pantalla las opciones del sistema. */
+// Imprime en pantalla las opciones del sistema. 
 static void mostrarMenu(void) {
     printf("\n");
     titulo(CIAN_B, "SISTEMA DE GESTION ENERGETICA - ESTACION ORBITAL");
@@ -90,7 +81,7 @@ static void mostrarMenu(void) {
     linea(CIAN_B);
 }
 
-/* Valida que la opcion ingresada sea un entero entre 1 y 3. */
+// Valida que la opcion ingresada sea un entero entre 1 y 3. 
 static int leerOpcion(void) {
     int opcion;
     char basura[100];
@@ -98,7 +89,7 @@ static int leerOpcion(void) {
     while (1) {
         printf(AMARILLO_B "Seleccione una opcion: " RESET);
         if (scanf("%d", &opcion) == 1 && opcion >= 1 && opcion <= 3) {
-            fgets(basura, sizeof(basura), stdin); /* limpia el buffer */
+            fgets(basura, sizeof(basura), stdin); // limpia el buffer 
             return opcion;
         }
         fgets(basura, sizeof(basura), stdin);
@@ -106,7 +97,7 @@ static int leerOpcion(void) {
     }
 }
 
-/* Solicita un numero y valida que sea positivo. */
+// Solicita un numero y valida que sea positivo. 
 static double validarNumero(const char *mensaje) {
     double valor;
     char basura[100];
@@ -122,7 +113,7 @@ static double validarNumero(const char *mensaje) {
     }
 }
 
-/* Permite elegir un modulo valido de la estacion. */
+// Permite elegir un modulo valido de la estacion. 
 static int elegirModulo(void) {
     int i;
     char entrada[50];
@@ -145,11 +136,11 @@ static int elegirModulo(void) {
     }
 }
 
-/*
- * Calcula la energia restante tras un consumo SIN alterar el valor
- * original recibido. "energiaDisponible" es una COPIA local del
- * double que existe en main() (paso por valor puro de C).
- */
+
+ //Calcula la energia restante tras un consumo SIN alterar el valor
+   original recibido. "energiaDisponible" es una COPIA local del
+   double que existe en main() (paso por valor puro de C).
+ 
 static double simularConsumo(double energiaDisponible, double consumo) {
     energiaDisponible -= consumo; /* Esta resta solo afecta la copia local */
     if (energiaDisponible < 0) {
@@ -158,7 +149,7 @@ static double simularConsumo(double energiaDisponible, double consumo) {
     return energiaDisponible;
 }
 
-/* Agrega el resultado de una simulacion al historial del programa. */
+// Agrega el resultado de una simulacion al historial del programa. 
 static void registrarSimulacion(double historial[], int *totalRegistros, double resultado) {
     if (*totalRegistros < MAX_HISTORIAL) {
         historial[*totalRegistros] = resultado;
@@ -166,7 +157,7 @@ static void registrarSimulacion(double historial[], int *totalRegistros, double 
     }
 }
 
-/* Imprime todas las simulaciones registradas durante la sesion. */
+// Imprime todas las simulaciones registradas durante la sesion. 
 static void mostrarHistorial(const double historial[], int totalRegistros) {
     int i;
 
@@ -199,7 +190,7 @@ int main(void) {
                     MODULOS_DISPONIBLES[indiceModulo]);
             consumo = validarNumero(mensaje);
 
-            /* energiaActual se pasa POR VALOR: la funcion recibe una copia */
+            // energiaActual se pasa POR VALOR: la funcion recibe una copia 
             resultadoSimulado = simularConsumo(energiaActual, consumo);
             registrarSimulacion(historial, &totalRegistros, resultadoSimulado);
 
