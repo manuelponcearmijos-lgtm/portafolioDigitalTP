@@ -430,32 +430,41 @@ Cada dato necesita tres índices para ser localizado.
 ## 💻 Código Fuente
 
 ```c
-#include <stdio.h>
+ #include <stdio.h>
 
-#define DIAS 2
-#define LABORATORIOS 2
-#define MUESTRAS 2
+#define CAPAS 2
+#define FILAS 3
+#define COLUMNAS 2
 
-int main(){
+int main() {
 
-    int analisis[DIAS][LABORATORIOS][MUESTRAS];
+    int analisis[CAPAS][FILAS][COLUMNAS];
 
-    printf("=====================================\n");
-    printf(" LABORATORIO GENETICO ESPACIAL\n");
-    printf("=====================================\n\n");
+    printf("=========================================\n");
+    printf("   SISTEMA DE ANALISIS DE LABORATORIO\n");
+    printf("=========================================\n\n");
 
-    for(int d=0; d<DIAS; d++){
+    // Ingreso de datos
+    for (int c = 0; c < CAPAS; c++) {
 
-        printf("\nDia %d\n",d+1);
+        printf("\n========== CAPA %d ==========\n", c + 1);
 
-        for(int l=0; l<LABORATORIOS; l++){
+        for (int f = 0; f < FILAS; f++) {
 
-            printf(" Laboratorio %d\n",l+1);
+            for (int col = 0; col < COLUMNAS; col++) {
 
-            for(int m=0; m<MUESTRAS; m++){
+                do {
 
-                printf("  Muestra %d: ",m+1);
-                scanf("%d",&analisis[d][l][m]);
+                    printf("Ingrese el dato [%d][%d][%d]: ",
+                           c, f, col);
+
+                    scanf("%d", &analisis[c][f][col]);
+
+                    if (analisis[c][f][col] < 0) {
+                        printf("Error: no se permiten numeros negativos.\n");
+                    }
+
+                } while (analisis[c][f][col] < 0);
 
             }
 
@@ -463,30 +472,27 @@ int main(){
 
     }
 
-    printf("\n========== RESULTADOS ==========\n");
+    printf("\n=========== RESULTADOS ===========\n");
 
-    for(int d=0; d<DIAS; d++){
+    // Mostrar la matriz tridimensional
+    for (int c = 0; c < CAPAS; c++) {
 
-        printf("\nDia %d\n",d+1);
+        printf("\nCAPA %d\n", c + 1);
 
-        for(int l=0; l<LABORATORIOS; l++){
+        for (int f = 0; f < FILAS; f++) {
 
-            printf(" Laboratorio %d -> ",l+1);
+            for (int col = 0; col < COLUMNAS; col++) {
 
-            for(int m=0; m<MUESTRAS; m++){
-
-                printf("%d ",analisis[d][l][m]);
+                printf("%4d", analisis[c][f][col]);
 
             }
 
             printf("\n");
-
         }
 
     }
 
     return 0;
-
 }
 ```
 
