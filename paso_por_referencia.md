@@ -148,7 +148,7 @@ int main()
                     printf("Ingrese el dano del impacto: ");
                     scanf("%d", &danio);
 
-                    // Se envía la dirección del sector seleccionado
+                    // Se envia la dirección del sector seleccionado
                     aplicarImpacto(&escudos[sector - 1], danio);
 
                     printf("\nImpacto aplicado correctamente.\n");
