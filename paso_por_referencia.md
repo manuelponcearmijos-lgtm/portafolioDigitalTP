@@ -54,34 +54,131 @@ La función recibe una copia del puntero, pero esa copia sigue apuntando a la mi
 ## 🧩 Código Fuente Completo
 
 ```c
-#include <stdio.h>
+ #include <stdio.h>
 #include <string.h>
-#include "../estilo.h"
 
-#define TOTAL_SECTORES  3
-#define ESCUDO_MAXIMO   100
-#define ESCUDO_MINIMO   0
+#define TOTAL_SECTORES 3
+#define ESCUDO_MAXIMO 100
+#define ESCUDO_MINIMO 0
 
 typedef struct {
     char nombre[20];
-    int  nivel;
+    int nivel;
 } Sector;
 
-// Crea el estado inicial de los tres sectores de escudos. 
-static void estadoInicialEscudos(Sector escudos[]) {
-    strcpy(escudos[0].nombre, "frontal");
-    strcpy(escudos[1].nombre, "trasero");
-    strcpy(escudos[2].nombre, "lateral");
-    for (int i = 0; i < TOTAL_SECTORES; i++) {
-        escudos[i].nivel = ESCUDO_MAXIMO;
+// Inicializa los nombres y el nivel de los escudos
+void estadoInicialEscudos(Sector escudos[])
+{
+    strcpy(escudos[0].nombre, "Frontal");
+    strcpy(escudos[1].nombre, "Trasero");
+    strcpy(escudos[2].nombre, "Lateral");
+
+    // El usuario ingresa el nivel inicial de cada escudo
+    printf("=== CONFIGURACION INICIAL DE ESCUDOS ===\n");
+
+    for (int i = 0; i < TOTAL_SECTORES; i++)
+    {
+        printf("Ingrese el nivel inicial del escudo %s (0 - 100): ",
+               escudos[i].nombre);
+        scanf("%d", &escudos[i].nivel);
+
+        if (escudos[i].nivel > ESCUDO_MAXIMO)
+            escudos[i].nivel = ESCUDO_MAXIMO;
+
+        if (escudos[i].nivel < ESCUDO_MINIMO)
+            escudos[i].nivel = ESCUDO_MINIMO;
     }
 }
 
-static void mostrarMenu(void) {
-    printf("\n");
-    titulo(AZUL_B, "SISTEMA DE ESCUDOS - ESTACION ORBITAL");
-    printf(AZUL "  1." RESET " Simular impacto en un sector\n");
-    printf(AZUL "  2." RESET " Ver
+// Muestra el estado de los escudos
+void mostrarEscudos(Sector escudos[])
+{
+    printf("\n------ ESTADO DE LOS ESCUDOS ------\n");
+
+    for (int i = 0; i < TOTAL_SECTORES; i++)
+    {
+        printf("%d. %-10s : %d%%\n",
+               i + 1,
+               escudos[i].nombre,
+               escudos[i].nivel);
+    }
+}
+
+// Paso por referencia mediante punteros
+void aplicarImpacto(Sector *escudo, int danio)
+{
+    escudo->nivel -= danio;
+
+    if (escudo->nivel < ESCUDO_MINIMO)
+        escudo->nivel = ESCUDO_MINIMO;
+}
+
+int main()
+{
+    Sector escudos[TOTAL_SECTORES];
+
+    int opcion;
+    int sector;
+    int danio;
+
+    estadoInicialEscudos(escudos);
+
+    do
+    {
+        printf("\n===============================\n");
+        printf(" SISTEMA DE ESCUDOS ESPACIAL\n");
+        printf("===============================\n");
+        printf("1. Simular impacto\n");
+        printf("2. Ver estado de escudos\n");
+        printf("3. Salir\n");
+        printf("Seleccione una opcion: ");
+        scanf("%d", &opcion);
+
+        switch(opcion)
+        {
+            case 1:
+
+                mostrarEscudos(escudos);
+
+                printf("\nSeleccione el sector (1-3): ");
+                scanf("%d", &sector);
+
+                if(sector >= 1 && sector <= TOTAL_SECTORES)
+                {
+                    printf("Ingrese el dano del impacto: ");
+                    scanf("%d", &danio);
+
+                    // Se envía la dirección del sector seleccionado
+                    aplicarImpacto(&escudos[sector - 1], danio);
+
+                    printf("\nImpacto aplicado correctamente.\n");
+                }
+                else
+                {
+                    printf("\nSector invalido.\n");
+                }
+
+                break;
+
+            case 2:
+
+                mostrarEscudos(escudos);
+                break;
+
+            case 3:
+
+                printf("\nSaliendo del sistema...\n");
+                break;
+
+            default:
+
+                printf("\nOpcion invalida.\n");
+        }
+
+    } while(opcion != 3);
+
+    return 0;
+}
 ```
 
 [![Ejercicio 1](https://img.shields.io/badge/⚡%20Regresar%201%20-%20MODULARIDAD-28a745?style=for-the-badge)](Modularidad.md)
