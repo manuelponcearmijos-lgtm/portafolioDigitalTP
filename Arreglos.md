@@ -157,7 +157,7 @@ Cultivos
 ## 💻 Código Fuente
 
 ```c
-#include <stdio.h>
+ #include <stdio.h>
 
 #define CULTIVOS 5
 
@@ -166,21 +166,40 @@ int main() {
     float humedad[CULTIVOS];
 
     printf("=====================================\n");
-    printf(" INVERNADERO INTELIGENTE\n");
+    printf("      INVERNADERO INTELIGENTE\n");
     printf("=====================================\n\n");
 
-    // Ingreso de datos
+    // Ingreso de datos con validación
     for (int i = 0; i < CULTIVOS; i++) {
-        printf("Ingrese la humedad del cultivo %d (%%): ", i + 1);
-        scanf("%f", &humedad[i]);
+
+        do {
+            printf("Ingrese la humedad del cultivo %d (0 - 100%%): ", i + 1);
+            scanf("%f", &humedad[i]);
+
+            if (humedad[i] < 0 || humedad[i] > 100) {
+                printf("Error: La humedad debe estar entre 0 y 100%%.\n\n");
+            }
+
+        } while (humedad[i] < 0 || humedad[i] > 100);
     }
 
     printf("\n========== REPORTE ==========\n\n");
 
-    // Mostrar información almacenada
+    // Encabezado
+    printf("Cultivos : ");
     for (int i = 0; i < CULTIVOS; i++) {
-        printf("Cultivo %d -> %.1f%% de humedad\n", i + 1, humedad[i]);
+        printf("C%-2d\t", i + 1);
     }
+
+    printf("\n");
+
+    // Valores de humedad
+    printf("Humedad : ");
+    for (int i = 0; i < CULTIVOS; i++) {
+        printf("%.1f%%\t", humedad[i]);
+    }
+
+    printf("\n");
 
     return 0;
 }
