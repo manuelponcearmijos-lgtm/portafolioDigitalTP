@@ -1,4 +1,10 @@
-# Modularidad
+ # 🧩💻 Unidad 3 — Modularidades en Programación 💻🧩
+
+![Tema](https://img.shields.io/badge/Tema-Modularidades%20en%20Programaci%C3%B3n-2ea44f?style=for-the-badge&logo=code&logoColor=white)
+![Nivel](https://img.shields.io/badge/Nivel-Universitario-8250df?style=for-the-badge&logo=bookstack&logoColor=white)
+![Formato](https://img.shields.io/badge/Formato-Markdown-orange?style=for-the-badge&logo=markdown&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Completo-success?style=for-the-badge&logo=checkmarx&logoColor=white)
+
 
 ## ¿Qué es la modularidad?
 
