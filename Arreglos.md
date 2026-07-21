@@ -470,10 +470,6 @@ El arreglo tridimensional organiza la información utilizando tres dimensiones: 
 
 Este tipo de estructura resulta útil cuando se requiere almacenar información compleja relacionada con tiempo, ubicación o diferentes categorías.
 
----
-
-<div align="center">
-
  
 ---
 
