@@ -57,10 +57,10 @@ la función recibe **una copia del dato original**, por lo que cualquier modific
 
 double simularConsumo(double energia, double consumo)
 {
-    // Se resta el consumo únicamente a la copia local
+    // Se resta el consumo unicamente a la copia local
     energia = energia - consumo;
 
-    // Si la energía resulta negativa,
+    // Si la energia resulta negativa,
     // se establece en cero.
     if (energia < 0)
     {
@@ -84,19 +84,19 @@ int main()
     printf("      Paso de Parametros por Valor\n");
     printf("===========================================\n\n");
 
-    // El usuario ingresa la energía disponible
+    // El usuario ingresa la energia disponible
     printf("Ingrese la energia actual (kWh): ");
     scanf("%lf", &energiaActual);
 
-    // El usuario ingresa el consumo del módulo
+    // El usuario ingresa el consumo del modulo
     printf("Ingrese el consumo del modulo (kWh): ");
     scanf("%lf", &consumo);
 
-    // Se muestra la energía original antes de llamar la función
+    // Se muestra la energia original antes de llamar la función
     printf("\n--------- ANTES DE LA SIMULACION ---------\n");
     printf("Energia REAL: %.2f kWh\n", energiaActual);
 
-    // Se envía una COPIA de energiaActual a la función.
+    // Se envía una COPIA de energiaActual a la funcion.
     // La variable original NO cambia.
     energiaSimulada = simularConsumo(energiaActual, consumo);
 
@@ -108,7 +108,7 @@ int main()
     // demostrando el paso por valor.
     printf("Energia REAL: %.2f kWh\n", energiaActual);
 
-    // Explicación final del resultado
+    // Explicacion final del resultado
     printf("\nObservacion:\n");
     printf("La energia REAL no cambio porque la funcion\n");
     printf("recibio una COPIA del dato (paso por valor).\n");
