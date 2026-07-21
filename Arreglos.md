@@ -207,30 +207,6 @@ int main() {
 
 ---
 
-## ▶️ Ejemplo de ejecución
-
-```text
-=====================================
- INVERNADERO INTELIGENTE
-=====================================
-
-Ingrese la humedad del cultivo 1 (%): 68
-Ingrese la humedad del cultivo 2 (%): 75
-Ingrese la humedad del cultivo 3 (%): 82
-Ingrese la humedad del cultivo 4 (%): 60
-Ingrese la humedad del cultivo 5 (%): 91
-
-========== REPORTE ==========
-
-Cultivo 1 -> 68.0% de humedad
-Cultivo 2 -> 75.0% de humedad
-Cultivo 3 -> 82.0% de humedad
-Cultivo 4 -> 60.0% de humedad
-Cultivo 5 -> 91.0% de humedad
-```
-
----
-
 ## 📊 Análisis del programa
 
 En este ejemplo se declara un arreglo llamado `humedad` con capacidad para almacenar los datos de cinco cultivos.
@@ -354,16 +330,6 @@ int main() {
 
 ---
 
-## ▶️ Ejemplo de salida
-
-```text
-SAT-1 -> 95 93 90
-SAT-2 -> 88 91 86
-SAT-3 -> 97 96 94
-SAT-4 -> 82 84 81
-```
-
----
 
 ## 📊 Análisis
 
