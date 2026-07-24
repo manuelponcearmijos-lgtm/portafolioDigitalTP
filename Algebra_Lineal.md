@@ -1,4 +1,4 @@
-``
+```Python
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
@@ -176,4 +176,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    ``
+```
