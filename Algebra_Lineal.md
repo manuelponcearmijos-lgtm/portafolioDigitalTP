@@ -1,179 +1,110 @@
 ```Python
+ 
+      
 from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
+documentos = [
+    # Tecnología
+    "La inteligencia artificial mejora los diagnósticos médicos.",
+    "Los algoritmos aprenden patrones a partir de datos.",
+    "Python es un lenguaje popular para ciencia de datos.",
+    "Las redes neuronales procesan grandes cantidades de información.",
+    "La computación en la nube ofrece servicios escalables.",
+    "La ciberseguridad protege sistemas informáticos.",
+    "Los robots ayudan en tareas industriales.",
+    "El aprendizaje profundo impulsa la visión artificial.",
+    "Los sensores recopilan información del entorno.",
+    "Las bases de datos almacenan información.",
+    # Deportes
+    "El fútbol es un deporte de equipo.",
+    "El baloncesto requiere coordinación.",
+    "Los atletas entrenan diariamente.",
+    "La natación mejora la resistencia.",
+    "El tenis exige precisión.",
+    "El ciclismo fortalece las piernas.",
+    "El béisbol utiliza bate y pelota.",
+    "El voleibol se juega en equipos.",
+    "Correr mejora la salud.",
+    "El ajedrez desarrolla estrategia.",
+    # Música
+    "La guitarra es un instrumento musical.",
+    "El piano tiene teclas.",
+    "La música clásica relaja.",
+    "El rock usa guitarras eléctricas.",
+    "El jazz destaca por la improvisación.",
+    "La batería marca el ritmo.",
+    "El violín produce sonidos agudos.",
+    "El canto requiere práctica.",
+    "Una orquesta reúne muchos músicos.",
+    "Las canciones transmiten emociones.",
+    # Gastronomía
+    "La pizza italiana es famosa.",
+    "La pasta lleva diferentes salsas.",
+    "El ceviche utiliza pescado.",
+    "Las frutas aportan vitaminas.",
+    "El café contiene cafeína.",
+    "El chocolate proviene del cacao.",
+    "Las verduras son saludables.",
+    "El pan se hornea.",
+    "La sopa se sirve caliente.",
+    "El queso acompaña muchas comidas.",
+    # Animales
+    "Los perros son animales domésticos.",
+    "Los gatos cazan ratones.",
+    "Las aves vuelan.",
+    "Los delfines son mamíferos.",
+    "Los leones viven en manadas.",
+    "Los caballos son veloces.",
+    "Las abejas producen miel.",
+    "Los elefantes tienen trompa.",
+    "Los peces viven en el agua.",
+    "Las tortugas viven muchos años."
+]
 
-# ==========================================================
-# SISTEMA DE BÚSQUEDA SEMÁNTICA CON EMBEDDINGS
-# Modelo: paraphrase-multilingual-MiniLM-L12-v2
-# ==========================================================
+modelo = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+emb_docs = modelo.encode(documentos)
 
-
-def cargar_modelo():
-    """
-    Carga el modelo de Sentence Transformers.
-    """
-    print("Cargando modelo...\n")
-    return SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-
-
-def validar_entrada(documentos, consulta):
-    """
-    Verifica que la entrada sea válida.
-    """
-
-    if not documentos:
-        raise ValueError("La lista de documentos está vacía.")
-
+while True:
+    consulta = input("\nIngrese una consulta: ").strip()
     if not consulta:
-        raise ValueError("La consulta está vacía.")
+        print("Consulta vacía.")
+        continue
 
-    if isinstance(consulta, list):
-        if len(consulta) != 1:
-            raise ValueError(
-                "La consulta debe contener únicamente un elemento."
-            )
+    emb_q = modelo.encode([consulta])[0]
+    norma_q = np.linalg.norm(emb_q)
 
+    resultados = []
 
-def generar_embeddings(modelo, documentos, consulta):
-    """
-    Genera los embeddings de documentos y consulta.
-    """
+    print("\nCÁLCULOS")
+    print("="*70)
+    for i, emb in enumerate(emb_docs):
+        producto = float(np.dot(emb_q, emb))
+        norma_d = float(np.linalg.norm(emb))
+        coseno = producto / (norma_q * norma_d)
 
-    vectores_docs = modelo.encode(documentos)
+        print(f"\nDocumento {i+1}")
+        print(f"Producto punto : {producto:.6f}")
+        print(f"Norma consulta : {norma_q:.6f}")
+        print(f"Norma documento: {norma_d:.6f}")
+        print(f"Similitud      : {coseno:.6f}")
 
-    if isinstance(consulta, list):
-        vector_consulta = modelo.encode(consulta)
-    else:
-        vector_consulta = modelo.encode([consulta])
+        resultados.append((i, coseno))
 
-    return vectores_docs, vector_consulta
+    resultados.sort(key=lambda x: x[1], reverse=True)
 
+    print("\nTOP 5")
+    print("="*70)
+    for pos, (idx, sim) in enumerate(resultados[:5], start=1):
+        print(f"{pos}. ({sim:.6f}) {documentos[idx]}")
 
-def mostrar_vectores(vectores_docs, vector_consulta):
-    """
-    Muestra únicamente los primeros 5 elementos de cada embedding.
-    """
+    mejor = resultados[0]
+    print("\nDocumento más relevante:")
+    print(documentos[mejor[0]])
+    print(f"Similitud: {mejor[1]:.6f}")
 
-    print("=" * 60)
-    print("PRIMEROS 5 VALORES DE CADA VECTOR")
-    print("=" * 60)
+    op = input("\n¿Desea realizar otra búsqueda? (S/N): ").strip().lower()
+    if op != "s":
+        break
 
-    for i, vector in enumerate(vectores_docs):
-        primeros = [f"{valor:.4f}" for valor in vector[:5]]
-        print(f"Documento {i + 1}: {primeros}")
-
-    primeros = [f"{valor:.4f}" for valor in vector_consulta[0][:5]]
-
-    print("\nConsulta:")
-    print(primeros)
-
-
-def calcular_similitudes(vectores_docs, vector_consulta):
-    """
-    Calcula la similitud del coseno entre la consulta
-    y todos los documentos.
-    """
-
-    similitudes = cosine_similarity(vector_consulta, vectores_docs)
-
-    return similitudes[0]
-
-
-def mostrar_resultados(documentos, similitudes):
-    """
-    Ordena los documentos de mayor a menor similitud
-    y muestra los resultados.
-    """
-
-    print("\n")
-    print("=" * 60)
-    print("RESULTADOS")
-    print("=" * 60)
-
-    indices = np.argsort(similitudes)[::-1]
-
-    for posicion, indice in enumerate(indices, start=1):
-
-        print(f"\n{posicion}. Documento {indice + 1}")
-        print(f"Texto      : {documentos[indice]}")
-        print(f"Similitud  : {similitudes[indice]:.4f}")
-
-
-def mostrar_mejor_documento(documentos, similitudes):
-    """
-    Muestra el documento con mayor similitud.
-    """
-
-    indice = np.argmax(similitudes)
-
-    print("\n")
-    print("=" * 60)
-    print("DOCUMENTO MÁS RELEVANTE")
-    print("=" * 60)
-
-    print(f"Documento : {indice + 1}")
-    print(f"Texto     : {documentos[indice]}")
-    print(f"Similitud : {similitudes[indice]:.4f}")
-
-    print("\nConclusión:")
-
-    print(
-        f'El documento más similar a la consulta es el Documento {indice + 1}, '
-        f'ya que obtuvo la mayor similitud del coseno '
-        f'({similitudes[indice]:.4f}).'
-    )
-
-
-def main():
-
-    documentos = [
-        "pintura de monedas",
-        "monedas de mundo",
-        "25 centavos americanos",
-        "billetes ecuatorianos",
-    ]
-
-    consulta = "colecciones de monedas"
-
-    try:
-
-        validar_entrada(documentos, consulta)
-
-        modelo = cargar_modelo()
-
-        vectores_docs, vector_consulta = generar_embeddings(
-            modelo,
-            documentos,
-            consulta,
-        )
-
-        mostrar_vectores(
-            vectores_docs,
-            vector_consulta,
-        )
-
-        similitudes = calcular_similitudes(
-            vectores_docs,
-            vector_consulta,
-        )
-
-        mostrar_resultados(
-            documentos,
-            similitudes,
-        )
-
-        mostrar_mejor_documento(
-            documentos,
-            similitudes,
-        )
-
-    except Exception as error:
-        print("\nOcurrió un error:")
-        print(error)
-
-
-if __name__ == "__main__":
-    main()
 ```
