@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">🌟 Universidad Nacional de Loja 🌟</h1>
-<h3 align="center">💻 Carrera de Computación</h3>
+<h3 align="center">💻 Carrera de Computación</h3> 
 <h4 align="center">📘 Teoría de la Programación</h4>
 
 ---
