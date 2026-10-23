@@ -1,138 +1,170 @@
-
+ <!-- ===================== ENCABEZADO ===================== -->
 <p align="center">
-  <img src="https://unl.edu.ec/sites/default/files/logogris%20copia.png" width="350" alt="Logo UNL">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5382A1,50:E76F00,100:B07219&height=170&section=header&text=Portada&fontSize=46&fontColor=ffffff&fontAlignY=35&desc=Programaci%C3%B3n%20Orientada%20a%20Objetos%20%E2%80%A2%20Segundo%20Ciclo&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Encabezado">
 </p>
 
-<h1 align="center">🌟 Universidad Nacional de Loja 🌟</h1>
-<h3 align="center">💻 Carrera de Computación</h3> 
-<h4 align="center">📘 Teoría de la Programación</h4>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/035b87ae-785b-4541-90f0-8c6d19e1c94f" width="120" alt="Logo UNL">
+</p>
+
+<h3 align="center">Universidad Nacional de Loja</h3>
+<p align="center">
+  Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables<br>
+  Carrera de Ingeniería en Computación
+</p>
+
+<table align="center">
+  <tr><td>☕ <b>Asignatura</b></td><td>Programación Orientada a Objetos</td></tr>
+  <tr><td>🧑‍💻 <b>Estudiante</b></td><td>Manuel Alejandro Ponce Armijos</td></tr>
+  <tr><td>👨‍🏫 <b>Docente</b></td><td>Ing. Wilman Patricio Chamba Zaragocín</td></tr>
+  <tr><td>📚 <b>Ciclo</b></td><td>Segundo Ciclo "A"</td></tr>
+  <tr><td>🗓️ <b>Período</b></td><td>Septiembre 2026 – Marzo 2027</td></tr>
+</table>
 
 ---
 
-## 📝 Introducción General del Ciclo
- Este portafolio digital compila el progreso académico en la asignatura de **Teoría de la Programación**, documentando el aprendizaje en proposiciones lógicas, conectores, tablas de verdad y la construcción de algoritmos mediante pseudocódigo y diagramas de flujo. Su propósito es reflejar la evolución en el pensamiento lógico y la capacidad de diseñar soluciones computacionales estructuradas, estableciendo las bases para el desarrollo en **lenguajes de programación**.
+## 🗂️ Leyenda de actividades
+
+| Sigla | Significado |
+|:--:|:--|
+| 🧪 **APE** | Aprendizaje Práctico Experimental |
+| 📚 **AA** | Aprendizaje Autónomo |
+| 👨‍🏫 **ACD** | Aprendizaje en Contacto con el Docente |
+
+**Estado:** ⏳ Pendiente · 🔄 En progreso · ✅ Entregado
 
 ---
 
-## 📚 Unidades de Aprendizaje (Evidencias)
+## 📑 Índice
 
-<details>
-<summary><b>📂 Unidad 1: Introducción a la Programación </b></summary>
-
-### 🧠Temas y Evidencias
-* ⚙️**Algoritmos:** Definición y características (finitos, ordenados, claros).
-* 💻**Pseudocódigo:** Representación textual de la lógica sin sintaxis estricta.
-* 📡**Diagramas de flujo:** Representación gráfica con símbolos normalizados.
-* 🔐**Prueba de escritorio:** Simulación manual de la ejecución de un algoritmo.
-
-[![Acceder a Unidad 1](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_1-CLICK%20AQUÍ-0078D4?style=for-the-badge&logo=github&logoColor=white)](Unidad_1.md)
-</details>
-
-<details>
-<summary><b>📂 Unidad 2: Estructuras de control y modularización </b></summary>
-
-  ### 🧠Temas y Evidencias
-* ⚙️**Estructuras de control:** Condicionales (if, else, switch) y bucles (for, while).
-* 💻**Funciones y modularización:** Definir funciones para dividir el problema en partes más pequeñas y reutilizables.
-* 📡**Arreglos y colecciones:** Representación gráfica con símbolos normalizados.
-   
-[![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](Unidad_2.md)
-</details>
-
-<details>
-<summary><b>📂 Unidad 3: Modularidades y Arreglos </b></summary>
-
- ### 🧠Temas y Evidencias
-* 🔐**Funciones:**.
-* 📁**Paso de parámetros:**  
-* 🌐**Reutilización de código:** 
-* ⚛️**Buenas prácticas:**
-* 🎨**Arreglos unidimensionales:**
-* 🧮**Arreglos bidimensionales:**
-* 🧮**Arreglos tridimensionales:**
-* 🔧**Arreglos de caracteres (cadenas):**
-  
-[![Acceder a Unidad 3](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Unidad_3.md)
-</details>
+- [Unidad 1: Fundamentos de la POO](#unidad-1)
+- [Unidad 2: Pilares de la POO](#unidad-2)
+- [Unidad 3: Diseño y Aplicaciones](#unidad-3)
 
 ---
 
-## 🛠️ Herramientas y Ecosistema
-| Herramienta | Aplicación |
-|-------------|------------|
-| **Visual Studio Code** | Editor de código principal |
-| **GCC** | Compilación manual por terminal |
-| **Lucidchart / PSeInt** | Diagramación y lógica inicial |
-| **GitHub** | Gestión y publicación del portafolio |
+<a id="unidad-1"></a>
+
+## 📦 Unidad 1: Fundamentos de la POO
+
+<p>
+  <img src="https://img.shields.io/badge/Unidad-1-E76F00?style=for-the-badge" alt="Unidad 1">
+</p>
+
+> Clases, objetos, atributos, métodos y constructores
+
+### 🧪 APE – Aprendizaje Práctico Experimental
+
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | APE 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/APE/APE-1/) |
+| 2 | APE 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/APE/APE-2/) |
+| 3 | APE 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/APE/APE-3/) |
+
+### 📚 AA – Aprendizaje Autónomo
+
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | AA 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/AA/AA-1/) |
+| 2 | AA 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/AA/AA-2/) |
+| 3 | AA 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/AA/AA-3/) |
+
+### 👨‍🏫 ACD – Aprendizaje en Contacto con el Docente
+
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | ACD 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/ACD/ACD-1/) |
+| 2 | ACD 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/ACD/ACD-2/) |
+| 3 | ACD 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-1/ACD/ACD-3/) |
+
+<p align="right"><a href="#-índice">⬆️ Volver al índice</a></p>
 
 ---
 
-# 🎓 Conclusión General del Aprendizaje
+<a id="unidad-2"></a>
 
-El desarrollo de las tres unidades de la asignatura de **Programación** permitió fortalecer progresivamente las bases necesarias para la resolución de problemas mediante algoritmos y el desarrollo de programas en lenguaje C.
+## 📦 Unidad 2: Pilares de la POO
 
-En la **Unidad 1** comprendí la importancia de la lógica de programación, aprendiendo a diseñar algoritmos, elaborar pseudocódigos, construir diagramas de flujo y realizar pruebas de escritorio antes de implementar una solución. Estos conocimientos constituyen la base para desarrollar programas de manera organizada y eficiente.
+<p>
+  <img src="https://img.shields.io/badge/Unidad-2-5382A1?style=for-the-badge" alt="Unidad 2">
+</p>
 
-Durante la **Unidad 2** profundicé en el uso de las estructuras de control y la modularización, aplicando sentencias condicionales y ciclos para controlar el flujo de ejecución de los programas. Además, comprendí la importancia de dividir un problema en funciones más pequeñas, favoreciendo la reutilización del código y mejorando la claridad y el mantenimiento de las aplicaciones.
+> Encapsulamiento, herencia, polimorfismo y abstracción
 
-Finalmente, en la **Unidad 3** consolidé estos conocimientos mediante el estudio de la modularidad y los arreglos. Aprendí a utilizar funciones con paso de parámetros por valor y mediante punteros, así como a trabajar con arreglos unidimensionales, bidimensionales, tridimensionales y de caracteres para organizar y procesar información de manera eficiente. Estos conceptos fortalecieron mi capacidad para desarrollar programas más estructurados, reutilizables y cercanos a situaciones reales.
+### 🧪 APE – Aprendizaje Práctico Experimental
 
-En conjunto, esta asignatura no solo me permitió aprender la sintaxis del lenguaje C, sino también desarrollar el pensamiento lógico, la capacidad de análisis y la habilidad para diseñar soluciones de forma ordenada y eficiente. Los conocimientos adquiridos representan una base sólida para continuar con asignaturas más avanzadas relacionadas con estructuras de datos, desarrollo de software y otras áreas de la Ingeniería en Computación.
-   
----
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | APE 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/APE/APE-1/) |
+| 2 | APE 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/APE/APE-2/) |
+| 3 | APE 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/APE/APE-3/) |
 
-<details>
-<summary><b>📚 Bibliografía (Formato IEEE)</b></summary>
-<br>
-  
-[1] G. L. De la Torre, Guía Práctica de PSeInt: Algoritmos y Lógica de Programación, 1.ª ed. Madrid, España: Editorial Académica, 2022.
+### 📚 AA – Aprendizaje Autónomo
 
-[2] T. H. Nguyen and V. Q. Tran, "Evaluating cognitive load in understanding conditional logic among first-year software engineering students," in Proc. IEEE Frontiers in Education Conf. (FIE), 2020, pp. 1–7.
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | AA 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/AA/AA-1/) |
+| 2 | AA 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/AA/AA-2/) |
+| 3 | AA 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/AA/AA-3/) |
 
-[3] K. H. Lim and S. B. Woo, "Visualizing loop execution paths to improve trace-based debugging skills in novice programmers," in Proc. IEEE Int. Conf. Comput. Sci. Eng. (CSE), 2022, pp. 112–118.
+### 👨‍🏫 ACD – Aprendizaje en Contacto con el Docente
 
-[4] M. Ponce Armijos, "Unidad 1," Portafolio Digital TP, GitHub, 2026. [En línea]. Disponible en: https://github.com/manuelponcearmijos-lgtm/portafolioDigitalTP/blob/main/Unidad_1.md. [Accedido: 10-jun-2026].
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | ACD 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/ACD/ACD-1/) |
+| 2 | ACD 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/ACD/ACD-2/) |
+| 3 | ACD 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-2/ACD/ACD-3/) |
 
-[5] H. Abbass, “IEEE Guidelines on AI-Generated Text,” IEEE Transactions on Artificial Intelligence, vol. 1, n.º 1, pp. 1–4, 2025.
-
-[6] S. Russell y P. Norvig, Artificial Intelligence: A Modern Approach, 4.ª ed. Upper Saddle River, NJ, EE. UU.: Pearson, 2021.
-
-[7] J. G. Mendoza, M. B. Quispe y S. P. Muñoz, “Una revisión sobre el rol de la inteligencia artificial en la industria de la construcción,” Ingeniería y Competitividad, vol. 24, n.º 2, pp. 305–317, jul.-dic. 2022.
-
-[8] A. B. Gomez, "Simplifying complex boolean conditionals in code refactoring: A pedagogical approach," IEEE Computer Architecture Letters, vol. 20, no. 1, pp. 42–45, Jan. 2021.
-
-[9] P. Deitel and H. Deitel, C How to Program, 9th ed. Hoboken, NJ, USA: Pearson, 2022.
-
-[10] GNU Project, The GNU C Library Reference Manual. Free Software Foundation, 2025. [En línea]. Disponible: https://www.gnu.org/software/libc/manual/. [Consultado: 17-jul-2026]. :contentReference[oaicite:0]{index=0}
-
-[11] GNU Project, GNU C Reference Manual. [En línea]. Disponible: https://www.gnu.org/software/gnu-c-manual/. [Consultado: 17-jul-2026]. :contentReference[oaicite:1]{index=1}
-
-[12] cppreference.com, "C Language Reference." [En línea]. Disponible: https://en.cppreference.com/w/c. [Consultado: 17-jul-2026].
-
-</details>
----
- <details>
-<summary><b>🤖 Declaración de Uso de IA Generativa</b></summary>
-<br>
-
-Durante la elaboración de este portafolio digital se emplearon herramientas de **Inteligencia Artificial Generativa** (como Gemini, ChatGPT y Claude) bajo criterios de transparencia y ética académica:
-Como estudiante de la carrera de Computación, entiendo que la transparencia es fundamental en mi formación profesional y ética. Por ello, presento esta declaración sobre el uso de herramientas de Inteligencia Artificial en el desarrollo de mi Portafolio Digital de Aprendizaje para la asignatura de Teoría de la Programación, debido a la complejidad de uso de esta herramienta, por lo cuál me he apoyado de la inteligencia artificial para resolver los problemas y dudas durante el procedimiento.
-
-- **🎯 Finalidad:** La IA se utilizó como apoyo en la estructuración de documentos en formato Markdown, mejora del diseño visual, corrección de estilo y generación de ejemplos de código.  
-- **🧠 Supervisión Humana:** Todo el contenido lógico, reflexiones éticas y ejercicios prácticos fueron revisados y validados manualmente por el autor, garantizando autenticidad en el razonamiento.  
-- **📚 Ética Académica:** La IA no sustituyó el análisis crítico ni la resolución de problemas; únicamente facilitó la presentación y organización del material.  
-- **⚖️ Limitaciones:** Se evitó el uso de la IA para producir respuestas automáticas sin verificación, reconociendo que puede generar errores o información incompleta.  
-- **🔒 Responsabilidad:** El estudiante asume plena responsabilidad sobre la veracidad, coherencia y pertinencia de los contenidos presentados.  
-- **🌐 Transparencia:** Se declara explícitamente el uso de IA para cumplir con los principios de honestidad académica y evitar plagio.  
-- **📖 Referencias:** Las fuentes bibliográficas incluidas siguen el formato IEEE, garantizando respaldo académico y confiabilidad en la información.  
-
- 
-</details>
-
-
-<p align="center">🌍 <i>Loja – Ecuador, 2026</i></p>
+<p align="right"><a href="#-índice">⬆️ Volver al índice</a></p>
 
 ---
 
-**<strong><a href="README.md">🏠 INICIO</a></strong>**
+<a id="unidad-3"></a>
 
+## 📦 Unidad 3: Diseño y Aplicaciones
+
+<p>
+  <img src="https://img.shields.io/badge/Unidad-3-2E8B57?style=for-the-badge" alt="Unidad 3">
+</p>
+
+> Interfaces, relaciones entre clases, UML y proyecto integrador
+
+### 🧪 APE – Aprendizaje Práctico Experimental
+
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | APE 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/APE/APE-1/) |
+| 2 | APE 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/APE/APE-2/) |
+| 3 | APE 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/APE/APE-3/) |
+
+### 📚 AA – Aprendizaje Autónomo
+
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | AA 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/AA/AA-1/) |
+| 2 | AA 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/AA/AA-2/) |
+| 3 | AA 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/AA/AA-3/) |
+
+### 👨‍🏫 ACD – Aprendizaje en Contacto con el Docente
+
+| N.º | Actividad | Tema | Fecha | Estado | Enlace |
+|:--:|:--|:--|:--:|:--:|:--:|
+| 1 | ACD 1 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/ACD/ACD-1/) |
+| 2 | ACD 2 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/ACD/ACD-2/) |
+| 3 | ACD 3 | _Por definir_ | — | ⏳ | [📂 Ver](./Unidad-3/ACD/ACD-3/) |
+
+<p align="right"><a href="#-índice">⬆️ Volver al índice</a></p>
+
+---
+
+<p align="center">
+  <a href="./README.md">
+    <img src="https://img.shields.io/badge/🏠%20VOLVER%20AL-INICIO-5382A1?style=for-the-badge" alt="Volver al inicio">
+  </a>
+</p>
+
+<p align="center">📍 <i>Loja – Ecuador, 2026</i></p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B07219,50:E76F00,100:5382A1&height=100&section=footer" width="100%" alt="Pie de página">
+</p>
